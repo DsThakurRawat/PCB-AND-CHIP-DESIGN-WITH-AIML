@@ -1,0 +1,109 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-28T17:07:06+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/55bee81c-e973-4e0a-b7c8-fec25e53008a",
+            "violations": [
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label '+12V'",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.4191
+                            },
+                            "uuid": "eb3c0dd0-4b8b-489b-91ca-9c57aa9f8303"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Symbol U1 has input power pins in units [ C ] that are not placed.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [TL072]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.4953
+                            },
+                            "uuid": "e5dec69e-dd11-48ec-9d9c-58c752958922"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "missing_power_pin"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label '-12V'",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 0.5715
+                            },
+                            "uuid": "4914ef4d-63a7-49fe-9bec-0f8d96c8b548"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Symbol 'TL072' doesn't match copy in library 'Amplifier_Operational'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [TL072]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.4953
+                            },
+                            "uuid": "e5dec69e-dd11-48ec-9d9c-58c752958922"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol U1 has input pins in units [ B ] that are not placed.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [TL072]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.4953
+                            },
+                            "uuid": "e5dec69e-dd11-48ec-9d9c-58c752958922"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_input_pin"
+                },
+                {
+                    "description": "Symbol U1 has unplaced units [ B, C ]",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [TL072]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 0.4953
+                            },
+                            "uuid": "e5dec69e-dd11-48ec-9d9c-58c752958922"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_unit"
+                }
+            ]
+        }
+    ],
+    "source": "sallen_key_filter.kicad_sch"
+}

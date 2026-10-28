@@ -1,0 +1,30 @@
+# KiCad temporary and backup files
+*.bak
+*.kicad_prl
+*-save.kicad_sch
+*-save.kicad_pcb
+*_autosave-*
+*.lck
+fp-info-cache
+*.net
+
+# KiCad ERC/DRC output logs
+*.erc
+*.drc
+*-drc.rpt
+*-erc.rpt
+
+# Freerouting temporary files
+*.dsn
+*.ses
+
+# Python virtual environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
+
+# Node / IDE configs
+node_modules/
+.DS_Store

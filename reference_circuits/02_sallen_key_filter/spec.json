@@ -1,0 +1,122 @@
+{
+  "project_name": "sallen_key_filter",
+  "title": "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)",
+  "revision": "v1.0",
+  "company": "PCB-AI Reference Suite",
+  "comment": "Butterworth 2nd-order active filter with 1 kHz cutoff and 40dB/dec roll-off",
+  "components": [
+    {
+      "ref": "J1",
+      "lib_id": "Connector:Screw_Terminal_01x02",
+      "value": "SIG_IN",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pos": [40.0, 50.0],
+      "description": "Signal Input"
+    },
+    {
+      "ref": "R1",
+      "lib_id": "Device:R",
+      "value": "15.9k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pos": [65.0, 50.0],
+      "description": "Filter input stage resistor"
+    },
+    {
+      "ref": "R2",
+      "lib_id": "Device:R",
+      "value": "15.9k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pos": [85.0, 50.0],
+      "description": "Filter second stage resistor"
+    },
+    {
+      "ref": "C1",
+      "lib_id": "Device:C",
+      "value": "10nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pos": [85.0, 35.0],
+      "description": "Feedback capacitor to output"
+    },
+    {
+      "ref": "C2",
+      "lib_id": "Device:C",
+      "value": "10nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pos": [105.0, 60.0],
+      "description": "Filter shunt capacitor to ground"
+    },
+    {
+      "ref": "U1",
+      "lib_id": "Amplifier_Operational:TL072",
+      "value": "TL072",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pos": [125.0, 50.0],
+      "description": "Dual Low-Noise JFET Op-Amp"
+    },
+    {
+      "ref": "J2",
+      "lib_id": "Connector:Screw_Terminal_01x03",
+      "value": "POWER_DUAL",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",
+      "pos": [125.0, 25.0],
+      "description": "+12V, GND, -12V Power Rails"
+    },
+    {
+      "ref": "C3",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pos": [145.0, 35.0],
+      "description": "+12V Decoupling"
+    },
+    {
+      "ref": "C4",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pos": [145.0, 65.0],
+      "description": "-12V Decoupling"
+    },
+    {
+      "ref": "J3",
+      "lib_id": "Connector:Screw_Terminal_01x02",
+      "value": "SIG_OUT",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pos": [170.0, 50.0],
+      "description": "Filtered Output"
+    }
+  ],
+  "nets": [
+    {
+      "name": "VIN",
+      "nodes": [["J1", "1"], ["R1", "1"]]
+    },
+    {
+      "name": "N_R1_R2",
+      "nodes": [["R1", "2"], ["R2", "1"], ["C1", "1"]]
+    },
+    {
+      "name": "V_PLUS",
+      "nodes": [["R2", "2"], ["C2", "1"], ["U1", "3"]]
+    },
+    {
+      "name": "VOUT",
+      "nodes": [["U1", "1"], ["U1", "2"], ["C1", "2"], ["J3", "1"]]
+    },
+    {
+      "name": "GND",
+      "is_power": true,
+      "nodes": [["J1", "2"], ["C2", "2"], ["J2", "2"], ["C3", "2"], ["C4", "1"], ["J3", "2"]]
+    },
+    {
+      "name": "+12V",
+      "is_power": true,
+      "nodes": [["J2", "1"], ["U1", "8"], ["C3", "1"]]
+    },
+    {
+      "name": "-12V",
+      "is_power": true,
+      "nodes": [["J2", "3"], ["U1", "4"], ["C4", "2"]]
+    }
+  ]
+}

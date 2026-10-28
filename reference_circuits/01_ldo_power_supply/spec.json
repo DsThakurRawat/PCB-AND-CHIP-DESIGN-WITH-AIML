@@ -1,0 +1,103 @@
+{
+  "project_name": "ldo_power_supply_3v3",
+  "title": "3.3V Linear Voltage Regulator Module",
+  "revision": "v1.0",
+  "company": "PCB-AI Reference Suite",
+  "comment": "5V-12V DC input to regulated 3.3V DC output with filtering and LED indicator",
+  "components": [
+    {
+      "ref": "J1",
+      "lib_id": "Connector:Screw_Terminal_01x02",
+      "value": "VIN_GND",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pos": [40.0, 50.0],
+      "description": "DC Power Input (5V - 12V)"
+    },
+    {
+      "ref": "C1",
+      "lib_id": "Device:C",
+      "value": "10uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pos": [65.0, 50.0],
+      "description": "Input bulk capacitor"
+    },
+    {
+      "ref": "C2",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pos": [80.0, 50.0],
+      "description": "Input high-frequency bypass"
+    },
+    {
+      "ref": "U1",
+      "lib_id": "Regulator_Linear:AMS1117-3.3",
+      "value": "AMS1117-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "pos": [110.0, 50.0],
+      "description": "3.3V 1A LDO Voltage Regulator"
+    },
+    {
+      "ref": "C3",
+      "lib_id": "Device:C",
+      "value": "22uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pos": [140.0, 50.0],
+      "description": "Output stability capacitor"
+    },
+    {
+      "ref": "C4",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pos": [155.0, 50.0],
+      "description": "Output high-frequency bypass"
+    },
+    {
+      "ref": "R1",
+      "lib_id": "Device:R",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "pos": [175.0, 45.0],
+      "description": "LED Current limiter"
+    },
+    {
+      "ref": "D1",
+      "lib_id": "Device:LED",
+      "value": "Green",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "pos": [175.0, 60.0],
+      "description": "Power Status Indicator"
+    },
+    {
+      "ref": "J2",
+      "lib_id": "Connector:Screw_Terminal_01x02",
+      "value": "3V3_GND",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "pos": [200.0, 50.0],
+      "description": "Regulated 3.3V DC Output"
+    }
+  ],
+  "nets": [
+    {
+      "name": "VIN",
+      "is_power": true,
+      "nodes": [["J1", "1"], ["C1", "1"], ["C2", "1"], ["U1", "3"]]
+    },
+    {
+      "name": "GND",
+      "is_power": true,
+      "nodes": [["J1", "2"], ["C1", "2"], ["C2", "2"], ["U1", "1"], ["C3", "2"], ["C4", "2"], ["D1", "1"], ["J2", "2"]]
+    },
+    {
+      "name": "+3V3",
+      "is_power": true,
+      "nodes": [["U1", "2"], ["C3", "1"], ["C4", "1"], ["R1", "1"], ["J2", "1"]]
+    },
+    {
+      "name": "LED_PWR",
+      "is_power": false,
+      "nodes": [["R1", "2"], ["D1", "2"]]
+    }
+  ]
+}
