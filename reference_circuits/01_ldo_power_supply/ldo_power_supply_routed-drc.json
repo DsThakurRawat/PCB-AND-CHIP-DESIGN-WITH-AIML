@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-28T17:10:46+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "ldo_power_supply_routed.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 116.0
+                    },
+                    "uuid": "42292443-003f-4276-a936-75352f03242f"
+                },
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 116.0
+                    },
+                    "uuid": "f83d5341-98c2-4008-8097-ca89c7b64320"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J2",
+                    "pos": {
+                        "x": 128.0,
+                        "y": 126.5
+                    },
+                    "uuid": "e8e72abc-8353-43f5-9539-dbac3d681ea6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 114.5
+                    },
+                    "uuid": "dbed6d74-5426-4a4e-b210-55a7f935081e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 117.74,
+                        "y": 110.68
+                    },
+                    "uuid": "9aee2104-5ad0-48a2-9ec3-5ddd03a49c8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

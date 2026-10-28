@@ -1,0 +1,365 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-28T17:11:11+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "sallen_key_filter_routed.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on B.Cu, length 8.7986 mm",
+                    "pos": {
+                        "x": 125.5099,
+                        "y": 129.6313
+                    },
+                    "uuid": "8a720114-ab34-4647-98e5-fc9b6708e7b6"
+                },
+                {
+                    "description": "Pad 2 [GND] of C3 on F.Cu",
+                    "pos": {
+                        "x": 119.95,
+                        "y": 128.0
+                    },
+                    "uuid": "b9d15123-ac0f-4adc-aab4-869423cdb2b9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad 3 [-12V] of J2",
+                    "pos": {
+                        "x": 120.16,
+                        "y": 128.0
+                    },
+                    "uuid": "6b581028-91a2-431c-9a9f-0d9f2675f3db"
+                },
+                {
+                    "description": "Pad 2 [GND] of C3 on F.Cu",
+                    "pos": {
+                        "x": 119.95,
+                        "y": 128.0
+                    },
+                    "uuid": "b9d15123-ac0f-4adc-aab4-869423cdb2b9"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 116.0
+                    },
+                    "uuid": "3debe648-fcdb-4dfd-b342-efab20213e5a"
+                },
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 116.0
+                    },
+                    "uuid": "c4812f18-ffb5-4095-aebb-7add9abdcbc9"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 128.0
+                    },
+                    "uuid": "a5b60b49-ade8-4fae-ab3a-62be22041f2a"
+                },
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 128.0
+                    },
+                    "uuid": "a6a1cdcf-b3b4-4c72-85ac-ed1e3e79a82b"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Items shorting two nets (nets -12V and GND)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [-12V] of J2",
+                    "pos": {
+                        "x": 120.16,
+                        "y": 128.0
+                    },
+                    "uuid": "6b581028-91a2-431c-9a9f-0d9f2675f3db"
+                },
+                {
+                    "description": "Pad 2 [GND] of C3 on F.Cu",
+                    "pos": {
+                        "x": 119.95,
+                        "y": 128.0
+                    },
+                    "uuid": "b9d15123-ac0f-4adc-aab4-869423cdb2b9"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 126.32
+                    },
+                    "uuid": "84626b2a-22d2-40e8-90d1-d3960d76da1a"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 107.34,
+                        "y": 125.7
+                    },
+                    "uuid": "e7ed6825-d64f-4243-8db4-f50db1d412da"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 114.5
+                    },
+                    "uuid": "6fb51090-fe8c-489d-bd54-38a3f5810ec8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 117.74,
+                        "y": 110.68
+                    },
+                    "uuid": "8aea6705-c3ee-4178-b344-d472aaf16f13"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J3",
+                    "pos": {
+                        "x": 137.0,
+                        "y": 126.5
+                    },
+                    "uuid": "c3a2bfc5-babf-4d04-9570-37afc9ee723a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J2",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 126.5
+                    },
+                    "uuid": "70cfceb1-22f1-4dad-b14d-d9aa4175719b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 119.0,
+                        "y": 126.32
+                    },
+                    "uuid": "84626b2a-22d2-40e8-90d1-d3960d76da1a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of C3 on F.Silkscreen",
+                    "pos": {
+                        "x": 118.738748,
+                        "y": 127.265
+                    },
+                    "uuid": "68630aaf-6730-4b21-bfd8-820696890507"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of C3 on F.Silkscreen",
+                    "pos": {
+                        "x": 118.738748,
+                        "y": 128.735
+                    },
+                    "uuid": "56a4ee15-23c1-49f7-af9d-b1e6654ddcbd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [VIN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 117.1933,
+                        "y": 115.1058
+                    },
+                    "uuid": "0db3886f-99b8-4756-bca5-ead5db49154f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [N_R1_R2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 125.0915,
+                        "y": 116.0
+                    },
+                    "uuid": "4b75c9d9-8b56-4d6b-a34b-eb2dc45739f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [N_R1_R2] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 135.0411,
+                        "y": 115.6922
+                    },
+                    "uuid": "8849500e-0524-4401-89c7-001ba4c11494"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [V_PLUS] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 148.917,
+                        "y": 115.9658
+                    },
+                    "uuid": "0f5ac120-9d9a-46c6-b15f-3c7db7e8cc33"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [V_PLUS] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 129.9341,
+                        "y": 115.6922
+                    },
+                    "uuid": "870319ab-b17e-46d4-9e54-6072fc49803f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [+12V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 156.1526,
+                        "y": 114.7642
+                    },
+                    "uuid": "9ac9d054-2de2-496e-9f0e-25a5b210b2f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [-12V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 151.6976,
+                        "y": 118.7324
+                    },
+                    "uuid": "3ed10894-04bc-4a69-84e6-f4fb8158d59a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        }
+    ]
+}
