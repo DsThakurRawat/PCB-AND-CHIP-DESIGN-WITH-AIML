@@ -8,10 +8,11 @@
   (paper "A4")
 
   (title_block
-    (title "STM32F4-TEST BOARD1")
-    (date "2023-07-28")
-    (rev "1.0")
-    (company "Niranjan Pandranki")
+    (title "STM32F4 4-Layer Development Board")
+    (date "2026-11-08")
+    (rev "REV2")
+    (company "Team: 124EC0030, 124EC0032 (Divyansh Rawat), 124EC0033")
+    (comment 1 "Adapted from Phil's Lab STM32F4 Reference (MIT License)")
   )
 
   (lib_symbols
