@@ -1,0 +1,264 @@
+Info: Processing symbol 'D4:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'J4:Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal'.
+Info: Processing symbol 'J3:Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal'.
+Info: Processing symbol 'J2:Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'H4:MountingHole:MountingHole_4.3mm_M4_Pad_Via'.
+Info: Processing symbol 'H3:MountingHole:MountingHole_4.3mm_M4_Pad_Via'.
+Info: Processing symbol 'H2:MountingHole:MountingHole_4.3mm_M4_Pad_Via'.
+Info: Processing symbol 'H1:MountingHole:MountingHole_4.3mm_M4_Pad_Via'.
+Info: Processing symbol 'FB1:Inductor_SMD:L_0805_2012Metric'.
+Info: Processing symbol 'F1:Fuse:Fuse_1206_3216Metric'.
+Info: Processing symbol 'J5:Connector_USB:USB_Micro-B_GCT_USB3076-30-A'.
+Info: Processing symbol 'D3:Diode_SMD:D_SOD-123'.
+Info: Processing symbol 'D2:Diode_SMD:D_SOD-123'.
+Info: Processing symbol 'D1:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'C12:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0603_1608Metric'.
+Info: Total warnings: 0, errors: 0.
+Info: Processing symbol 'Y1:Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm'.
+Info: Processing symbol 'U2:Package_TO_SOT_SMD:SOT-23-6'.
+Info: Processing symbol 'U1:Package_QFP:LQFP-64_10x10mm_P0.5mm'.
+Info: Processing symbol 'SW1:Button_Switch_SMD:SW_SPDT_PCM12'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R10:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'J1:TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'Q1:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'MP2359DJ-LF-Z1:Package_TO_SOT_SMD:SOT-23-6'.
+Info: Processing symbol 'L2:Inductor_SMD:L_TracoPower_TCK-047_5.2x5.8mm'.
+Info: Processing symbol 'L1:Inductor_SMD:L_0402_1005Metric'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_0402_1005Metric'.
+Updated R2 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R3 fields.
+Updated R2 sheetname to '/'.
+Updated R2 fields.
+Updated R1 footprint filters to 'R_*'.
+Updated R1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R1 sheetname to '/'.
+Updated R1 fields.
+Updated C4 fields.
+Updated Q1 footprint filters to 'SOT?23*'.
+Updated R2 footprint filters to 'R_*'.
+Updated C3 footprint filters to 'C_*'.
+Updated Q1 fields.
+Updated R3 sheetname to '/'.
+Updated R3 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R3 footprint filters to 'R_*'.
+Updated C3 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R4 fields.
+Updated R4 sheetname to '/'.
+Updated R4 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R4 footprint filters to 'R_*'.
+Updated C3 sheetname to '/'.
+Updated R5 fields.
+Updated L1 footprint filters to 'Choke_* *Coil* Inductor_* L_*'.
+Add net unconnected-(J5-Shield-Pad6)_1.
+Reconnected J5 pin 6 from unconnected-(J5-Shield-Pad6) to unconnected-(J5-Shield-Pad6)_1.
+Add net unconnected-(J5-Shield-Pad6)_2.
+Reconnected J5 pin 6 from unconnected-(J5-Shield-Pad6) to unconnected-(J5-Shield-Pad6)_2.
+Add net unconnected-(J5-Shield-Pad6)_3.
+Reconnected J5 pin 6 from unconnected-(J5-Shield-Pad6) to unconnected-(J5-Shield-Pad6)_3.
+Add net unconnected-(J5-Shield-Pad6)_4.
+Reconnected J5 pin 6 from unconnected-(J5-Shield-Pad6) to unconnected-(J5-Shield-Pad6)_4.
+Add net unconnected-(J5-Shield-Pad6)_5.
+Reconnected J5 pin 6 from unconnected-(J5-Shield-Pad6) to unconnected-(J5-Shield-Pad6)_5.
+Updated L1 fields.
+Updated L1 sheetname to '/'.
+Updated L1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated Q1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C4 footprint filters to 'C_*'.
+Updated L2 fields.
+Updated L2 sheetname to '/'.
+Updated L2 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated L2 footprint filters to 'Choke_* *Coil* Inductor_* L_*'.
+Updated C4 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated MP2359DJ-LF-Z1 fields.
+Updated MP2359DJ-LF-Z1 sheetname to '/'.
+Updated MP2359DJ-LF-Z1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C4 sheetname to '/'.
+Updated R5 footprint filters to 'R_*'.
+Updated Q1 sheetname to '/'.
+Updated C1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C2 fields.
+Updated R11 fields.
+Updated R11 sheetname to '/'.
+Updated R11 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R11 footprint filters to 'R_*'.
+Updated SW1 fields.
+Updated SW1 sheetname to '/'.
+Updated SW1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C1 footprint filters to 'C_*'.
+Updated U1 fields.
+Updated U1 sheetname to '/'.
+Updated U1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated U1 footprint filters to 'LQFP*10x10mm*P0.5mm*'.
+Updated R10 footprint filters to 'R_*'.
+Updated U2 fields.
+Updated U2 sheetname to '/'.
+Updated U2 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated U2 footprint filters to 'SOT?23*'.
+Updated C1 sheetname to '/'.
+Updated Y1 fields.
+Updated Y1 sheetname to '/'.
+Updated Y1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated Y1 footprint filters to 'Crystal*'.
+
+
+Updated C1 fields.
+Updated R8 fields.
+Updated R5 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated J5 sheetname to '/'.
+Updated C3 fields.
+Updated R6 fields.
+Updated R6 sheetname to '/'.
+Updated R6 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R6 footprint filters to 'R_*'.
+Updated R7 fields.
+Updated R7 sheetname to '/'.
+Updated R7 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R7 footprint filters to 'R_*'.
+Updated C2 footprint filters to 'C_*'.
+Updated R5 sheetname to '/'.
+Updated R8 sheetname to '/'.
+Updated R8 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R8 footprint filters to 'R_*'.
+Updated C2 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R9 fields.
+Updated R9 sheetname to '/'.
+Updated R9 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated R9 footprint filters to 'R_*'.
+Updated C2 sheetname to '/'.
+Updated R10 fields.
+Updated R10 sheetname to '/'.
+Updated R10 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated D2 fields.
+Updated C15 sheetname to '/'.
+Updated C15 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C15 footprint filters to 'C_*'.
+Updated C8 fields.
+Updated C17 fields.
+Updated C17 sheetname to '/'.
+Updated C17 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C17 footprint filters to 'C_*'.
+Updated D1 fields.
+Updated D1 sheetname to '/'.
+Updated D1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated D1 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Updated C7 footprint filters to 'C_*'.
+Updated C15 fields.
+Updated D2 sheetname to '/'.
+Updated D2 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated D2 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Updated C7 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated D3 fields.
+Updated D3 sheetname to '/'.
+Updated D3 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated D3 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Updated C7 sheetname to '/'.
+Updated D4 fields.
+Updated D4 sheetname to '/'.
+Updated D4 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C12 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C9 footprint filters to 'C_*'.
+Updated C9 sheetname to '/'.
+Updated C10 fields.
+Updated C10 sheetname to '/'.
+Updated C10 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C10 footprint filters to 'C_*'.
+Updated C9 fields.
+Updated C11 fields.
+Updated C11 sheetname to '/'.
+Updated C11 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C11 footprint filters to 'C_*'.
+Updated C12 fields.
+Updated C12 sheetname to '/'.
+Updated D4 footprint filters to 'LED* LED_SMD:* LED_THT:*'.
+Updated C12 footprint filters to 'C_*'.
+Updated C8 footprint filters to 'C_*'.
+Updated C13 fields.
+Updated C13 sheetname to '/'.
+Updated C13 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C13 footprint filters to 'C_*'.
+Updated C8 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C14 fields.
+Updated C14 sheetname to '/'.
+Updated C14 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C14 footprint filters to 'C_*'.
+Updated C8 sheetname to '/'.
+Updated J3 fields.
+Updated H4 sheetname to '/'.
+Updated H4 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated H4 footprint filters to 'MountingHole*Pad*'.
+Updated J1 fields.
+Updated J1 sheetname to '/'.
+Updated J1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated J1 footprint filters to 'TerminalBlock*:*'.
+Updated C5 footprint filters to 'C_*'.
+Updated J2 fields.
+Updated J2 sheetname to '/'.
+Updated J2 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated J2 footprint filters to 'Connector*:*_2x??_*'.
+Updated C5 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated H4 fields.
+Updated J3 sheetname to '/'.
+Updated J3 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated J3 footprint filters to 'Connector*:*_1x??_*'.
+Updated C5 sheetname to '/'.
+Updated J4 fields.
+Updated J4 sheetname to '/'.
+Updated J4 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated J4 footprint filters to 'Connector*:*_1x??_*'.
+Updated C5 fields.
+Updated J5 fields.
+Updated C9 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated J5 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated H1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated C7 fields.
+Updated F1 fields.
+Updated F1 sheetname to '/'.
+Updated F1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated F1 footprint filters to '*polyfuse* *PTC*'.
+Updated FB1 fields.
+Updated FB1 sheetname to '/'.
+Updated FB1 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated FB1 footprint filters to 'Inductor_* L_* *Ferrite*'.
+Updated C6 footprint filters to 'C_*'.
+Updated H1 fields.
+Updated H1 sheetname to '/'.
+Updated J5 footprint filters to 'USB*'.
+Updated H1 footprint filters to 'MountingHole*Pad*'.
+Updated C6 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated H2 fields.
+Updated H2 sheetname to '/'.
+Updated H2 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated H2 footprint filters to 'MountingHole*Pad*'.
+Updated C6 sheetname to '/'.
+Updated H3 fields.
+Updated H3 sheetname to '/'.
+Updated H3 sheetfile to 'STM32F4_REV2.kicad_sch'.
+Updated H3 footprint filters to 'MountingHole*Pad*'.
+Updated C6 fields.
+
+
+Info: Total warnings: 0, errors: 0.
