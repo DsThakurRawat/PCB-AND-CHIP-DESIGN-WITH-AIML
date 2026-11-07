@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb")
+	(uuid "c6a9b32a-cc71-4e36-a15c-68a7ab99633d")
 	(paper "A4")
 	(title_block
 		(title "3.3V Linear Voltage Regulator Module")
@@ -892,7 +892,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "aa17d0dd-bed6-473c-ab71-84425784b67d")
+		(uuid "66943bc2-2d84-437e-aa11-62da4557ad87")
 		(property "Reference" "J1"
 			(at 39.37 52.07 0.0000)
 			(effects
@@ -921,14 +921,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "72b41d61-07f6-4c8c-9b1f-bc17665e8eeb")
+			(uuid "3d9559b2-a613-4b4a-aa74-da489c1bd1d6")
 		)
 		(pin "2"
-			(uuid "24c591a0-a893-4b57-921c-0c2f033fffbe")
+			(uuid "fc707b99-2a79-4260-ab4c-78c967b6c473")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "J1")
 					(unit 1)
 				)
@@ -944,7 +944,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "e6c7ecbc-ea0c-441b-a961-79d72d86bffe")
+		(uuid "31f07cd5-5dce-46f3-a9a5-52f6897e6c9e")
 		(property "Reference" "C1"
 			(at 65.405 52.07 0.0000)
 			(effects
@@ -973,14 +973,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ccd5848-93f7-4c12-8908-03bdf3d08016")
+			(uuid "d1475ea3-a012-4c60-84e4-5feccc980d62")
 		)
 		(pin "2"
-			(uuid "fd17be94-7d00-4f27-9a2d-c0fd8c0ed3d5")
+			(uuid "8116bb28-f56e-4108-9214-c67eda32d14b")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "C1")
 					(unit 1)
 				)
@@ -996,7 +996,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "dd6f584c-74ff-44ee-86a7-a8f9e8feec18")
+		(uuid "75036fe0-4707-4e0c-baa8-bb25abecc53a")
 		(property "Reference" "C2"
 			(at 80.645 52.07 0.0000)
 			(effects
@@ -1025,14 +1025,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "924a93c0-1eae-4ba5-af52-7076a1b1339a")
+			(uuid "bb51c35e-7cf6-4de2-9c3d-d218cca29589")
 		)
 		(pin "2"
-			(uuid "6784ff3d-0cac-4c40-8435-abc032c8cb47")
+			(uuid "bd56761d-62d8-4e67-b270-579c80ab5fc9")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "C2")
 					(unit 1)
 				)
@@ -1048,7 +1048,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "f23ac262-d1ba-4c03-860f-147cb3c561e6")
+		(uuid "7276a9f1-5dde-449c-b2d8-d5bd81da10c8")
 		(property "Reference" "U1"
 			(at 106.68 52.705 0.0000)
 			(effects
@@ -1077,17 +1077,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "2d9eb779-f048-443b-88dc-271c43182179")
+			(uuid "6b5ffa10-af73-46ab-ad75-6d10da50cf4d")
 		)
 		(pin "1"
-			(uuid "19e079c5-35f8-4ca2-9129-b919a9436c25")
+			(uuid "e79b2caf-184d-4eb4-ad0f-e224f474584a")
 		)
 		(pin "2"
-			(uuid "db5ba208-04a9-4984-b7a1-39963485043a")
+			(uuid "b7934669-978b-4bd7-82bb-95c6f9cad300")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "U1")
 					(unit 1)
 				)
@@ -1103,7 +1103,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "a657399b-8663-4010-8de8-471cc70326a5")
+		(uuid "c3bb8ee0-e85f-4684-9de9-7f7e6371bf31")
 		(property "Reference" "C3"
 			(at 140.335 52.07 0.0000)
 			(effects
@@ -1132,14 +1132,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b352cf60-cc27-44c6-965a-a3623d794a12")
+			(uuid "1cf345cc-cb28-4c81-93ac-7f78950e33c4")
 		)
 		(pin "2"
-			(uuid "5adb9698-9d8d-4a13-9ac3-b225d33c2a33")
+			(uuid "c3c8c608-31e3-4be3-b6ba-900a5c8c5289")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "C3")
 					(unit 1)
 				)
@@ -1155,7 +1155,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "d7e57b46-3515-414b-affb-d1c4673731e9")
+		(uuid "8dd59a32-c77b-45b7-bce6-489e40341ecf")
 		(property "Reference" "C4"
 			(at 155.575 52.07 0.0000)
 			(effects
@@ -1184,14 +1184,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a81af23-d2dc-469c-8ea6-2b65dd971acb")
+			(uuid "7737aa6c-8a24-4e08-875c-96ede0777d25")
 		)
 		(pin "2"
-			(uuid "4cb44176-27ed-4c8b-af60-7740c0029b63")
+			(uuid "d0d9c28a-14fc-4fb1-9ecd-4a5062156fcf")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "C4")
 					(unit 1)
 				)
@@ -1207,7 +1207,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "734a68f0-0eed-4941-9919-9b892098cd33")
+		(uuid "8cdd47bb-b0c3-4343-b940-86bfdd7512d5")
 		(property "Reference" "R1"
 			(at 177.292 44.45 90)
 			(effects
@@ -1236,14 +1236,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "132a1366-984a-437f-8de8-4cd8feed0f24")
+			(uuid "b033d5d0-edf5-4bf0-ba0b-429f8c101004")
 		)
 		(pin "2"
-			(uuid "55b3746e-1296-44a4-9e4e-329824310f9f")
+			(uuid "63c90e7b-2f88-4889-a65c-8fe1e4f7afa5")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "R1")
 					(unit 1)
 				)
@@ -1259,7 +1259,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "6067e604-c023-4836-85ff-82b1a3318d1e")
+		(uuid "96c70aa3-4da9-49e4-a26c-865ef18fbc9d")
 		(property "Reference" "D1"
 			(at 175.26 62.23 0.0000)
 			(effects
@@ -1288,14 +1288,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c20d805-6f38-45a0-bd1e-1678e687fb32")
+			(uuid "6b1e3804-c75e-4d31-8dde-012c220728f4")
 		)
 		(pin "2"
-			(uuid "3aca8016-5932-496d-98e7-90d6917b08cb")
+			(uuid "308808d0-1d0c-4f8f-a5e0-1d06a8ab2efa")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "D1")
 					(unit 1)
 				)
@@ -1311,7 +1311,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "1aceab52-9103-4897-9769-3400c6589f27")
+		(uuid "9156bf7d-e326-4f4c-a486-ec2b0770a2cc")
 		(property "Reference" "J2"
 			(at 199.39 52.07 0.0000)
 			(effects
@@ -1340,14 +1340,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d880954-a3f1-4b8a-9ae4-5b0cfec6fa44")
+			(uuid "ba0cb362-020e-4f63-90ea-7ae2f2587bdf")
 		)
 		(pin "2"
-			(uuid "6e8d5fca-ee39-4bf1-a776-f0783ee2ae48")
+			(uuid "9e0d635c-9f3f-4f09-9a79-98d990b3723e")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "J2")
 					(unit 1)
 				)
@@ -1363,7 +1363,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "8089ec13-36e2-41eb-a3b5-dde8af4d0f0d")
+		(uuid "971414c4-9a6e-4b79-82c1-ef1103f47fd9")
 		(property "Reference" "#FLG1"
 			(at 30.48 131.445 0.0000)
 			(effects
@@ -1383,11 +1383,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e71654b2-99f8-4ab3-a8aa-2869df73e1ae")
+			(uuid "42b2252a-2f6f-46ac-ae82-b83be3923201")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "#FLG1")
 					(unit 1)
 				)
@@ -1403,7 +1403,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "d8f1fc6c-c70e-47ca-8685-950a200d9d91")
+		(uuid "5c8cc78b-9b07-402f-b72c-0f820833320d")
 		(property "Reference" "#FLG2"
 			(at 49.53 131.445 0.0000)
 			(effects
@@ -1423,52 +1423,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e95f4fc3-4a7e-4bf7-9792-d2b7420a9c65")
+			(uuid "971a27e7-6105-4b1a-84cd-9b9291034de4")
 		)
 		(instances
 			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
+				(path "/c6a9b32a-cc71-4e36-a15c-68a7ab99633d"
 					(reference "#FLG2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 69.85 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced no)
-		(uuid "25c1088c-efbf-4361-b2a6-08af196d675d")
-		(property "Reference" "#FLG3"
-			(at 69.85 131.445 0.0000)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 69.85 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf1fcbe6-ee6b-431d-9c88-56733377293c")
-		)
-		(instances
-			(project "3.3V Linear Voltage Regulator Module"
-				(path "/3e4c69ac-427e-4aa5-bf6e-30bce2cdbdbb"
-					(reference "#FLG3")
 					(unit 1)
 				)
 			)
@@ -1482,7 +1442,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8d9b037e-e8e4-48ed-9d9f-4271d3df5107")
+		(uuid "c1e2984e-1cdf-455d-b0e8-1db6228231b6")
 	)
 	(label "VIN"
 		(at 64.77 45.72 0)
@@ -1492,7 +1452,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ad31ef87-778a-479b-ba6a-93ff33b25eb1")
+		(uuid "a40879fd-1c92-43e0-88b5-7e3e71aca5f7")
 	)
 	(label "VIN"
 		(at 80.01 45.72 0)
@@ -1502,7 +1462,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "44f8c0f9-6495-4acd-83bf-0d7ce951e224")
+		(uuid "c83b3676-50c3-4325-aa36-ed227e0e2cc9")
 	)
 	(label "VIN"
 		(at 102.87 49.53 0)
@@ -1512,7 +1472,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ba694eac-9b99-4958-b466-f36e561c6f74")
+		(uuid "dca895f8-2a98-4551-a6e3-a205d8d1afee")
 	)
 	(label "GND"
 		(at 34.29 52.07 0)
@@ -1522,7 +1482,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c3c2a684-63ff-4f8d-9923-51306a5c6248")
+		(uuid "0d2a0543-12c0-4386-a1af-f86796bdfe85")
 	)
 	(label "GND"
 		(at 64.77 53.34 0)
@@ -1532,7 +1492,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "05e852f3-e893-4e23-a89b-be90377f4bf4")
+		(uuid "d823598c-a1e8-4336-afc1-9dba7d7ee2b2")
 	)
 	(label "GND"
 		(at 80.01 53.34 0)
@@ -1542,7 +1502,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "33cb8ed3-303f-40e4-ba6f-3aa1d47a742d")
+		(uuid "473ae467-de4f-45bb-a41c-282271eefb1a")
 	)
 	(label "GND"
 		(at 110.49 57.15 0)
@@ -1552,7 +1512,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e18cfe3b-e3db-48a5-92c0-4afefd1c2741")
+		(uuid "dda55a2d-f5cc-47f3-823d-4cef90da3835")
 	)
 	(label "GND"
 		(at 139.7 53.34 0)
@@ -1562,7 +1522,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "035ee607-b01b-4e84-8dad-95bae062187a")
+		(uuid "a2f3a2b9-34e9-4ba7-8105-271657a95aa9")
 	)
 	(label "GND"
 		(at 154.94 53.34 0)
@@ -1572,7 +1532,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f73336a0-5a11-40a9-bae9-460c46e43c87")
+		(uuid "bcb85dbd-a42f-4b51-8f0c-1e30ab75aa3c")
 	)
 	(label "GND"
 		(at 171.45 59.69 0)
@@ -1582,7 +1542,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e80f417f-2bf1-4488-9890-c70a96692640")
+		(uuid "148eb047-fad2-42f5-9b6f-dbd6c2f3ef9e")
 	)
 	(label "GND"
 		(at 194.31 52.07 0)
@@ -1592,7 +1552,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a5ae80e8-ceb6-4506-b437-2f79dc4a3022")
+		(uuid "d8c1c39d-79f9-46f6-8c7b-76924eee69c6")
 	)
 	(label "+3V3"
 		(at 118.11 49.53 0)
@@ -1602,7 +1562,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3b35e05c-b671-4b9b-b23b-7c48795c7a4e")
+		(uuid "64557b56-b35a-4c03-938c-ab466a20c62a")
 	)
 	(label "+3V3"
 		(at 139.7 45.72 0)
@@ -1612,7 +1572,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "194ad18e-2427-4c02-8372-3e7882bb312b")
+		(uuid "657c9bc2-2f62-4c04-be40-7889e6642366")
 	)
 	(label "+3V3"
 		(at 154.94 45.72 0)
@@ -1622,7 +1582,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4f6aa49c-4af8-4e48-b516-1c2657ccd7a7")
+		(uuid "d2a52c43-bddb-4bdc-adb6-5947928b9a82")
 	)
 	(label "+3V3"
 		(at 175.26 40.64 0)
@@ -1632,7 +1592,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0db30a41-9015-458d-9bb2-276e0df86310")
+		(uuid "c45a288f-fb21-4e3b-af7f-d44295b20c5b")
 	)
 	(label "+3V3"
 		(at 194.31 49.53 0)
@@ -1642,7 +1602,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6591947f-855e-4e89-9865-5c5a3f82fd33")
+		(uuid "51ecc930-e99f-40d7-8808-5ca81d7c70db")
 	)
 	(label "LED_PWR"
 		(at 175.26 48.26 0)
@@ -1652,7 +1612,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d835621d-8f68-4076-b353-5a78ce59e333")
+		(uuid "2868a5ea-b796-4b80-8074-7785c561eed1")
 	)
 	(label "LED_PWR"
 		(at 179.07 59.69 0)
@@ -1662,7 +1622,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "84b1e8d4-73bd-4a7e-91ee-2f9a6ef5841d")
+		(uuid "014247d0-d915-4cb4-8ae0-f54c0de5a4d1")
 	)
 	(label "VIN"
 		(at 30.48 129.54 0)
@@ -1672,7 +1632,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9537fad3-e096-4c42-b1b7-3e1f5b1b1adc")
+		(uuid "887989b1-0593-4d47-8c2b-752b84ba959b")
 	)
 	(label "GND"
 		(at 49.53 129.54 0)
@@ -1682,17 +1642,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c3bb777d-c445-491e-a1f1-27676cef1c7c")
-	)
-	(label "+3V3"
-		(at 69.85 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6736e26-fc82-4250-9640-811ecc56c137")
+		(uuid "0261488f-9b95-4da1-b0e1-7af7fa736abd")
 	)
 	(sheet_instances
 		(path "/"
