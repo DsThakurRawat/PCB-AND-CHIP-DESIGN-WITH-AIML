@@ -1,0 +1,3311 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:33:06+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "tm4c129_usb_high_speed.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 125.0
+                    },
+                    "uuid": "0f6708a7-5cef-43f0-9de3-8529f769df8d"
+                },
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 125.0
+                    },
+                    "uuid": "7caf45ff-54e4-41d9-b5fb-38afb075d30a"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A1 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 125.0
+                    },
+                    "uuid": "516d25a8-b7ca-4b31-bffe-da8413ffe69c"
+                },
+                {
+                    "description": "PTH pad A4 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 124.15
+                    },
+                    "uuid": "254bbbe9-68b5-4dcc-aef9-7c2a60f4ea7c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A4 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 124.15
+                    },
+                    "uuid": "254bbbe9-68b5-4dcc-aef9-7c2a60f4ea7c"
+                },
+                {
+                    "description": "PTH pad A5 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 123.3
+                    },
+                    "uuid": "ef084b29-f9b1-4209-af45-1402392e06a9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A5 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 123.3
+                    },
+                    "uuid": "ef084b29-f9b1-4209-af45-1402392e06a9"
+                },
+                {
+                    "description": "PTH pad A6 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 122.45
+                    },
+                    "uuid": "6cafefc6-c83f-4d93-b774-c29ab7ac95c9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A6 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 122.45
+                    },
+                    "uuid": "6cafefc6-c83f-4d93-b774-c29ab7ac95c9"
+                },
+                {
+                    "description": "PTH pad A7 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 121.6
+                    },
+                    "uuid": "0f887ab5-42c5-4bd7-a85c-9bc0d1cb313c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A7 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 121.6
+                    },
+                    "uuid": "0f887ab5-42c5-4bd7-a85c-9bc0d1cb313c"
+                },
+                {
+                    "description": "PTH pad A8 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 120.75
+                    },
+                    "uuid": "cb6e723a-76ab-4983-92cd-b5f89fafc892"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A7 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 121.6
+                    },
+                    "uuid": "0f887ab5-42c5-4bd7-a85c-9bc0d1cb313c"
+                },
+                {
+                    "description": "PTH pad A8 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 120.75
+                    },
+                    "uuid": "cb6e723a-76ab-4983-92cd-b5f89fafc892"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A8 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 120.75
+                    },
+                    "uuid": "cb6e723a-76ab-4983-92cd-b5f89fafc892"
+                },
+                {
+                    "description": "PTH pad A9 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 119.9
+                    },
+                    "uuid": "1d80f2dd-039e-49e6-abcb-e9d4293f34e5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A9 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 119.9
+                    },
+                    "uuid": "1d80f2dd-039e-49e6-abcb-e9d4293f34e5"
+                },
+                {
+                    "description": "PTH pad A12 [<no net>] of J1",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 119.05
+                    },
+                    "uuid": "a7f01792-392b-4843-bcaf-78eeea950ea4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B1 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 119.05
+                    },
+                    "uuid": "313b1302-d60d-4791-965b-10fbbe6c3549"
+                },
+                {
+                    "description": "PTH pad B4 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 119.9
+                    },
+                    "uuid": "503246d5-ed56-4d2d-9475-17ace81879c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B4 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 119.9
+                    },
+                    "uuid": "503246d5-ed56-4d2d-9475-17ace81879c3"
+                },
+                {
+                    "description": "PTH pad B5 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 120.75
+                    },
+                    "uuid": "140ac686-04c1-45c3-b2a1-9e348436fca2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B5 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 120.75
+                    },
+                    "uuid": "140ac686-04c1-45c3-b2a1-9e348436fca2"
+                },
+                {
+                    "description": "PTH pad B6 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 121.6
+                    },
+                    "uuid": "ebd37531-8c5e-489a-82ae-276b1e246ea2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B6 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 121.6
+                    },
+                    "uuid": "ebd37531-8c5e-489a-82ae-276b1e246ea2"
+                },
+                {
+                    "description": "PTH pad B7 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 122.45
+                    },
+                    "uuid": "aa386197-5846-4ea8-8e53-399be2ab6205"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B7 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 122.45
+                    },
+                    "uuid": "aa386197-5846-4ea8-8e53-399be2ab6205"
+                },
+                {
+                    "description": "PTH pad B8 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 123.3
+                    },
+                    "uuid": "a4eedecc-e2e1-4f14-9689-a1308d9997f6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B8 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 123.3
+                    },
+                    "uuid": "a4eedecc-e2e1-4f14-9689-a1308d9997f6"
+                },
+                {
+                    "description": "PTH pad B9 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 124.15
+                    },
+                    "uuid": "5a8bd676-d3f4-4b9c-9a46-5054b7d20383"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B9 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 124.15
+                    },
+                    "uuid": "5a8bd676-d3f4-4b9c-9a46-5054b7d20383"
+                },
+                {
+                    "description": "PTH pad B12 [<no net>] of J1",
+                    "pos": {
+                        "x": 106.35,
+                        "y": 125.0
+                    },
+                    "uuid": "86c35311-58f1-4d68-bbeb-f93d7210ac0c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 123.8
+                    },
+                    "uuid": "8d612e72-4dd3-4710-918d-c89694ec8d5f"
+                },
+                {
+                    "description": "Pad 2 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 124.2
+                    },
+                    "uuid": "d43b5264-f6ef-40ce-8f58-bad6af1ee271"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 124.2
+                    },
+                    "uuid": "d43b5264-f6ef-40ce-8f58-bad6af1ee271"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 124.6
+                    },
+                    "uuid": "9af68ee3-0eea-40b8-b422-4a95c4560ae9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 124.6
+                    },
+                    "uuid": "9af68ee3-0eea-40b8-b422-4a95c4560ae9"
+                },
+                {
+                    "description": "Pad 4 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 125.0
+                    },
+                    "uuid": "6a72b540-2447-4a03-8e07-fbbad591358f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 125.0
+                    },
+                    "uuid": "6a72b540-2447-4a03-8e07-fbbad591358f"
+                },
+                {
+                    "description": "Pad 5 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 125.4
+                    },
+                    "uuid": "56218028-feb7-4cfc-b2c3-5dcf8538a05c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 5 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 125.4
+                    },
+                    "uuid": "56218028-feb7-4cfc-b2c3-5dcf8538a05c"
+                },
+                {
+                    "description": "Pad 6 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 125.8
+                    },
+                    "uuid": "a9d8369e-b58d-43b3-b13b-5c8f19174e98"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 125.8
+                    },
+                    "uuid": "a9d8369e-b58d-43b3-b13b-5c8f19174e98"
+                },
+                {
+                    "description": "Pad 7 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 126.2
+                    },
+                    "uuid": "470775fd-ce2a-49e5-80dc-aea276b56e84"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 126.2
+                    },
+                    "uuid": "470775fd-ce2a-49e5-80dc-aea276b56e84"
+                },
+                {
+                    "description": "Pad 8 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 126.6
+                    },
+                    "uuid": "9439042d-6050-4778-b872-2911f08fedc1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 8 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 126.6
+                    },
+                    "uuid": "9439042d-6050-4778-b872-2911f08fedc1"
+                },
+                {
+                    "description": "Pad 9 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 127.0
+                    },
+                    "uuid": "f481a1b8-f73d-4820-870c-5f58344a685a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 9 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 127.0
+                    },
+                    "uuid": "f481a1b8-f73d-4820-870c-5f58344a685a"
+                },
+                {
+                    "description": "Pad 10 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 127.4
+                    },
+                    "uuid": "c48f4681-2fcd-4937-b4ec-e7fe2c45398b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 10 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 127.4
+                    },
+                    "uuid": "c48f4681-2fcd-4937-b4ec-e7fe2c45398b"
+                },
+                {
+                    "description": "Pad 11 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 127.8
+                    },
+                    "uuid": "ef0cce23-cff4-47d5-8f1c-189a9527a917"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 11 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 127.8
+                    },
+                    "uuid": "ef0cce23-cff4-47d5-8f1c-189a9527a917"
+                },
+                {
+                    "description": "Pad 12 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 128.2
+                    },
+                    "uuid": "93505409-a9e8-4709-a3e5-89d7761f4f09"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 12 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 128.2
+                    },
+                    "uuid": "93505409-a9e8-4709-a3e5-89d7761f4f09"
+                },
+                {
+                    "description": "Pad 13 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 128.6
+                    },
+                    "uuid": "e17c6ddb-410f-494b-bb46-79dcfda98dcb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 13 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 128.6
+                    },
+                    "uuid": "e17c6ddb-410f-494b-bb46-79dcfda98dcb"
+                },
+                {
+                    "description": "Pad 14 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 129.0
+                    },
+                    "uuid": "aeedc0f1-337e-489c-806f-ef9fa21e7167"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 14 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 129.0
+                    },
+                    "uuid": "aeedc0f1-337e-489c-806f-ef9fa21e7167"
+                },
+                {
+                    "description": "Pad 15 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 129.4
+                    },
+                    "uuid": "507777d5-2844-46f3-9db6-045f40a147bc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 15 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 129.4
+                    },
+                    "uuid": "507777d5-2844-46f3-9db6-045f40a147bc"
+                },
+                {
+                    "description": "Pad 16 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 129.8
+                    },
+                    "uuid": "840515e7-2a3c-4bb3-8e2f-823a97a94243"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 16 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 129.8
+                    },
+                    "uuid": "840515e7-2a3c-4bb3-8e2f-823a97a94243"
+                },
+                {
+                    "description": "Pad 17 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 130.2
+                    },
+                    "uuid": "d05e5c31-363f-4303-b9d5-a21b12cd5b52"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 17 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 130.2
+                    },
+                    "uuid": "d05e5c31-363f-4303-b9d5-a21b12cd5b52"
+                },
+                {
+                    "description": "Pad 18 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 130.6
+                    },
+                    "uuid": "f1fcd944-fcb0-4cb5-ac33-2eec2c1ce715"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 18 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 130.6
+                    },
+                    "uuid": "f1fcd944-fcb0-4cb5-ac33-2eec2c1ce715"
+                },
+                {
+                    "description": "Pad 19 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 131.0
+                    },
+                    "uuid": "b9f23a94-cc03-44db-9aca-4b41f2c01eed"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 19 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 131.0
+                    },
+                    "uuid": "b9f23a94-cc03-44db-9aca-4b41f2c01eed"
+                },
+                {
+                    "description": "Pad 20 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 131.4
+                    },
+                    "uuid": "17507f96-4678-4baf-8867-40e1474c2eea"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 20 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 131.4
+                    },
+                    "uuid": "17507f96-4678-4baf-8867-40e1474c2eea"
+                },
+                {
+                    "description": "Pad 21 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 131.8
+                    },
+                    "uuid": "28b1e835-516c-437c-8e4f-8c1f230b127f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 21 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 131.8
+                    },
+                    "uuid": "28b1e835-516c-437c-8e4f-8c1f230b127f"
+                },
+                {
+                    "description": "Pad 22 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 132.2
+                    },
+                    "uuid": "7275842f-ed5e-49f9-b93e-a07683c6af47"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 22 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 132.2
+                    },
+                    "uuid": "7275842f-ed5e-49f9-b93e-a07683c6af47"
+                },
+                {
+                    "description": "Pad 23 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 132.6
+                    },
+                    "uuid": "746154c4-9a01-454f-b9df-d3640216c178"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 23 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 132.6
+                    },
+                    "uuid": "746154c4-9a01-454f-b9df-d3640216c178"
+                },
+                {
+                    "description": "Pad 24 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 133.0
+                    },
+                    "uuid": "d7ee718a-e8f0-417b-9f98-87481a34382d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 24 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 133.0
+                    },
+                    "uuid": "d7ee718a-e8f0-417b-9f98-87481a34382d"
+                },
+                {
+                    "description": "Pad 25 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 133.4
+                    },
+                    "uuid": "d06ae992-624f-4934-a0a9-dd24779eb6a2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 25 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 133.4
+                    },
+                    "uuid": "d06ae992-624f-4934-a0a9-dd24779eb6a2"
+                },
+                {
+                    "description": "Pad 26 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 133.8
+                    },
+                    "uuid": "6abf79d9-4c13-4cc8-9928-e764e9870c94"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 26 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 133.8
+                    },
+                    "uuid": "6abf79d9-4c13-4cc8-9928-e764e9870c94"
+                },
+                {
+                    "description": "Pad 27 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 134.2
+                    },
+                    "uuid": "d8061fd0-8ece-42b2-8085-ec1efc62857e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 27 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 134.2
+                    },
+                    "uuid": "d8061fd0-8ece-42b2-8085-ec1efc62857e"
+                },
+                {
+                    "description": "Pad 28 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 134.6
+                    },
+                    "uuid": "e5533512-5ef2-444b-81d1-124eeaf92b63"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 28 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 134.6
+                    },
+                    "uuid": "e5533512-5ef2-444b-81d1-124eeaf92b63"
+                },
+                {
+                    "description": "Pad 29 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 135.0
+                    },
+                    "uuid": "e368fc77-a91d-45f5-9a12-3d2fc8e10478"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 29 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 135.0
+                    },
+                    "uuid": "e368fc77-a91d-45f5-9a12-3d2fc8e10478"
+                },
+                {
+                    "description": "Pad 30 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 135.4
+                    },
+                    "uuid": "cc7143e5-4a1c-4ba7-9fa7-83164a5b4434"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 30 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 135.4
+                    },
+                    "uuid": "cc7143e5-4a1c-4ba7-9fa7-83164a5b4434"
+                },
+                {
+                    "description": "Pad 31 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 135.8
+                    },
+                    "uuid": "8e53fc2e-da49-4265-9088-7f0eff227c08"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 31 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 135.8
+                    },
+                    "uuid": "8e53fc2e-da49-4265-9088-7f0eff227c08"
+                },
+                {
+                    "description": "Pad 32 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.3375,
+                        "y": 136.2
+                    },
+                    "uuid": "f6ca10df-6fa7-47c3-afab-871786dcf95f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 33 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 138.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "80c73de2-cd44-4248-b70f-c1af4ba2bbd0"
+                },
+                {
+                    "description": "Pad 34 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 139.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "f6843a86-6e1f-4cac-aca2-3de9116d0d0d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 34 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 139.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "f6843a86-6e1f-4cac-aca2-3de9116d0d0d"
+                },
+                {
+                    "description": "Pad 35 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 139.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "c9a88168-bd4f-44ce-9a72-824a08e0e26b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 35 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 139.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "c9a88168-bd4f-44ce-9a72-824a08e0e26b"
+                },
+                {
+                    "description": "Pad 36 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "14ca7228-2af4-42cd-802f-65c15b5db273"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 36 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "14ca7228-2af4-42cd-802f-65c15b5db273"
+                },
+                {
+                    "description": "Pad 37 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "5665f540-9f62-4b87-9b09-4beed8acbe06"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 37 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "5665f540-9f62-4b87-9b09-4beed8acbe06"
+                },
+                {
+                    "description": "Pad 38 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "9be7add5-af53-4761-ba95-16baa2a00681"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 38 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "9be7add5-af53-4761-ba95-16baa2a00681"
+                },
+                {
+                    "description": "Pad 39 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 141.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "8c9355e1-5586-49ff-a69f-f6386af94ca2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 39 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 141.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "8c9355e1-5586-49ff-a69f-f6386af94ca2"
+                },
+                {
+                    "description": "Pad 40 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 141.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "124f91e7-822f-45b5-91a3-565f30c48915"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 40 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 141.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "124f91e7-822f-45b5-91a3-565f30c48915"
+                },
+                {
+                    "description": "Pad 41 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "3d6b0d55-cd1d-4773-a161-c0d2d1279bb2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 41 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "3d6b0d55-cd1d-4773-a161-c0d2d1279bb2"
+                },
+                {
+                    "description": "Pad 42 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "43972e5e-953a-4ca5-81dd-06f2ae19574c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 42 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "43972e5e-953a-4ca5-81dd-06f2ae19574c"
+                },
+                {
+                    "description": "Pad 43 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "c54495ef-84c6-418c-97be-5b06af6ea77c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 43 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "c54495ef-84c6-418c-97be-5b06af6ea77c"
+                },
+                {
+                    "description": "Pad 44 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "1f27a93e-9626-44fd-90e9-89ef13d086ef"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 44 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "1f27a93e-9626-44fd-90e9-89ef13d086ef"
+                },
+                {
+                    "description": "Pad 45 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "91629b86-de36-4f23-9644-b18ec468bac6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 45 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "91629b86-de36-4f23-9644-b18ec468bac6"
+                },
+                {
+                    "description": "Pad 46 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "40fd9272-703b-4a13-8324-c5909978cc85"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 46 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "40fd9272-703b-4a13-8324-c5909978cc85"
+                },
+                {
+                    "description": "Pad 47 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "538a7566-b312-47d2-80f5-288ab75a4886"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 47 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "538a7566-b312-47d2-80f5-288ab75a4886"
+                },
+                {
+                    "description": "Pad 48 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "cadf0f62-b8b6-42ed-b5d1-5b8085139001"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 48 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "cadf0f62-b8b6-42ed-b5d1-5b8085139001"
+                },
+                {
+                    "description": "Pad 49 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "14cf8a92-7f70-418c-981f-3b80d92518d8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 49 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "14cf8a92-7f70-418c-981f-3b80d92518d8"
+                },
+                {
+                    "description": "Pad 50 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "10d48e62-8d76-4e23-b5e9-03d90785fd4f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 50 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "10d48e62-8d76-4e23-b5e9-03d90785fd4f"
+                },
+                {
+                    "description": "Pad 51 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "0b5a6ea4-461c-4c92-b299-476413be7a2b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 51 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "0b5a6ea4-461c-4c92-b299-476413be7a2b"
+                },
+                {
+                    "description": "Pad 52 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "f2638eab-0a76-4e71-9d6c-865635260337"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 52 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "f2638eab-0a76-4e71-9d6c-865635260337"
+                },
+                {
+                    "description": "Pad 53 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "f087f8f2-1da6-488d-9396-45c4af893e94"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 53 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "f087f8f2-1da6-488d-9396-45c4af893e94"
+                },
+                {
+                    "description": "Pad 54 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 147.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "f5965845-b492-4d2d-ad24-30c210cff5c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 54 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 147.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "f5965845-b492-4d2d-ad24-30c210cff5c3"
+                },
+                {
+                    "description": "Pad 55 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 147.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "e510c40a-6aa8-43af-85ea-50fe4555c9d7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 55 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 147.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "e510c40a-6aa8-43af-85ea-50fe4555c9d7"
+                },
+                {
+                    "description": "Pad 56 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "82dd6bb0-6648-4da8-8a7e-b0231194c623"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 56 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "82dd6bb0-6648-4da8-8a7e-b0231194c623"
+                },
+                {
+                    "description": "Pad 57 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "e88e02f4-af26-4619-9549-30241a5f188c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 57 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "e88e02f4-af26-4619-9549-30241a5f188c"
+                },
+                {
+                    "description": "Pad 58 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "4d71091c-bc37-401d-9f8c-81e95dcd7539"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 58 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "4d71091c-bc37-401d-9f8c-81e95dcd7539"
+                },
+                {
+                    "description": "Pad 59 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 149.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "dad0479e-08c3-4a1d-a53f-6b59324b4c3f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 59 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 149.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "dad0479e-08c3-4a1d-a53f-6b59324b4c3f"
+                },
+                {
+                    "description": "Pad 60 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 149.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "d3d3bc1d-564c-44ac-9dba-cfd29cfd5adb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 60 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 149.6,
+                        "y": 137.6625
+                    },
+                    "uuid": "d3d3bc1d-564c-44ac-9dba-cfd29cfd5adb"
+                },
+                {
+                    "description": "Pad 61 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "3784fa2a-824e-4a29-88fd-c61c88bd5efc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 61 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 137.6625
+                    },
+                    "uuid": "3784fa2a-824e-4a29-88fd-c61c88bd5efc"
+                },
+                {
+                    "description": "Pad 62 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "ae635f48-8d96-46fa-8fd8-f607e89f6a23"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 62 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.4,
+                        "y": 137.6625
+                    },
+                    "uuid": "ae635f48-8d96-46fa-8fd8-f607e89f6a23"
+                },
+                {
+                    "description": "Pad 63 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "ba6d1427-594b-45b8-836d-4cb52e516a15"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 63 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.8,
+                        "y": 137.6625
+                    },
+                    "uuid": "ba6d1427-594b-45b8-836d-4cb52e516a15"
+                },
+                {
+                    "description": "Pad 64 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 151.2,
+                        "y": 137.6625
+                    },
+                    "uuid": "d72a7869-4c7d-4d25-ac57-4fe74094e780"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 65 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 136.2
+                    },
+                    "uuid": "521f9717-8883-4bc0-af77-875c383604f0"
+                },
+                {
+                    "description": "Pad 66 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 135.8
+                    },
+                    "uuid": "000e9465-7fab-420c-9a09-477e4afcea7b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 66 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 135.8
+                    },
+                    "uuid": "000e9465-7fab-420c-9a09-477e4afcea7b"
+                },
+                {
+                    "description": "Pad 67 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 135.4
+                    },
+                    "uuid": "f6b0b16a-748a-49f6-a2ef-d0149efd53aa"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 67 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 135.4
+                    },
+                    "uuid": "f6b0b16a-748a-49f6-a2ef-d0149efd53aa"
+                },
+                {
+                    "description": "Pad 68 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 135.0
+                    },
+                    "uuid": "b0af199b-a2a1-430a-91cb-e0360c66762c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 68 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 135.0
+                    },
+                    "uuid": "b0af199b-a2a1-430a-91cb-e0360c66762c"
+                },
+                {
+                    "description": "Pad 69 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 134.6
+                    },
+                    "uuid": "51d336cc-631c-41b0-8d3e-c36714b44c02"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 69 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 134.6
+                    },
+                    "uuid": "51d336cc-631c-41b0-8d3e-c36714b44c02"
+                },
+                {
+                    "description": "Pad 70 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 134.2
+                    },
+                    "uuid": "ecf5b2c1-3f99-43b4-84ff-7974409a4636"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 70 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 134.2
+                    },
+                    "uuid": "ecf5b2c1-3f99-43b4-84ff-7974409a4636"
+                },
+                {
+                    "description": "Pad 71 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 133.8
+                    },
+                    "uuid": "e721a9f2-1b15-48f3-9027-40ab535ed0fd"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 71 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 133.8
+                    },
+                    "uuid": "e721a9f2-1b15-48f3-9027-40ab535ed0fd"
+                },
+                {
+                    "description": "Pad 72 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 133.4
+                    },
+                    "uuid": "7ed78c03-589c-44c5-8998-73de828b2fe2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 72 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 133.4
+                    },
+                    "uuid": "7ed78c03-589c-44c5-8998-73de828b2fe2"
+                },
+                {
+                    "description": "Pad 73 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 133.0
+                    },
+                    "uuid": "7276d711-2cdb-40ac-ba47-0bbe437d19ed"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 73 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 133.0
+                    },
+                    "uuid": "7276d711-2cdb-40ac-ba47-0bbe437d19ed"
+                },
+                {
+                    "description": "Pad 74 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 132.6
+                    },
+                    "uuid": "3a7b74b2-4b52-45b5-bbde-a88f5d74f3d5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 74 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 132.6
+                    },
+                    "uuid": "3a7b74b2-4b52-45b5-bbde-a88f5d74f3d5"
+                },
+                {
+                    "description": "Pad 75 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 132.2
+                    },
+                    "uuid": "6bdbffb7-97d4-4f3a-a6de-748d5aa881c0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 75 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 132.2
+                    },
+                    "uuid": "6bdbffb7-97d4-4f3a-a6de-748d5aa881c0"
+                },
+                {
+                    "description": "Pad 76 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 131.8
+                    },
+                    "uuid": "58b8c364-4888-4d2a-a50d-750416d40476"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 76 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 131.8
+                    },
+                    "uuid": "58b8c364-4888-4d2a-a50d-750416d40476"
+                },
+                {
+                    "description": "Pad 77 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 131.4
+                    },
+                    "uuid": "72012c64-867f-4112-aa56-07e1cfa53054"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 77 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 131.4
+                    },
+                    "uuid": "72012c64-867f-4112-aa56-07e1cfa53054"
+                },
+                {
+                    "description": "Pad 78 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 131.0
+                    },
+                    "uuid": "3079a91e-5297-4147-a45c-ae53172adb44"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 78 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 131.0
+                    },
+                    "uuid": "3079a91e-5297-4147-a45c-ae53172adb44"
+                },
+                {
+                    "description": "Pad 79 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 130.6
+                    },
+                    "uuid": "7464e165-1d6d-4c6e-875f-133b59989a13"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 79 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 130.6
+                    },
+                    "uuid": "7464e165-1d6d-4c6e-875f-133b59989a13"
+                },
+                {
+                    "description": "Pad 80 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 130.2
+                    },
+                    "uuid": "1263ef32-3214-4b1d-a531-786c5e406bc8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 80 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 130.2
+                    },
+                    "uuid": "1263ef32-3214-4b1d-a531-786c5e406bc8"
+                },
+                {
+                    "description": "Pad 81 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 129.8
+                    },
+                    "uuid": "4d4927d1-419f-4d44-89f5-2d5257c881c7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 81 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 129.8
+                    },
+                    "uuid": "4d4927d1-419f-4d44-89f5-2d5257c881c7"
+                },
+                {
+                    "description": "Pad 82 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 129.4
+                    },
+                    "uuid": "785cf915-50c0-4f8e-bc45-39e57ef0f6da"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 82 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 129.4
+                    },
+                    "uuid": "785cf915-50c0-4f8e-bc45-39e57ef0f6da"
+                },
+                {
+                    "description": "Pad 83 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 129.0
+                    },
+                    "uuid": "5cecade7-7408-42f5-a441-bda16c0f07f5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 83 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 129.0
+                    },
+                    "uuid": "5cecade7-7408-42f5-a441-bda16c0f07f5"
+                },
+                {
+                    "description": "Pad 84 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 128.6
+                    },
+                    "uuid": "ce26f274-8376-4892-a4eb-8eb0523890c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 84 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 128.6
+                    },
+                    "uuid": "ce26f274-8376-4892-a4eb-8eb0523890c3"
+                },
+                {
+                    "description": "Pad 85 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 128.2
+                    },
+                    "uuid": "ebfda7c4-15f9-45c8-b331-e926d70da328"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 85 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 128.2
+                    },
+                    "uuid": "ebfda7c4-15f9-45c8-b331-e926d70da328"
+                },
+                {
+                    "description": "Pad 86 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 127.8
+                    },
+                    "uuid": "5dec41dd-556a-442e-b1a9-7ca4e9dee9ba"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 86 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 127.8
+                    },
+                    "uuid": "5dec41dd-556a-442e-b1a9-7ca4e9dee9ba"
+                },
+                {
+                    "description": "Pad 87 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 127.4
+                    },
+                    "uuid": "c4227e9f-35c6-45b7-9d58-0a52314d426a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 87 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 127.4
+                    },
+                    "uuid": "c4227e9f-35c6-45b7-9d58-0a52314d426a"
+                },
+                {
+                    "description": "Pad 88 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 127.0
+                    },
+                    "uuid": "9d7bdd9b-307a-4242-b217-1cb54e329f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 88 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 127.0
+                    },
+                    "uuid": "9d7bdd9b-307a-4242-b217-1cb54e329f8c"
+                },
+                {
+                    "description": "Pad 89 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 126.6
+                    },
+                    "uuid": "f931332f-cc43-45f7-876b-b7ded769fa05"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 89 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 126.6
+                    },
+                    "uuid": "f931332f-cc43-45f7-876b-b7ded769fa05"
+                },
+                {
+                    "description": "Pad 90 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 126.2
+                    },
+                    "uuid": "d429184a-a6c3-48b5-92d6-f3acdfc69d2b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 90 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 126.2
+                    },
+                    "uuid": "d429184a-a6c3-48b5-92d6-f3acdfc69d2b"
+                },
+                {
+                    "description": "Pad 91 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 125.8
+                    },
+                    "uuid": "ea05bd53-43e1-4bb4-8b7e-92a60fa6b1b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 91 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 125.8
+                    },
+                    "uuid": "ea05bd53-43e1-4bb4-8b7e-92a60fa6b1b9"
+                },
+                {
+                    "description": "Pad 92 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 125.4
+                    },
+                    "uuid": "8a0707f4-4d4d-4fcf-b42e-8ee9cf9f96f9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 92 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 125.4
+                    },
+                    "uuid": "8a0707f4-4d4d-4fcf-b42e-8ee9cf9f96f9"
+                },
+                {
+                    "description": "Pad 93 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 125.0
+                    },
+                    "uuid": "1cab701b-5ba4-490f-99d0-4df8b01efe80"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 93 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 125.0
+                    },
+                    "uuid": "1cab701b-5ba4-490f-99d0-4df8b01efe80"
+                },
+                {
+                    "description": "Pad 94 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 124.6
+                    },
+                    "uuid": "46257b72-7a35-43b5-93a3-31cb1b9b591f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 94 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 124.6
+                    },
+                    "uuid": "46257b72-7a35-43b5-93a3-31cb1b9b591f"
+                },
+                {
+                    "description": "Pad 95 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 124.2
+                    },
+                    "uuid": "ec626e12-67bd-4ffe-94b4-d9735d743738"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 95 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 124.2
+                    },
+                    "uuid": "ec626e12-67bd-4ffe-94b4-d9735d743738"
+                },
+                {
+                    "description": "Pad 96 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 152.6625,
+                        "y": 123.8
+                    },
+                    "uuid": "c87f7ec0-575b-4d87-8005-14d1329c88b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 97 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 151.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "2cbe7721-302f-4b0c-b781-47952e5d7c07"
+                },
+                {
+                    "description": "Pad 98 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "188e1e4a-6f61-43b4-af91-c466dade2449"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 98 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "188e1e4a-6f61-43b4-af91-c466dade2449"
+                },
+                {
+                    "description": "Pad 99 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "a646db83-1d7d-41d6-8dbf-9ddb9d4dfbb5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 99 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "a646db83-1d7d-41d6-8dbf-9ddb9d4dfbb5"
+                },
+                {
+                    "description": "Pad 100 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "9c0afa52-a7ba-446e-ba2c-b027a7a45c5a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 100 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "9c0afa52-a7ba-446e-ba2c-b027a7a45c5a"
+                },
+                {
+                    "description": "Pad 101 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 149.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "30813eb3-cac2-46df-94b8-dec1f641633e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 101 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 149.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "30813eb3-cac2-46df-94b8-dec1f641633e"
+                },
+                {
+                    "description": "Pad 102 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 149.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "efa952b2-4f28-4062-a229-da0eba646a5f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 102 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 149.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "efa952b2-4f28-4062-a229-da0eba646a5f"
+                },
+                {
+                    "description": "Pad 103 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "93e0c61a-cfba-4f17-a15a-e11a8f10d03c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 103 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "93e0c61a-cfba-4f17-a15a-e11a8f10d03c"
+                },
+                {
+                    "description": "Pad 104 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "3bc8f373-9afd-4dc6-b1d0-7d22c7e208dc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 104 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "3bc8f373-9afd-4dc6-b1d0-7d22c7e208dc"
+                },
+                {
+                    "description": "Pad 105 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "4efed952-12ad-48e2-b7c5-87abe9b00189"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 105 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "4efed952-12ad-48e2-b7c5-87abe9b00189"
+                },
+                {
+                    "description": "Pad 106 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 147.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "dfcb16a0-9d7c-470c-88ad-a7a094d903ae"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 106 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 147.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "dfcb16a0-9d7c-470c-88ad-a7a094d903ae"
+                },
+                {
+                    "description": "Pad 107 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 147.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "29364718-7264-4250-b5fc-ca6919a29b7c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 107 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 147.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "29364718-7264-4250-b5fc-ca6919a29b7c"
+                },
+                {
+                    "description": "Pad 108 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "82e2382d-1565-4453-939b-ee98f84f45d8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 108 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "82e2382d-1565-4453-939b-ee98f84f45d8"
+                },
+                {
+                    "description": "Pad 109 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "ca52ef94-d6ba-4b44-a734-aa2c8321cc59"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 109 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "ca52ef94-d6ba-4b44-a734-aa2c8321cc59"
+                },
+                {
+                    "description": "Pad 110 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "c5af0afe-9bd7-46e3-8e24-775bc775218c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 110 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "c5af0afe-9bd7-46e3-8e24-775bc775218c"
+                },
+                {
+                    "description": "Pad 111 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "a7f2e237-9288-4cde-8e13-a1de3b67066e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 111 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "a7f2e237-9288-4cde-8e13-a1de3b67066e"
+                },
+                {
+                    "description": "Pad 112 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "05d6b731-f05e-4820-a52d-177ce94ef03f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 112 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "05d6b731-f05e-4820-a52d-177ce94ef03f"
+                },
+                {
+                    "description": "Pad 113 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "562f70f5-078c-4471-8a91-7de622450e79"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 113 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "562f70f5-078c-4471-8a91-7de622450e79"
+                },
+                {
+                    "description": "Pad 114 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "5f9f50a1-007b-4d9b-980a-9a1385e0142a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 114 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "5f9f50a1-007b-4d9b-980a-9a1385e0142a"
+                },
+                {
+                    "description": "Pad 115 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "8601dc93-ebaf-4bf5-ae81-91e43569b0e8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 115 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "8601dc93-ebaf-4bf5-ae81-91e43569b0e8"
+                },
+                {
+                    "description": "Pad 116 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "7f5f75fb-e19f-4b4c-9141-6995c96b19e5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 116 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "7f5f75fb-e19f-4b4c-9141-6995c96b19e5"
+                },
+                {
+                    "description": "Pad 117 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "12929bc2-0882-4023-9628-f760703e9ed6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 117 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "12929bc2-0882-4023-9628-f760703e9ed6"
+                },
+                {
+                    "description": "Pad 118 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "a22c7f3f-d5da-47da-bb04-256c325e46c7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 118 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "a22c7f3f-d5da-47da-bb04-256c325e46c7"
+                },
+                {
+                    "description": "Pad 119 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "6e5689a6-6f6c-443b-8e69-4e78ef382db3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 119 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "6e5689a6-6f6c-443b-8e69-4e78ef382db3"
+                },
+                {
+                    "description": "Pad 120 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "fa5644d6-f940-4d49-91c5-8e5b92c3041f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 120 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "fa5644d6-f940-4d49-91c5-8e5b92c3041f"
+                },
+                {
+                    "description": "Pad 121 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 141.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "0ebfaf47-a9d5-4427-9ea2-724494b8983f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 121 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 141.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "0ebfaf47-a9d5-4427-9ea2-724494b8983f"
+                },
+                {
+                    "description": "Pad 122 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 141.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "a4e9c886-48f2-4e85-a100-145885d1f3ae"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 122 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 141.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "a4e9c886-48f2-4e85-a100-145885d1f3ae"
+                },
+                {
+                    "description": "Pad 123 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "d7bf9635-5ed9-4847-af58-204d0acf79b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 123 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "d7bf9635-5ed9-4847-af58-204d0acf79b9"
+                },
+                {
+                    "description": "Pad 124 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "7284db15-5cc4-4df4-980a-bc742f5bf6b7"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 124 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.4,
+                        "y": 122.3375
+                    },
+                    "uuid": "7284db15-5cc4-4df4-980a-bc742f5bf6b7"
+                },
+                {
+                    "description": "Pad 125 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "288f6349-b0d3-4e00-a1ba-be2717d8a120"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 125 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 122.3375
+                    },
+                    "uuid": "288f6349-b0d3-4e00-a1ba-be2717d8a120"
+                },
+                {
+                    "description": "Pad 126 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 139.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "3b5bf614-9076-43b2-9d11-85a430655d86"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 126 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 139.6,
+                        "y": 122.3375
+                    },
+                    "uuid": "3b5bf614-9076-43b2-9d11-85a430655d86"
+                },
+                {
+                    "description": "Pad 127 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 139.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "1918a650-ff18-45e5-8ca2-88513cbe7921"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 127 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 139.2,
+                        "y": 122.3375
+                    },
+                    "uuid": "1918a650-ff18-45e5-8ca2-88513cbe7921"
+                },
+                {
+                    "description": "Pad 128 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 138.8,
+                        "y": 122.3375
+                    },
+                    "uuid": "66afd95d-63ac-4ccd-bbf3-72c594910e7c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 126.62
+                    },
+                    "uuid": "91ffff78-cbad-4390-8fa0-099887d57acd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.73,
+                        "y": 126.62
+                    },
+                    "uuid": "cfb7fc36-c5f0-469e-910f-869814d078dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "81da3289-cc2c-4544-8c77-520bcd891036"
+                },
+                {
+                    "description": "Reference field of MH2",
+                    "pos": {
+                        "x": 181.0,
+                        "y": 99.85
+                    },
+                    "uuid": "c1551ff4-d392-4405-b715-3895d8bf7fb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "81da3289-cc2c-4544-8c77-520bcd891036"
+                },
+                {
+                    "description": "Reference field of MH1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 99.85
+                    },
+                    "uuid": "9c644ad7-3a34-4833-9db5-5ef4ce14d205"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+  "project_name": "arduino_multisensor_robot_l298d",
+  "title": "Arduino Multi-Sensor Training Robot PCB with L298 Motor Driver",
+  "revision": "v1.0",
+  "description": "Robotics educational development board featuring an ST L298 dual H-bridge motor driver, 8x flyback Schottky diodes, 4x IR line tracker headers, HC-SR04 sonar port, dual LDR inputs, and TO-220 5V regulator.",
+  "layers": 2,
+  "dimensions_mm": [
+    105.0,
+    85.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "L298_DRIVER",
+      "footprint": "Package_TO_SOT_THT:TO-220-15_P2.54x5.08mm_StaggerEven_Lead4.58mm_Vertical",
+      "position": [
+        150.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "LM7805",
+      "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+      "position": [
+        115.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "MOTOR_LEFT",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "position": [
+        180.0,
+        110.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "MOTOR_RIGHT",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "position": [
+        180.0,
+        130.0
+      ]
+    },
+    {
+      "ref": "J3",
+      "value": "BATTERY_IN_12V",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "position": [
+        108.0,
+        135.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "value": "IR_SENSORS_4X",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical",
+      "position": [
+        150.0,
+        175.0
+      ]
+    },
+    {
+      "ref": "J5",
+      "value": "HC_SR04_PORT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "position": [
+        150.0,
+        95.0
+      ]
+    },
+    {
+      "ref": "BZ1",
+      "value": "BUZZER",
+      "footprint": "Buzzer_Beeper:Buzzer_12x9.5RM7.6",
+      "position": [
+        120.0,
+        160.0
+      ]
+    },
+    {
+      "ref": "C1",
+      "value": "470uF_25V",
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "position": [
+        118.0,
+        145.0
+      ]
+    }
+  ]
+}

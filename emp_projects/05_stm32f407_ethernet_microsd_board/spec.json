@@ -1,0 +1,85 @@
+{
+  "project_name": "stm32f407_ethernet_microsd",
+  "title": "STM32F407 Ethernet (RMII) and microSD (SDIO) Interface Board",
+  "revision": "v1.0",
+  "description": "Industrial IoT controller powered by STM32F407 (168MHz M4F) with onboard Microchip LAN8720A RMII Ethernet transceiver, RJ45 MagJack, 4-bit high-speed SDIO MicroSD socket, USB-C, and SWD debug.",
+  "layers": 2,
+  "dimensions_mm": [
+    95.0,
+    70.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "STM32F407VGT6",
+      "footprint": "Package_QFP:LQFP-100_14x14mm_P0.5mm",
+      "position": [
+        150.0,
+        135.0
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "LAN8720A",
+      "footprint": "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm",
+      "position": [
+        118.0,
+        120.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "RJ45_MAGJACK",
+      "footprint": "Connector_RJ:RJ45_Amphenol_RJHSE5380",
+      "position": [
+        105.0,
+        120.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "MICROSD_SDIO",
+      "footprint": "Connector_Card:microSD_HC_Hirose_DM3D-SF",
+      "position": [
+        185.0,
+        135.0
+      ]
+    },
+    {
+      "ref": "J3",
+      "value": "USB_C",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4085",
+      "position": [
+        150.0,
+        165.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "value": "SWD_DEBUG",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "position": [
+        180.0,
+        110.0
+      ]
+    },
+    {
+      "ref": "U3",
+      "value": "AMS1117-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "position": [
+        118.0,
+        155.0
+      ]
+    },
+    {
+      "ref": "Y1",
+      "value": "8.000MHz",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "position": [
+        140.0,
+        120.0
+      ]
+    }
+  ]
+}

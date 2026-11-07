@@ -1,0 +1,112 @@
+{
+  "project_name": "stm32_bldc_motor_controller",
+  "title": "STM32-Based 3-Phase BLDC Motor Controller",
+  "revision": "v1.0",
+  "description": "Rugged 3-phase BLDC brushless motor controller integrating TI DRV8301 3-phase gate driver, 6x 60V 50A power MOSFET inverter bridge, triple low-side current shunts, bus filter caps, and Hall inputs.",
+  "layers": 2,
+  "dimensions_mm": [
+    95.0,
+    68.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "STM32F401CCU6",
+      "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+      "position": [
+        125.0,
+        130.0
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "DRV8301",
+      "footprint": "Package_SO:HTSSOP-56-1EP_6.1x14mm_P0.5mm_EP3.61x6.35mm",
+      "position": [
+        148.0,
+        130.0
+      ]
+    },
+    {
+      "ref": "Q1",
+      "value": "MOSFET_U_HI",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "position": [
+        170.0,
+        110.0
+      ]
+    },
+    {
+      "ref": "Q2",
+      "value": "MOSFET_U_LO",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "position": [
+        182.0,
+        110.0
+      ]
+    },
+    {
+      "ref": "Q3",
+      "value": "MOSFET_V_HI",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "position": [
+        170.0,
+        125.0
+      ]
+    },
+    {
+      "ref": "Q4",
+      "value": "MOSFET_V_LO",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "position": [
+        182.0,
+        125.0
+      ]
+    },
+    {
+      "ref": "Q5",
+      "value": "MOSFET_W_HI",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "position": [
+        170.0,
+        140.0
+      ]
+    },
+    {
+      "ref": "Q6",
+      "value": "MOSFET_W_LO",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "position": [
+        182.0,
+        140.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "PHASE_OUT_UVW",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",
+      "position": [
+        195.0,
+        125.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "DC_BUS_IN_48V",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "position": [
+        108.0,
+        145.0
+      ]
+    },
+    {
+      "ref": "C1",
+      "value": "470uF_63V",
+      "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+      "position": [
+        120.0,
+        145.0
+      ]
+    }
+  ]
+}

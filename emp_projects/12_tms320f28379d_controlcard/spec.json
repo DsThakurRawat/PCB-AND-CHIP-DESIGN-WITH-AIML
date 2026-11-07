@@ -1,0 +1,58 @@
+{
+  "project_name": "tms320f28379d_controlcard",
+  "title": "TMS320F28379D Delfino Dual-Core C2000 controlCARD",
+  "revision": "v1.0",
+  "description": "Texas Instruments C2000 Delfino Dual-Core 200MHz TMS320F28379D modular controlCARD with 180-pin HSEC180 edge connector, galvanically isolated USB JTAG emulator, and REF3030 precision ADC reference.",
+  "layers": 4,
+  "dimensions_mm": [
+    90.0,
+    50.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "TMS320F28379D",
+      "footprint": "Package_QFP:LQFP-100_14x14mm_P0.5mm",
+      "position": [
+        145.0,
+        125.0
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "FT2232HL_JTAG",
+      "footprint": "Package_QFP:LQFP-64_10x10mm_P0.5mm",
+      "position": [
+        115.0,
+        125.0
+      ]
+    },
+    {
+      "ref": "U3",
+      "value": "REF3030_3V",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "position": [
+        145.0,
+        142.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "HSEC180_EDGE",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical",
+      "position": [
+        145.0,
+        105.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "USB_JTAG_IN",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4085",
+      "position": [
+        105.0,
+        125.0
+      ]
+    }
+  ]
+}

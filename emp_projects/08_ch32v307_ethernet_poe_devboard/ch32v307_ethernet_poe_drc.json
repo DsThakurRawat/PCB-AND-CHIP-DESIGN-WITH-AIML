@@ -1,0 +1,62 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:39:37+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "ch32v307_ethernet_poe.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "53823ace-e2f0-403f-baf4-0e05082a1b93"
+                },
+                {
+                    "description": "Reference field of MH1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 99.85
+                    },
+                    "uuid": "36ef530a-2fa3-4139-bd21-a3e343941252"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "53823ace-e2f0-403f-baf4-0e05082a1b93"
+                },
+                {
+                    "description": "Reference field of MH2",
+                    "pos": {
+                        "x": 186.0,
+                        "y": 99.85
+                    },
+                    "uuid": "246da33f-2237-4825-b35c-4350e59d731c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "project_name": "mixed_signal_stm32_devboard",
+  "title": "Mixed-Signal Precision STM32 Development Board",
+  "revision": "v1.0",
+  "description": "High-precision mixed-signal laboratory development platform featuring STM32 MCU, Texas Instruments ADS1256 24-bit delta-sigma ADC, DAC8562 16-bit DAC, BNC analog I/O, and split AGND/DGND plane.",
+  "layers": 4,
+  "dimensions_mm": [
+    80,
+    60
+  ],
+  "components": []
+}

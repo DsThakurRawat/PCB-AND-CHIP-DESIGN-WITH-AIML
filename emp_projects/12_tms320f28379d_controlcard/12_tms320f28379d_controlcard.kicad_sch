@@ -1,0 +1,670 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c9f2e728-8f4e-4571-a3b8-f73b53a295d8")
+	(paper "A4")
+	(title_block
+		(title "12 Tms320F28379D Controlcard")
+	)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 39.37 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "58fb1842-94a2-49dc-9119-e986bd078d66")
+		(property "Reference" "U1"
+			(at 41.402 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TMS320F28379D"
+			(at 39.37 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
+			(at 37.592 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66a98ba0-074e-4d10-958c-5a8c5e980a1c")
+		)
+		(pin "2"
+			(uuid "ef559e58-d8df-4dd8-96eb-3ee50fc25099")
+		)
+		(instances
+			(project "12 Tms320F28379D Controlcard"
+				(path "/c9f2e728-8f4e-4571-a3b8-f73b53a295d8"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "77a98162-4358-4c16-8b76-3d02bb51dbdb")
+		(property "Reference" "U2"
+			(at 76.962 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FT2232HL_JTAG"
+			(at 74.93 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+			(at 73.152 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f477a20a-2ede-4841-a418-dcfc7c10ba7b")
+		)
+		(pin "2"
+			(uuid "136e3af0-f611-4e80-9933-9178554c102e")
+		)
+		(instances
+			(project "12 Tms320F28379D Controlcard"
+				(path "/c9f2e728-8f4e-4571-a3b8-f73b53a295d8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "8d7c42d1-661a-4592-bd29-a543db6a2484")
+		(property "Reference" "U3"
+			(at 112.522 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "REF3030_3V"
+			(at 110.49 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 108.712 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83de57ec-bf9d-4b69-9549-015c96de02f1")
+		)
+		(pin "2"
+			(uuid "c90e1d3f-40a5-48a9-9b47-4d1cfdb8cd14")
+		)
+		(instances
+			(project "12 Tms320F28379D Controlcard"
+				(path "/c9f2e728-8f4e-4571-a3b8-f73b53a295d8"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 144.78 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "cfa62d10-7c55-4e52-9efe-4060428bc5cd")
+		(property "Reference" "J1"
+			(at 144.78 54.61 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HSEC180_EDGE"
+			(at 144.78 41.91 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
+			(at 144.78 49.53 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbe55db7-1583-42ac-b0af-e73f78b1e55f")
+		)
+		(pin "2"
+			(uuid "7af1c17c-1cf5-466b-a624-86f08f68afde")
+		)
+		(pin "3"
+			(uuid "767010ef-2ccd-401f-aae1-ba319814edfe")
+		)
+		(pin "4"
+			(uuid "4d6d28a9-3372-4504-85d8-1cad8a8ae3bc")
+		)
+		(instances
+			(project "12 Tms320F28379D Controlcard"
+				(path "/c9f2e728-8f4e-4571-a3b8-f73b53a295d8"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 39.37 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "89ecda8f-915d-4bff-a9a9-4a8a328dcf33")
+		(property "Reference" "J2"
+			(at 39.37 85.09 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB_JTAG_IN"
+			(at 39.37 72.39 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+			(at 39.37 80.01 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e28ba9da-b2bb-4357-a2ed-cedff205f84a")
+		)
+		(pin "2"
+			(uuid "f6b9a7e6-1d0e-4cfd-933d-87c2591e08cc")
+		)
+		(pin "3"
+			(uuid "b45ea4a8-daac-4747-8566-97c23179238b")
+		)
+		(pin "4"
+			(uuid "f583115f-3a81-4200-8181-560ea0407cdf")
+		)
+		(instances
+			(project "12 Tms320F28379D Controlcard"
+				(path "/c9f2e728-8f4e-4571-a3b8-f73b53a295d8"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 39.37 45.72)
+		(uuid "620733a8-f0b2-409c-ac8e-58e7fb42909e")
+	)
+	(no_connect
+		(at 39.37 53.34)
+		(uuid "83960dc9-666e-4965-a579-eab70fc21bd7")
+	)
+	(no_connect
+		(at 74.93 45.72)
+		(uuid "08b5ed5d-c519-4d09-98d0-b40cce258e35")
+	)
+	(no_connect
+		(at 74.93 53.34)
+		(uuid "c6c409a0-5730-4113-8c05-abdbafe8e9d8")
+	)
+	(no_connect
+		(at 110.49 45.72)
+		(uuid "3a183d42-8850-4f52-a424-ea64a885099e")
+	)
+	(no_connect
+		(at 110.49 53.34)
+		(uuid "896f92cc-8ced-4cd7-b1a9-a1c60e9709d6")
+	)
+	(no_connect
+		(at 139.7 46.99)
+		(uuid "e4bbc44e-d14c-42c5-b5a0-d83e30e14b0b")
+	)
+	(no_connect
+		(at 139.7 49.53)
+		(uuid "b7b9543b-dd4c-4078-833c-b3c9d9a0d0f5")
+	)
+	(no_connect
+		(at 139.7 52.07)
+		(uuid "78a59378-7ba7-4266-b187-d7fc7f0ae582")
+	)
+	(no_connect
+		(at 139.7 54.61)
+		(uuid "31411fd9-2790-45ad-8211-5f7d676cf2ec")
+	)
+	(no_connect
+		(at 34.29 77.47)
+		(uuid "f4832587-4668-48e1-b21e-51a27765e6d6")
+	)
+	(no_connect
+		(at 34.29 80.01)
+		(uuid "4a0e3eb9-8e69-47bf-ad13-5a555df680d2")
+	)
+	(no_connect
+		(at 34.29 82.55)
+		(uuid "ed841cab-e0d7-4cfd-b10b-50c455e45126")
+	)
+	(no_connect
+		(at 34.29 85.09)
+		(uuid "8e43abbf-a833-4618-a470-49fcc0877391")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

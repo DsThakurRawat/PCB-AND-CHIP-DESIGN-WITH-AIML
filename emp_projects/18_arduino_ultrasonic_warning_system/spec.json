@@ -1,0 +1,103 @@
+{
+  "project_name": "arduino_ultrasonic_warning_system",
+  "title": "Monitoring and Warning System Using Arduino and Ultrasonic Sensor",
+  "revision": "v1.0",
+  "description": "Automated distance perimeter monitoring and alarm station featuring HC-SR04 ultrasonic sonar, 3-level LED status warning (Green/Yellow/Red), high-output piezo alarm, and SPDT relay for external loads.",
+  "layers": 2,
+  "dimensions_mm": [
+    85.0,
+    60.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "ATmega328P-PU",
+      "footprint": "Package_DIP:DIP-28_W7.62mm",
+      "position": [
+        140.0,
+        130.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "HC_SR04_PORT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "position": [
+        140.0,
+        105.0
+      ]
+    },
+    {
+      "ref": "K1",
+      "value": "RELAY_5V_SPDT",
+      "footprint": "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C",
+      "position": [
+        168.0,
+        140.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "RELAY_OUT_AC",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",
+      "position": [
+        185.0,
+        140.0
+      ]
+    },
+    {
+      "ref": "BZ1",
+      "value": "ALARM_BUZZER",
+      "footprint": "Buzzer_Beeper:Buzzer_12x9.5RM7.6",
+      "position": [
+        118.0,
+        145.0
+      ]
+    },
+    {
+      "ref": "D1",
+      "value": "LED_SAFE_GRN",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "position": [
+        115.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "D2",
+      "value": "LED_WARN_YEL",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "position": [
+        123.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "D3",
+      "value": "LED_DANG_RED",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "position": [
+        131.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "J3",
+      "value": "LCD_I2C_HDR",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "position": [
+        168.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "value": "DC_PWR_IN_5V",
+      "footprint": "Connector_BarrelJack:BarrelJack_Horizontal",
+      "position": [
+        108.0,
+        130.0
+      ]
+    }
+  ]
+}

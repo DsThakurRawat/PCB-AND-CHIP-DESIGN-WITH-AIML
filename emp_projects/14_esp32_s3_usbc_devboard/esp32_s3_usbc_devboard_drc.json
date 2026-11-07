@@ -1,0 +1,545 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:41:13+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "esp32_s3_usbc_devboard.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 133.1,
+                        "y": 115.76
+                    },
+                    "uuid": "b5af445a-1656-4882-9dde-cc21e2d54b52"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 133.1,
+                        "y": 117.16
+                    },
+                    "uuid": "ca8558f8-0604-4a59-b1b5-64a9b47a2cbc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 133.8,
+                        "y": 115.06
+                    },
+                    "uuid": "c639c445-8500-4c6a-aeb1-31ee912cdb51"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 133.8,
+                        "y": 116.46
+                    },
+                    "uuid": "e759b4f4-0770-44c4-96c9-ef9ecb486096"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 133.8,
+                        "y": 117.86
+                    },
+                    "uuid": "cd09e6cf-4640-45cc-98ce-c2e81f6c3a7e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 134.5,
+                        "y": 115.76
+                    },
+                    "uuid": "ea2e995a-9fa2-4aae-8fc2-43b6cae60ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 134.5,
+                        "y": 117.16
+                    },
+                    "uuid": "804617ab-8754-45d0-b4e3-ce00932b151b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 135.2,
+                        "y": 115.06
+                    },
+                    "uuid": "cf606e5e-c812-4a27-b6a0-3c78a0586251"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 135.2,
+                        "y": 116.46
+                    },
+                    "uuid": "28be6da6-8723-4da0-8452-e3caa81cbdb4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 135.2,
+                        "y": 117.86
+                    },
+                    "uuid": "d1de2045-9b43-4740-81d8-f85fcdb8f62b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 135.9,
+                        "y": 115.76
+                    },
+                    "uuid": "c9e7eae8-f9df-475d-9712-ba61116dfcc8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 135.9,
+                        "y": 117.16
+                    },
+                    "uuid": "fe8a8c22-8e72-41c0-9c5b-028c3137483b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 114.0
+                    },
+                    "uuid": "17d2cb0b-7b39-4d74-adca-4992b16f6d35"
+                },
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 107.0
+                    },
+                    "uuid": "93c046bd-38e7-4088-8567-566c02a72049"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 114.0
+                    },
+                    "uuid": "17d2cb0b-7b39-4d74-adca-4992b16f6d35"
+                },
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 114.0
+                    },
+                    "uuid": "c3108e35-4c17-4ef6-8257-c568c9143c84"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 114.0
+                    },
+                    "uuid": "17d2cb0b-7b39-4d74-adca-4992b16f6d35"
+                },
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 114.0
+                    },
+                    "uuid": "e4bf3e16-9ba7-4476-96d5-4b1eb016a54d"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 107.0
+                    },
+                    "uuid": "93c046bd-38e7-4088-8567-566c02a72049"
+                },
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 114.0
+                    },
+                    "uuid": "c3108e35-4c17-4ef6-8257-c568c9143c84"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint MH2",
+                    "pos": {
+                        "x": 154.0,
+                        "y": 104.0
+                    },
+                    "uuid": "a60dd4da-e2d4-4655-aa9e-4813990e8f40"
+                },
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 136.0,
+                        "y": 114.0
+                    },
+                    "uuid": "c3108e35-4c17-4ef6-8257-c568c9143c84"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "PTH pad S1 [<no net>] of J1",
+                    "pos": {
+                        "x": 110.98,
+                        "y": 106.7
+                    },
+                    "uuid": "14561911-4f8b-4893-b22e-f89a07bf957d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "PTH pad S1 [<no net>] of J1",
+                    "pos": {
+                        "x": 114.36,
+                        "y": 106.7
+                    },
+                    "uuid": "1c45f40d-c6ea-477a-ab38-c058b5604c3e"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 114.0
+                    },
+                    "uuid": "17d2cb0b-7b39-4d74-adca-4992b16f6d35"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "Pad 1 [<no net>] of SW1 on F.Cu",
+                    "pos": {
+                        "x": 112.9,
+                        "y": 107.0
+                    },
+                    "uuid": "c89812fc-e8ae-459a-a74f-fabac383889d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "Pad 2 [<no net>] of SW1 on F.Cu",
+                    "pos": {
+                        "x": 117.1,
+                        "y": 107.0
+                    },
+                    "uuid": "74be7619-679c-428b-989a-41d0b479c427"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 107.0
+                    },
+                    "uuid": "93c046bd-38e7-4088-8567-566c02a72049"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "NPTH pad of MH2",
+                    "pos": {
+                        "x": 154.0,
+                        "y": 104.0
+                    },
+                    "uuid": "b2548c4a-75cd-453c-8cb8-7d77e7d0035a"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "Footprint MH2",
+                    "pos": {
+                        "x": 154.0,
+                        "y": 104.0
+                    },
+                    "uuid": "a60dd4da-e2d4-4655-aa9e-4813990e8f40"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of U2 on F.Silkscreen",
+                    "pos": {
+                        "x": 118.15,
+                        "y": 110.59
+                    },
+                    "uuid": "73a4e4a8-6b48-4089-94c7-a8ec531981b8"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 118.73,
+                        "y": 115.62
+                    },
+                    "uuid": "c8914513-5459-4080-9454-d2fe5ed10ec1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 112.4,
+                        "y": 106.43
+                    },
+                    "uuid": "cae05af4-0155-4d6b-9de4-9c634b3e2c46"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 106.43
+                    },
+                    "uuid": "e42875ae-70e5-40b1-add6-b5c9cd2ae885"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 115.62
+                    },
+                    "uuid": "afe8f7c7-4d85-4658-9dc2-5d14ad6c00bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "ba5e08c6-7ecd-47c2-9e6d-aa6176c3e3e4"
+                },
+                {
+                    "description": "Reference field of MH1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 99.85
+                    },
+                    "uuid": "552ef749-aa01-4990-93b6-a7f540b9a954"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "ba5e08c6-7ecd-47c2-9e6d-aa6176c3e3e4"
+                },
+                {
+                    "description": "Reference field of MH2",
+                    "pos": {
+                        "x": 154.0,
+                        "y": 99.85
+                    },
+                    "uuid": "80cdf940-1ff8-47bc-94f6-32553d5d1693"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

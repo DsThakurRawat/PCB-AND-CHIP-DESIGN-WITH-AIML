@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:42:23+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/0806e050-0060-4913-bf28-73e9b08358cd",
+            "violations": []
+        }
+    ],
+    "source": "arduino_ultrasonic_warning_system.kicad_sch"
+}

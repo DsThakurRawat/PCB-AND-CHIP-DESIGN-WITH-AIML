@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e2edb25f-cf17-4d23-8bae-2678dfe68526")
+	(paper "A4")
+	(title_block
+		(title "10 Mixed Signal Stm32 Devboard")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

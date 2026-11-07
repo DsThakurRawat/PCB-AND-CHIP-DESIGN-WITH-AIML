@@ -1,0 +1,76 @@
+{
+  "project_name": "ch32v307_ethernet_poe",
+  "title": "CH32V307 RISC-V Ethernet + PoE Development Board",
+  "revision": "v1.0",
+  "description": "QingKe RISC-V4F development board with IEEE 802.3af Power-over-Ethernet (PoE) 48V to 5V rectification and step-down, integrated 10/100M Ethernet PHY, USB Type-C, and WCH-Link SWD.",
+  "layers": 2,
+  "dimensions_mm": [
+    90.0,
+    60.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "CH32V307VCT6",
+      "footprint": "Package_QFP:LQFP-100_14x14mm_P0.5mm",
+      "position": [
+        150.0,
+        130.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "RJ45_POE",
+      "footprint": "Connector_RJ:RJ45_Amphenol_RJHSE5380",
+      "position": [
+        108.0,
+        120.0
+      ]
+    },
+    {
+      "ref": "D1",
+      "value": "MB10S_BRIDGE",
+      "footprint": "Package_SO:SOIC-4_3.9x4.9mm_P1.27mm",
+      "position": [
+        112.0,
+        142.0
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "AMS1117-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "position": [
+        125.0,
+        148.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "USB_C",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4085",
+      "position": [
+        150.0,
+        155.0
+      ]
+    },
+    {
+      "ref": "J3",
+      "value": "WCH_LINK_HDR",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "position": [
+        180.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "Y1",
+      "value": "8.000MHz",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "position": [
+        140.0,
+        115.0
+      ]
+    }
+  ]
+}

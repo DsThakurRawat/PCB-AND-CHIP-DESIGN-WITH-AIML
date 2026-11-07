@@ -1,0 +1,67 @@
+{
+  "project_name": "esp32_s3_usbc_devboard",
+  "title": "Custom ESP32-S3 Development Board with USB-C",
+  "revision": "v1.0",
+  "description": "High-performance IoT dev board powered by Espressif ESP32-S3-WROOM-1 with native USB Type-C, ESD suppressor, CH340K / dual-transistor auto-reset circuitry, WS2812B RGB LED, and 800mA 3.3V LDO.",
+  "layers": 2,
+  "dimensions_mm": [
+    58.0,
+    28.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "ESP32-S3-WROOM-1",
+      "footprint": "RF_Module:ESP32-S3-WROOM-1",
+      "position": [
+        132.0,
+        114.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "USB_C",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4085",
+      "position": [
+        108.0,
+        114.0
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "AMS1117-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "position": [
+        120.0,
+        114.0
+      ]
+    },
+    {
+      "ref": "D1",
+      "value": "WS2812B_RGB",
+      "footprint": "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",
+      "position": [
+        152.0,
+        114.0
+      ]
+    },
+    {
+      "ref": "SW1",
+      "value": "RESET",
+      "footprint": "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK",
+      "position": [
+        112.0,
+        105.0
+      ]
+    },
+    {
+      "ref": "SW2",
+      "value": "BOOT",
+      "footprint": "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK",
+      "position": [
+        112.0,
+        123.0
+      ]
+    }
+  ]
+}

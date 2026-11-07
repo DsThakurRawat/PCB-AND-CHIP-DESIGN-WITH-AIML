@@ -1,0 +1,67 @@
+{
+  "project_name": "arduino_logger_sd_gps_gsm",
+  "title": "Arduino Telemetry Logger with SD Card, GPS and GSM (4-Layer PCB)",
+  "revision": "v1.0",
+  "description": "Rugged 4-layer remote telemetry logging platform incorporating ATmega328P MCU, SIM800L cellular GSM modem with high-burst capacitors, NEO-6M GPS satellite receiver, and SPI MicroSD socket.",
+  "layers": 4,
+  "dimensions_mm": [
+    80.0,
+    60.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "ATmega328P-AU",
+      "footprint": "Package_QFP:TQFP-32_7x7mm_P0.8mm",
+      "position": [
+        140.0,
+        130.0
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "SIM800L_MOD",
+      "footprint": "RF_Module:SIM800L",
+      "position": [
+        165.0,
+        120.0
+      ]
+    },
+    {
+      "ref": "U3",
+      "value": "NEO-6M_GPS",
+      "footprint": "RF_GPS:UBX-NEO-6M",
+      "position": [
+        115.0,
+        120.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "MICROSD_SLOT",
+      "footprint": "Connector_Card:microSD_HC_Hirose_DM3D-SF",
+      "position": [
+        165.0,
+        145.0
+      ]
+    },
+    {
+      "ref": "C1",
+      "value": "1000uF_6.3V",
+      "footprint": "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D",
+      "position": [
+        140.0,
+        148.0
+      ]
+    },
+    {
+      "ref": "U4",
+      "value": "TPS63020_REG",
+      "footprint": "Package_DFN_QFN:QFN-14-1EP_3x4mm_P0.5mm_EP1.65x2.65mm",
+      "position": [
+        120.0,
+        145.0
+      ]
+    }
+  ]
+}

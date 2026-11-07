@@ -1,0 +1,12 @@
+{
+  "project_name": "dc_brushed_motor_driver",
+  "title": "High-Power DC Brushed Motor Driver PCB",
+  "revision": "v1.0",
+  "description": "High-power discrete MOSFET H-Bridge driver with dedicated bootstrap gate drivers, optoisolated PWM and direction inputs, current sensing shunt, and heavy 2oz copper output traces.",
+  "layers": 2,
+  "dimensions_mm": [
+    80,
+    60
+  ],
+  "components": []
+}

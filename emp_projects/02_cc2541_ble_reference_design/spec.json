@@ -1,0 +1,85 @@
+{
+  "project_name": "cc2541_ble_reference_design",
+  "title": "CC2541 Bluetooth Low Energy Reference Design",
+  "revision": "v1.0",
+  "description": "Ultra-low-power 2.4-GHz Bluetooth v4.0 Low Energy transceiver reference module with 50-ohm balanced balun, inverted-F PCB antenna trace, dual crystals (32MHz and 32.768kHz), and CC Debugger port.",
+  "layers": 2,
+  "dimensions_mm": [
+    50.0,
+    35.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "CC2541F256",
+      "footprint": "Package_DFN_QFN:QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm",
+      "position": [
+        125.0,
+        118.0
+      ]
+    },
+    {
+      "ref": "Y1",
+      "value": "32MHz",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "position": [
+        115.0,
+        112.0
+      ]
+    },
+    {
+      "ref": "Y2",
+      "value": "32.768kHz",
+      "footprint": "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm",
+      "position": [
+        115.0,
+        125.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "CC_DEBUGGER",
+      "footprint": "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical",
+      "position": [
+        140.0,
+        118.0
+      ]
+    },
+    {
+      "ref": "C1",
+      "value": "1uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "position": [
+        122.0,
+        108.0
+      ]
+    },
+    {
+      "ref": "C2",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "position": [
+        128.0,
+        108.0
+      ]
+    },
+    {
+      "ref": "L1",
+      "value": "2.0nH_RF",
+      "footprint": "Inductor_SMD:L_0603_1608Metric",
+      "position": [
+        108.0,
+        118.0
+      ]
+    },
+    {
+      "ref": "C3",
+      "value": "1.0pF_RF",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "position": [
+        104.0,
+        118.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f79b284e-26c7-4779-856b-a4de9da63a1f")
+	(paper "A4")
+	(title_block
+		(title "17 Esp32 Wroom Minimum System Board")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

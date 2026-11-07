@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:39:50+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/de15c2fd-ce90-422c-b532-ae8f56f399ba",
+            "violations": []
+        }
+    ],
+    "source": "arduino_logger_sd_gps_gsm.kicad_sch"
+}

@@ -1,0 +1,76 @@
+{
+  "project_name": "arduino_nano_environmental_monitoring",
+  "title": "Arduino Nano-Based Environmental Monitoring System",
+  "revision": "v1.0",
+  "description": "Compact environmental sensing instrument incorporating Bosch BME280 (temperature, humidity, barometric pressure), MQ-135 air quality gas analyzer, 0.96-inch I2C OLED display, and acoustic alarm.",
+  "layers": 2,
+  "dimensions_mm": [
+    80.0,
+    60.0
+  ],
+  "components": [
+    {
+      "ref": "J1",
+      "value": "NANO_HDR_L",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical",
+      "position": [
+        130.0,
+        130.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "NANO_HDR_R",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical",
+      "position": [
+        148.0,
+        130.0
+      ]
+    },
+    {
+      "ref": "U1",
+      "value": "BME280_SENSOR",
+      "footprint": "Package_LGA:LGA-8_2.5x2.5mm_P0.65mm",
+      "position": [
+        165.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "J3",
+      "value": "MQ135_GAS_SOCKET",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "position": [
+        115.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "value": "OLED_SSD1306_4P",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "position": [
+        140.0,
+        105.0
+      ]
+    },
+    {
+      "ref": "BZ1",
+      "value": "BUZZER",
+      "footprint": "Buzzer_Beeper:Buzzer_12x9.5RM7.6",
+      "position": [
+        168.0,
+        145.0
+      ]
+    },
+    {
+      "ref": "J5",
+      "value": "PWR_IN_5V",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "position": [
+        110.0,
+        145.0
+      ]
+    }
+  ]
+}

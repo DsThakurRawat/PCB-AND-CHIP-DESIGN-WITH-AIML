@@ -1,0 +1,993 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "afe431bc-3cf4-4875-82ef-44fb86251574")
+	(paper "A4")
+	(title_block
+		(title "13 Arduino Nano Environmental Monitoring")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 39.37 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "6698fc11-f3b2-4f32-a02d-301ee01e4de5")
+		(property "Reference" "J1"
+			(at 39.37 54.61 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NANO_HDR_L"
+			(at 39.37 41.91 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
+			(at 39.37 49.53 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "927f9069-c70e-426e-954d-673d4ee39433")
+		)
+		(pin "2"
+			(uuid "110f2035-5fdb-4b62-ae67-3e9b1b5e1746")
+		)
+		(pin "3"
+			(uuid "21acfb03-153d-44ad-926e-3dfda4d44098")
+		)
+		(pin "4"
+			(uuid "2f0f82d5-99ec-404e-97fc-1cc412d33e41")
+		)
+		(instances
+			(project "13 Arduino Nano Environmental Monitoring"
+				(path "/afe431bc-3cf4-4875-82ef-44fb86251574"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 74.93 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "79372e05-00ae-4808-8e5d-f77108153eb0")
+		(property "Reference" "J2"
+			(at 74.93 54.61 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NANO_HDR_R"
+			(at 74.93 41.91 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
+			(at 74.93 49.53 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa419016-3d51-4951-9118-76b139f1428d")
+		)
+		(pin "2"
+			(uuid "db0a7461-c555-4ca6-88b5-cd1a9aeb0944")
+		)
+		(pin "3"
+			(uuid "d32ba22d-dca7-4427-99f7-8d22d32e936c")
+		)
+		(pin "4"
+			(uuid "61230691-185c-4444-8209-7a27d5da3cca")
+		)
+		(instances
+			(project "13 Arduino Nano Environmental Monitoring"
+				(path "/afe431bc-3cf4-4875-82ef-44fb86251574"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "9d272e37-64fd-4c6b-ab4b-677c1dc826b5")
+		(property "Reference" "U1"
+			(at 112.522 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BME280_SENSOR"
+			(at 110.49 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_LGA:LGA-8_2.5x2.5mm_P0.65mm"
+			(at 108.712 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9a1470c-803f-4efb-a00a-3a0c01830e36")
+		)
+		(pin "2"
+			(uuid "381c39fc-84b8-4f56-8ccc-e34496360ed2")
+		)
+		(instances
+			(project "13 Arduino Nano Environmental Monitoring"
+				(path "/afe431bc-3cf4-4875-82ef-44fb86251574"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 144.78 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "97aae233-7125-4908-a715-7df2a3f4b3cc")
+		(property "Reference" "J3"
+			(at 144.78 54.61 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MQ135_GAS_SOCKET"
+			(at 144.78 41.91 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 144.78 49.53 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a27b5a95-891a-4431-945b-50db73ab686e")
+		)
+		(pin "2"
+			(uuid "d42fdd50-311c-44b8-9235-0b24037239a1")
+		)
+		(pin "3"
+			(uuid "9ff39f18-f51a-4cd9-a475-34eb2c5cdf86")
+		)
+		(pin "4"
+			(uuid "3293316c-968f-4eba-9ec3-e4d3c2cde79b")
+		)
+		(instances
+			(project "13 Arduino Nano Environmental Monitoring"
+				(path "/afe431bc-3cf4-4875-82ef-44fb86251574"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 39.37 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "16bb7e91-1ccc-483b-b927-7703978873e4")
+		(property "Reference" "J4"
+			(at 39.37 85.09 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED_SSD1306_4P"
+			(at 39.37 72.39 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 39.37 80.01 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcbe9d08-2dad-47b6-8feb-49f50e2311ac")
+		)
+		(pin "2"
+			(uuid "e05c4ab2-c392-408d-a8b2-2c9207c72f5d")
+		)
+		(pin "3"
+			(uuid "dc68e46e-d73e-4356-9c96-3a06bc8b2d14")
+		)
+		(pin "4"
+			(uuid "3bac69ce-b5bf-4f70-9e44-367ef6805da1")
+		)
+		(instances
+			(project "13 Arduino Nano Environmental Monitoring"
+				(path "/afe431bc-3cf4-4875-82ef-44fb86251574"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 74.93 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "b5f268e7-fee6-46f5-9384-cc828d8e5d1d")
+		(property "Reference" "BZ1"
+			(at 78.74 81.28 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BUZZER"
+			(at 78.74 78.74 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
+			(at 74.295 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2fe0184-a7f1-42e1-b764-a565cdacef3c")
+		)
+		(pin "2"
+			(uuid "59be1a24-665c-470a-9731-5948664c63b6")
+		)
+		(instances
+			(project "13 Arduino Nano Environmental Monitoring"
+				(path "/afe431bc-3cf4-4875-82ef-44fb86251574"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 110.49 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "58413a93-a271-4041-acf9-f97486908dea")
+		(property "Reference" "J5"
+			(at 110.49 85.09 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR_IN_5V"
+			(at 110.49 72.39 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 110.49 80.01 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a30d0db2-c693-4e85-8904-d4e83e28d2f1")
+		)
+		(pin "2"
+			(uuid "7d1a2565-1add-49a0-85b7-e000a5f3298a")
+		)
+		(pin "3"
+			(uuid "737d1378-3d38-43bb-8d9e-34efe36eb276")
+		)
+		(pin "4"
+			(uuid "d4d95553-fe2b-4ee9-a936-89b1bbcd08ba")
+		)
+		(instances
+			(project "13 Arduino Nano Environmental Monitoring"
+				(path "/afe431bc-3cf4-4875-82ef-44fb86251574"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 34.29 46.99)
+		(uuid "ba067fe1-46f9-46ce-83c3-5e43b9600269")
+	)
+	(no_connect
+		(at 34.29 49.53)
+		(uuid "0f662fcf-9932-4ecd-ae23-b338d571e651")
+	)
+	(no_connect
+		(at 34.29 52.07)
+		(uuid "2d9fc4da-1afc-47d1-93a6-049b389efa0a")
+	)
+	(no_connect
+		(at 34.29 54.61)
+		(uuid "1a115ce9-c521-4d4d-9bfb-1d5129a333a9")
+	)
+	(no_connect
+		(at 69.85 46.99)
+		(uuid "cb1bb9e3-6948-4b7e-bbb1-286f625f4fa9")
+	)
+	(no_connect
+		(at 69.85 49.53)
+		(uuid "99d2ae5d-1122-459f-bacb-a21cddc56a21")
+	)
+	(no_connect
+		(at 69.85 52.07)
+		(uuid "0eb60173-8713-4274-aa2a-219d4505eea4")
+	)
+	(no_connect
+		(at 69.85 54.61)
+		(uuid "c29d1818-f3d5-452e-9d6c-ee6f84188b05")
+	)
+	(no_connect
+		(at 110.49 45.72)
+		(uuid "00048bb0-085b-4a12-b7c6-4b88671039f1")
+	)
+	(no_connect
+		(at 110.49 53.34)
+		(uuid "4929a381-bced-4a9c-ab2b-171bd18d25e3")
+	)
+	(no_connect
+		(at 139.7 46.99)
+		(uuid "384bc77d-79a0-44a1-bb93-18a483384e66")
+	)
+	(no_connect
+		(at 139.7 49.53)
+		(uuid "0fdbaf57-245b-420a-a274-cb21b50ee3d4")
+	)
+	(no_connect
+		(at 139.7 52.07)
+		(uuid "3121820e-ab11-4cb4-9266-8a8b2ea877bd")
+	)
+	(no_connect
+		(at 139.7 54.61)
+		(uuid "7b5ea0e3-7078-4836-9f41-db16e65784df")
+	)
+	(no_connect
+		(at 34.29 77.47)
+		(uuid "10028fd0-5572-4fbb-b91d-ba17ee4e5c09")
+	)
+	(no_connect
+		(at 34.29 80.01)
+		(uuid "c87336cd-e125-4193-ba8a-0beb84a169da")
+	)
+	(no_connect
+		(at 34.29 82.55)
+		(uuid "1308fcc0-b4d1-4cc2-976e-2cb0b35e4e3e")
+	)
+	(no_connect
+		(at 34.29 85.09)
+		(uuid "3c6660af-10f0-4027-8cb6-138d4a3ce08e")
+	)
+	(no_connect
+		(at 72.39 77.47)
+		(uuid "44a05c3c-f4b2-41fc-bac7-1f7e5a51eb89")
+	)
+	(no_connect
+		(at 72.39 82.55)
+		(uuid "d489dc4a-9f56-4320-b12a-1a05c79fbab5")
+	)
+	(no_connect
+		(at 105.41 77.47)
+		(uuid "b68b5561-0c51-489b-ae83-eeb319e34ba2")
+	)
+	(no_connect
+		(at 105.41 80.01)
+		(uuid "4f3c92b4-0002-4721-933f-e0c65c719063")
+	)
+	(no_connect
+		(at 105.41 82.55)
+		(uuid "c87193b6-7b0c-4ed0-9af7-a7f871f00560")
+	)
+	(no_connect
+		(at 105.41 85.09)
+		(uuid "0a82d294-ff63-4855-97c8-36ce98490b08")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

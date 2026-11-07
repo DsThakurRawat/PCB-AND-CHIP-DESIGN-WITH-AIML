@@ -1,0 +1,67 @@
+{
+  "project_name": "tm4c129_usb_high_speed",
+  "title": "TM4C129 USB High-Speed Reference Design",
+  "revision": "v1.0",
+  "description": "Texas Instruments TM4C129x 120MHz ARM Cortex-M4F platform with Microchip USB3300 ULPI High-Speed USB 2.0 PHY, USB-C interface, 90-ohm controlled differential impedance, and dual LDO power rails.",
+  "layers": 2,
+  "dimensions_mm": [
+    85.0,
+    60.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "TM4C1294NCPDT",
+      "footprint": "Package_QFP:TQFP-128_14x14mm_P0.4mm",
+      "position": [
+        145.0,
+        130.0
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "USB3300_ULPI",
+      "footprint": "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm",
+      "position": [
+        115.0,
+        125.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "USB_C_HS",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4085",
+      "position": [
+        105.0,
+        125.0
+      ]
+    },
+    {
+      "ref": "Y1",
+      "value": "24.000MHz",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "position": [
+        115.0,
+        140.0
+      ]
+    },
+    {
+      "ref": "Y2",
+      "value": "25.000MHz",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "position": [
+        145.0,
+        110.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "ARM_JTAG_10PIN",
+      "footprint": "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical",
+      "position": [
+        175.0,
+        125.0
+      ]
+    }
+  ]
+}

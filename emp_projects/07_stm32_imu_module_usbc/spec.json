@@ -1,0 +1,12 @@
+{
+  "project_name": "stm32_imu_module_usbc",
+  "title": "STM32-Based 6/9-DoF IMU Module with USB-C",
+  "revision": "v1.0",
+  "description": "Compact high-precision motion tracking inertial measurement unit featuring an STM32 MCU, 6/9-axis IMU, USB Type-C interface, ESD protection, and precision 3.3V low-dropout power conditioning.",
+  "layers": 4,
+  "dimensions_mm": [
+    80,
+    60
+  ],
+  "components": []
+}

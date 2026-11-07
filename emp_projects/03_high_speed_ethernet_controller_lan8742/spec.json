@@ -1,0 +1,76 @@
+{
+  "project_name": "high_speed_ethernet_lan8742",
+  "title": "High-Speed Ethernet Controller Board (LAN8742)",
+  "revision": "v1.0",
+  "description": "High-performance 10/100 Ethernet Physical Layer transceiver board with RMII host bus, integrated RJ45 MagJack, MCO/25MHz clock selection, and low-jitter power decoupling for STM32H753.",
+  "layers": 2,
+  "dimensions_mm": [
+    60.0,
+    48.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "LAN8742A",
+      "footprint": "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm",
+      "position": [
+        130.0,
+        124.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "RJ45_MAGJACK",
+      "footprint": "Connector_RJ:RJ45_Amphenol_RJHSE5380",
+      "position": [
+        108.0,
+        124.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "RMII_STM32_BUS",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical",
+      "position": [
+        150.0,
+        124.0
+      ]
+    },
+    {
+      "ref": "Y1",
+      "value": "25.000MHz",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "position": [
+        130.0,
+        112.0
+      ]
+    },
+    {
+      "ref": "FB1",
+      "value": "FERRITE_BEAD",
+      "footprint": "Inductor_SMD:L_0805_2012Metric",
+      "position": [
+        122.0,
+        135.0
+      ]
+    },
+    {
+      "ref": "C1",
+      "value": "10uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "position": [
+        128.0,
+        135.0
+      ]
+    },
+    {
+      "ref": "C2",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "position": [
+        134.0,
+        135.0
+      ]
+    }
+  ]
+}

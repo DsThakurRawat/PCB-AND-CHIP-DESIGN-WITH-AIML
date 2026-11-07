@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:40:29+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/79f71150-f985-4155-bb43-b3a7ab67ab5a",
+            "violations": []
+        }
+    ],
+    "source": "tm4c129_usb_high_speed.kicad_sch"
+}

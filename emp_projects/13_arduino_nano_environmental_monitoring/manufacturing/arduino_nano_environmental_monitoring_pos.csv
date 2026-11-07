@@ -1,0 +1,7 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"BZ1","BUZZER","Buzzer_12x9.5RM7.6",165.000000,-140.000000,0.000000,top
+"J1","NANO_HDR_L","PinHeader_1x15_P2.54mm_Vertical",132.000000,-130.000000,0.000000,top
+"J2","NANO_HDR_R","PinHeader_1x15_P2.54mm_Vertical",148.000000,-130.000000,0.000000,top
+"J3","MQ135_GAS_SOCKET","PinHeader_1x04_P2.54mm_Vertical",118.000000,-115.000000,0.000000,top
+"J4","OLED_SSD1306_4P","PinHeader_1x04_P2.54mm_Vertical",140.000000,-110.000000,0.000000,top
+"J5","PWR_IN_5V","TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",116.000000,-145.000000,-90.000000,top

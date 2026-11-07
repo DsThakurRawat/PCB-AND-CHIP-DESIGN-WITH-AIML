@@ -1,0 +1,139 @@
+{
+  "project_name": "ultrasonic_radar_atmega128",
+  "title": "Ultrasonic Radar Model Using ATmega128",
+  "revision": "v1.0",
+  "description": "Panoramic ultrasonic radar mapping station with ATmega128 MCU, SG90 servo sweep platform, HC-SR04 sonar module, 16x2 HD44780 LCD readout, and RS232 host telemetry.",
+  "layers": 2,
+  "dimensions_mm": [
+    100.0,
+    75.0
+  ],
+  "components": [
+    {
+      "ref": "U1",
+      "value": "ATmega128A",
+      "footprint": "Package_QFP:TQFP-64_14x14mm_P0.8mm",
+      "position": [
+        145.0,
+        135.0
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "MAX232",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+      "position": [
+        180.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "U3",
+      "value": "LM7805",
+      "footprint": "Package_TO_SOT_SMD:TO-252-2",
+      "position": [
+        115.0,
+        115.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "value": "HC_SR04_HDR",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "position": [
+        145.0,
+        105.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "SERVO_SG90",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "position": [
+        165.0,
+        105.0
+      ]
+    },
+    {
+      "ref": "J3",
+      "value": "LCD_16x2_HDR",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical",
+      "position": [
+        150.0,
+        165.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "value": "AVR_ISP_6PIN",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical",
+      "position": [
+        120.0,
+        145.0
+      ]
+    },
+    {
+      "ref": "J5",
+      "value": "PWR_JACK",
+      "footprint": "Connector_BarrelJack:BarrelJack_Horizontal",
+      "position": [
+        108.0,
+        155.0
+      ]
+    },
+    {
+      "ref": "Y1",
+      "value": "16MHz_XTAL",
+      "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+      "position": [
+        132.0,
+        125.0
+      ]
+    },
+    {
+      "ref": "C1",
+      "value": "100uF_16V",
+      "footprint": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+      "position": [
+        115.0,
+        130.0
+      ]
+    },
+    {
+      "ref": "C2",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "position": [
+        135.0,
+        140.0
+      ]
+    },
+    {
+      "ref": "R1",
+      "value": "10k_RST",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "position": [
+        132.0,
+        148.0
+      ]
+    },
+    {
+      "ref": "SW1",
+      "value": "RESET",
+      "footprint": "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK",
+      "position": [
+        120.0,
+        160.0
+      ]
+    },
+    {
+      "ref": "D1",
+      "value": "PWR_LED",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "position": [
+        180.0,
+        160.0
+      ]
+    }
+  ]
+}

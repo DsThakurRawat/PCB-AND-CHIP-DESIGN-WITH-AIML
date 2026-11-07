@@ -1,0 +1,12 @@
+{
+  "project_name": "esp32_wroom_minimum_system",
+  "title": "ESP32-WROOM WiFi and Bluetooth Minimum System Board",
+  "revision": "v1.0",
+  "description": "Compact dual-inline ESP-WROOM-32 breakout board featuring onboard USB-to-UART converter, automatic bootloader flashing logic, 3.3V power regulator, tactile controls, and antenna keepout zone.",
+  "layers": 2,
+  "dimensions_mm": [
+    80,
+    60
+  ],
+  "components": []
+}

@@ -1,0 +1,3884 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:39:20+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "stm32_imu_module_usbc.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [+5V] of D3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 155.2511,
+                        "y": 106.2036
+                    },
+                    "uuid": "ed052440-2f69-4ec0-8b78-84295c15e764"
+                },
+                {
+                    "description": "Track [+5V] on L1 (SIgnal), length 2.1250 mm",
+                    "pos": {
+                        "x": 159.9761,
+                        "y": 104.8786
+                    },
+                    "uuid": "9299e1fd-585e-4a48-8d57-1d4267280dae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [+3V3] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 100.2088
+                    },
+                    "uuid": "061b9b94-9888-4c6f-aee0-36327f19efec"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 100.7088
+                    },
+                    "uuid": "f6efa1cd-bfd1-463c-942d-08db39b16e32"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 3 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 101.2088
+                    },
+                    "uuid": "ea08bf1a-753f-4055-9a08-836e77ba266f"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 4 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 101.7088
+                    },
+                    "uuid": "58fb8891-498d-4e45-ac49-cc73fbdbe165"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 5 [MCU_OSC_IN] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 102.2088
+                    },
+                    "uuid": "9784bdc9-f3bd-4d9f-a867-e33748e41b0f"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 6 [MCU_OSC_OUT] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 102.7088
+                    },
+                    "uuid": "325a8f42-2536-4f78-980d-55e56b2223da"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 7 [MCU_NRST] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 103.2088
+                    },
+                    "uuid": "72a1b8e7-8921-4d28-81ca-98e22a91baf4"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 9 [+3V3] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 104.2088
+                    },
+                    "uuid": "2bb07ba1-d2cf-4a8b-82ac-929d5a754efc"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 10 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 104.7088
+                    },
+                    "uuid": "27645735-779a-4e6e-9eb3-502b0f928a2f"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 11 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 105.2088
+                    },
+                    "uuid": "8ec89372-a472-4219-8ef3-8bb84502db2a"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 12 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.15366,
+                        "y": 105.7088
+                    },
+                    "uuid": "403da907-dc1b-48b3-9f01-4d0aa672db0a"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 13 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.80366,
+                        "y": 106.3588
+                    },
+                    "uuid": "7e097823-f0f6-444f-a497-55d1f893db6c"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 14 [MCU_PA4] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 144.30366,
+                        "y": 106.3588
+                    },
+                    "uuid": "04f89abc-88fd-4453-bcf1-ef9ea2300ad7"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 15 [MCU_PA5] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 144.80366,
+                        "y": 106.3588
+                    },
+                    "uuid": "5fa8c1a4-6639-4d7a-90df-bc2d23627943"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 16 [MCU_PA6] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 145.30366,
+                        "y": 106.3588
+                    },
+                    "uuid": "119e76a5-510b-4ce0-bee3-d2b0c0f3fa35"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 17 [MCU_PA7] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 145.80366,
+                        "y": 106.3588
+                    },
+                    "uuid": "2be80120-82a8-49d0-b23d-c17846f9c552"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 18 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.30366,
+                        "y": 106.3588
+                    },
+                    "uuid": "1f7d6633-e8b5-4873-8e83-f4abe611a766"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 19 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.80366,
+                        "y": 106.3588
+                    },
+                    "uuid": "1baa1f45-88f7-4a93-ac7e-29cbba60b461"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 20 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 147.30366,
+                        "y": 106.3588
+                    },
+                    "uuid": "0738f33b-9354-4ffe-b517-016a98018f6f"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 21 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 147.80366,
+                        "y": 106.3588
+                    },
+                    "uuid": "7d6d9b61-ddf1-431d-92b1-b0c1eed5a8cb"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 22 [MCU_VCAP1] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 148.30366,
+                        "y": 106.3588
+                    },
+                    "uuid": "b6da683a-dd53-41d2-8bb3-b97e7e29dbf0"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 24 [+3V3] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.30366,
+                        "y": 106.3588
+                    },
+                    "uuid": "eca55342-ec42-47d1-848d-885fb57e905f"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 25 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 105.7088
+                    },
+                    "uuid": "f16b73a6-96f3-40fd-9ea5-402222e55f68"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 26 [MCU_LED_A] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 105.2088
+                    },
+                    "uuid": "4b7af1e4-0561-4cd6-a588-2152302031dd"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 27 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 104.7088
+                    },
+                    "uuid": "20e8ecbc-a533-4e09-8e9f-019328312683"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 28 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 104.2088
+                    },
+                    "uuid": "08ef6b2f-295a-4e47-bed5-bf965600ff0f"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 29 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 103.7088
+                    },
+                    "uuid": "52f56f69-9a2d-44f9-83a3-e18f8fbc03da"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 30 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 103.2088
+                    },
+                    "uuid": "cd25f3aa-ef33-40df-ab6b-5503d257ce90"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 31 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 102.7088
+                    },
+                    "uuid": "568389f9-01b4-49dc-82c3-6a0fa50d6f11"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 32 [USB_D_N] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 102.2088
+                    },
+                    "uuid": "d14ac3ea-260b-4101-9862-944f171234c1"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 33 [USB_D_P] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 101.7088
+                    },
+                    "uuid": "60cb73c3-7f28-4fcf-90c1-1a66fc7275e0"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 34 [MCU_SWDIO] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 101.2088
+                    },
+                    "uuid": "339ee061-f3ec-46ea-b067-f28292e21ce7"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 36 [+3V3] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.95366,
+                        "y": 100.2088
+                    },
+                    "uuid": "50a6e129-d340-4e39-b068-0afb3d692d01"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 37 [MCU_SWCLK] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 149.30366,
+                        "y": 99.5588
+                    },
+                    "uuid": "b97b160c-5b26-4e9c-a43d-a76b72cc0d93"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 38 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 148.80366,
+                        "y": 99.5588
+                    },
+                    "uuid": "1593d3ec-17f8-404b-a8b2-1044ef74b6bd"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 39 [MCU_SWO] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 148.30366,
+                        "y": 99.5588
+                    },
+                    "uuid": "165fe037-6dc0-497d-bb86-31fd44449122"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 40 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 147.80366,
+                        "y": 99.5588
+                    },
+                    "uuid": "1401997b-2994-4f45-8bfa-be87ad906644"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 41 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 147.30366,
+                        "y": 99.5588
+                    },
+                    "uuid": "14276a6a-66ef-464a-98b2-6db0f6a42433"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 42 [IMU_SCL] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.80366,
+                        "y": 99.5588
+                    },
+                    "uuid": "1a6c4bbc-3cb0-430b-ba24-b1e7f0981cbb"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 43 [IMU_SDA] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.30366,
+                        "y": 99.5588
+                    },
+                    "uuid": "95db9619-7625-4445-a268-dc8f289ffb1a"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 44 [MCU BOOT0] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 145.80366,
+                        "y": 99.5588
+                    },
+                    "uuid": "49f72388-d545-461b-901d-c7e5cc70309b"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 45 [IMU_INT] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 145.30366,
+                        "y": 99.5588
+                    },
+                    "uuid": "1e996ea6-2ac4-43a5-b3ed-30d39d84d608"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 46 [<no net>] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 144.80366,
+                        "y": 99.5588
+                    },
+                    "uuid": "5cb7ceda-a241-46ad-ad1d-d01947298b3e"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 48 [+3V3] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 143.80366,
+                        "y": 99.5588
+                    },
+                    "uuid": "ad2299e7-c5dd-4949-91cc-3d786ff21b4f"
+                },
+                {
+                    "description": "Pad 49 [GND] of U2 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "ef9932b8-58ae-4146-86b5-42b83c169a06"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.0011,
+                        "y": 92.0036
+                    },
+                    "uuid": "0e870c0b-1741-47de-9ebc-00e6c27fa11d"
+                },
+                {
+                    "description": "Pad 2 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 140.5011,
+                        "y": 92.0036
+                    },
+                    "uuid": "94442754-9bf1-4519-888a-669846b3374c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 140.5011,
+                        "y": 92.0036
+                    },
+                    "uuid": "94442754-9bf1-4519-888a-669846b3374c"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 140.0011,
+                        "y": 92.0036
+                    },
+                    "uuid": "94eb43a9-5aaa-49d5-808f-8c41f86c2597"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 3 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 140.0011,
+                        "y": 92.0036
+                    },
+                    "uuid": "94eb43a9-5aaa-49d5-808f-8c41f86c2597"
+                },
+                {
+                    "description": "Pad 4 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 139.5011,
+                        "y": 92.0036
+                    },
+                    "uuid": "da6782c8-d3b2-4088-be89-30ff298d3195"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 4 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 139.5011,
+                        "y": 92.0036
+                    },
+                    "uuid": "da6782c8-d3b2-4088-be89-30ff298d3195"
+                },
+                {
+                    "description": "Pad 5 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 139.0011,
+                        "y": 92.0036
+                    },
+                    "uuid": "5b3f4d40-28f0-42f7-8f2d-24bbee6d084c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 5 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 139.0011,
+                        "y": 92.0036
+                    },
+                    "uuid": "5b3f4d40-28f0-42f7-8f2d-24bbee6d084c"
+                },
+                {
+                    "description": "Pad 6 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 138.5011,
+                        "y": 92.0036
+                    },
+                    "uuid": "85824f35-8db1-4c72-8842-aa6576540f9f"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 7 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 137.7761,
+                        "y": 92.7536
+                    },
+                    "uuid": "04cca126-1e94-4552-8b6f-2367e72a816a"
+                },
+                {
+                    "description": "Pad 8 [+3V3] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 137.7761,
+                        "y": 93.2536
+                    },
+                    "uuid": "519844f9-3fbe-4a18-84de-869208cfa2ba"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 8 [+3V3] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 137.7761,
+                        "y": 93.2536
+                    },
+                    "uuid": "519844f9-3fbe-4a18-84de-869208cfa2ba"
+                },
+                {
+                    "description": "Pad 9 [GND] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 137.7761,
+                        "y": 93.7536
+                    },
+                    "uuid": "926a19ff-9058-4865-9aa0-bbbf2921bc99"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 9 [GND] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 137.7761,
+                        "y": 93.7536
+                    },
+                    "uuid": "926a19ff-9058-4865-9aa0-bbbf2921bc99"
+                },
+                {
+                    "description": "Pad 10 [IMU_REGOUT] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 137.7761,
+                        "y": 94.2536
+                    },
+                    "uuid": "a99700e1-0a05-4dec-a835-37448e9fa3e0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 10 [IMU_REGOUT] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 137.7761,
+                        "y": 94.2536
+                    },
+                    "uuid": "a99700e1-0a05-4dec-a835-37448e9fa3e0"
+                },
+                {
+                    "description": "Pad 11 [GND] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 137.7761,
+                        "y": 94.7536
+                    },
+                    "uuid": "951be9f8-dca3-4fdb-b30d-c444f4e11536"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 11 [GND] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 137.7761,
+                        "y": 94.7536
+                    },
+                    "uuid": "951be9f8-dca3-4fdb-b30d-c444f4e11536"
+                },
+                {
+                    "description": "Pad 12 [IMU_INT] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 137.7761,
+                        "y": 95.2536
+                    },
+                    "uuid": "e55655d6-88b6-4b42-a943-f8c4a86ee1b7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 13 [+3V3] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 138.5011,
+                        "y": 96.0036
+                    },
+                    "uuid": "0ece4b8f-d5aa-46d4-88ae-b9fb240bf72b"
+                },
+                {
+                    "description": "Pad 14 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 139.0011,
+                        "y": 96.0036
+                    },
+                    "uuid": "1b023f24-4290-4e09-8beb-70960094f215"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 14 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 139.0011,
+                        "y": 96.0036
+                    },
+                    "uuid": "1b023f24-4290-4e09-8beb-70960094f215"
+                },
+                {
+                    "description": "Pad 15 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 139.5011,
+                        "y": 96.0036
+                    },
+                    "uuid": "83760748-e3f8-41d8-848c-b7a8667bba66"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 15 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 139.5011,
+                        "y": 96.0036
+                    },
+                    "uuid": "83760748-e3f8-41d8-848c-b7a8667bba66"
+                },
+                {
+                    "description": "Pad 16 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 140.0011,
+                        "y": 96.0036
+                    },
+                    "uuid": "a62cf6d7-0d1e-411c-85c3-f1997ff69460"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 16 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 140.0011,
+                        "y": 96.0036
+                    },
+                    "uuid": "a62cf6d7-0d1e-411c-85c3-f1997ff69460"
+                },
+                {
+                    "description": "Pad 17 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 140.5011,
+                        "y": 96.0036
+                    },
+                    "uuid": "f590fb05-4050-4e58-bcaa-a12240cb0b9f"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 17 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 140.5011,
+                        "y": 96.0036
+                    },
+                    "uuid": "f590fb05-4050-4e58-bcaa-a12240cb0b9f"
+                },
+                {
+                    "description": "Pad 18 [GND] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.0011,
+                        "y": 96.0036
+                    },
+                    "uuid": "62f2f823-9b31-4f51-bbec-c61dfaeb441c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 19 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.7261,
+                        "y": 95.2536
+                    },
+                    "uuid": "73ffe916-3eb9-470d-ae79-12e075f293c5"
+                },
+                {
+                    "description": "Pad 20 [IMU_CPOUT] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.7261,
+                        "y": 94.7536
+                    },
+                    "uuid": "28a5046a-65c4-437e-ab0c-2a8e5bd85ddb"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 20 [IMU_CPOUT] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.7261,
+                        "y": 94.7536
+                    },
+                    "uuid": "28a5046a-65c4-437e-ab0c-2a8e5bd85ddb"
+                },
+                {
+                    "description": "Pad 21 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.7261,
+                        "y": 94.2536
+                    },
+                    "uuid": "01f56aa7-c8a0-4d1d-8bf4-77b95ea8a9ce"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 21 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.7261,
+                        "y": 94.2536
+                    },
+                    "uuid": "01f56aa7-c8a0-4d1d-8bf4-77b95ea8a9ce"
+                },
+                {
+                    "description": "Pad 22 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.7261,
+                        "y": 93.7536
+                    },
+                    "uuid": "5faf7a53-2dae-4a8c-9fd5-9d0cdc5e18e6"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 22 [<no net>] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.7261,
+                        "y": 93.7536
+                    },
+                    "uuid": "5faf7a53-2dae-4a8c-9fd5-9d0cdc5e18e6"
+                },
+                {
+                    "description": "Pad 23 [IMU_SDA] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.7261,
+                        "y": 93.2536
+                    },
+                    "uuid": "6d5f00b4-7ec6-4f23-9cc0-45a056d0012b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 23 [IMU_SDA] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.7261,
+                        "y": 93.2536
+                    },
+                    "uuid": "6d5f00b4-7ec6-4f23-9cc0-45a056d0012b"
+                },
+                {
+                    "description": "Pad 24 [IMU_SCL] of U3 on L1 (SIgnal)",
+                    "pos": {
+                        "x": 141.7261,
+                        "y": 92.7536
+                    },
+                    "uuid": "2c251eb4-5f35-45af-86d0-8ff95523484e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ1_B5] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 162.4261,
+                        "y": 98.9536
+                    },
+                    "uuid": "cbf829dc-37ff-4548-a5bc-14540f928ef8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ1_B5] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 161.6011,
+                        "y": 100.9786
+                    },
+                    "uuid": "d249ece2-eb12-4757-ac9c-b46ac245678b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ1_A5] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 162.4011,
+                        "y": 106.2286
+                    },
+                    "uuid": "5a1f2867-c18f-4bc9-aad4-a204bc001eef"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ1_A5] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 161.5011,
+                        "y": 103.7286
+                    },
+                    "uuid": "f0d7f4b9-92ab-40e5-b57d-36a64ca47b01"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [MCU_NRST] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 152.0011,
+                        "y": 90.2786
+                    },
+                    "uuid": "45c69277-dfe2-4975-a385-9156b860113c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [MCU_NRST] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 141.2761,
+                        "y": 103.3286
+                    },
+                    "uuid": "50605b7f-9876-4347-9121-f3d786135c30"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 157.8011,
+                        "y": 110.9036
+                    },
+                    "uuid": "0659fb5a-a51f-4abc-a980-9e6084ccd46a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 148.75366,
+                        "y": 102.9588
+                    },
+                    "uuid": "1046b323-5eb8-4ee2-8259-6d943b43d433"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 148.75366,
+                        "y": 101.8588
+                    },
+                    "uuid": "13144b61-8b43-42b1-9917-7cf40a961e5d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 147.65366,
+                        "y": 105.1588
+                    },
+                    "uuid": "13392398-e58d-4701-aa4f-fd2cf6719305"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 147.65366,
+                        "y": 104.0588
+                    },
+                    "uuid": "151ad9c9-ebb5-4da9-9bf4-3015c74d2246"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 105.1588
+                    },
+                    "uuid": "16c14f5e-c223-478c-b26e-d63c3ec2e706"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 147.65366,
+                        "y": 101.8588
+                    },
+                    "uuid": "17265c83-e0a9-493a-ad6d-bc0c21d06dc8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 151.4761,
+                        "y": 107.7286
+                    },
+                    "uuid": "1dafd020-485f-4795-b44b-04caa8a03187"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 145.45366,
+                        "y": 102.9588
+                    },
+                    "uuid": "1efae52d-3eab-4c8d-83d7-d4a34bb8af3c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 145.45366,
+                        "y": 101.8588
+                    },
+                    "uuid": "2469083f-1a39-4804-ae17-f5303db1c3ff"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 145.45366,
+                        "y": 100.7588
+                    },
+                    "uuid": "29d7715e-e024-45dd-a5b6-3ff8bc1f5502"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "31d76bc1-07ff-4d03-9204-ad3dfd1798d5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 100.7588
+                    },
+                    "uuid": "3475c3d1-c8af-4e18-9d4b-9417a140c24f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 140.5761,
+                        "y": 97.6286
+                    },
+                    "uuid": "36c83b1a-5e6f-4aaf-bb9d-47629ca90865"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 101.8588
+                    },
+                    "uuid": "413c6b4c-abe8-44c1-ad47-748247954f6e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 147.65366,
+                        "y": 102.9588
+                    },
+                    "uuid": "48220167-8958-4847-8bae-458165943130"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 148.75366,
+                        "y": 105.1588
+                    },
+                    "uuid": "67507d73-9bf1-4790-9524-84749ec8a913"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 139.0511,
+                        "y": 109.2036
+                    },
+                    "uuid": "6a5bf047-a571-463d-a385-b47d4d5a59db"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 104.0588
+                    },
+                    "uuid": "6bb7521d-19aa-4c12-811b-dd7ef59661fb"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 145.45366,
+                        "y": 105.1588
+                    },
+                    "uuid": "71e6d438-b229-4951-838b-89a3206c8e52"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 135.1011,
+                        "y": 93.2036
+                    },
+                    "uuid": "7edd788c-011e-4908-8d15-b3d65701e35b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 145.45366,
+                        "y": 104.0588
+                    },
+                    "uuid": "804cab1f-5bea-46ea-9d92-9128ed15eec4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 146.9011,
+                        "y": 116.1536
+                    },
+                    "uuid": "8828eb03-eda2-474f-88b7-b2a845242227"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 139.2011,
+                        "y": 94.5536
+                    },
+                    "uuid": "89f95f4c-40df-48da-8ea2-7bb8b0afefe9"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 154.4511,
+                        "y": 103.6286
+                    },
+                    "uuid": "9188f157-98de-4da6-a8cc-4bf5414f4761"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 148.75366,
+                        "y": 104.0588
+                    },
+                    "uuid": "99fa1c5b-9401-4fc0-8205-0963b5a3cd37"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 162.4511,
+                        "y": 93.2786
+                    },
+                    "uuid": "9e858a8b-6fbe-4346-bfaa-1e7e988cf966"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 148.75366,
+                        "y": 100.7588
+                    },
+                    "uuid": "9ea1d97a-a233-4f8f-8033-4e6a775d749c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 144.35366,
+                        "y": 102.9588
+                    },
+                    "uuid": "9ef985a5-ac40-4694-829c-3559802f1c1a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 162.4011,
+                        "y": 111.4036
+                    },
+                    "uuid": "a19b3737-5084-4f1f-8ca4-9419b0279216"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 149.3511,
+                        "y": 108.9286
+                    },
+                    "uuid": "a621ed9b-f202-4265-860d-6db661e48fa5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 135.6011,
+                        "y": 105.2036
+                    },
+                    "uuid": "a862127b-0049-4070-8576-68375ef3a924"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 144.35366,
+                        "y": 101.8588
+                    },
+                    "uuid": "b263ec7d-47cb-468a-a545-12af6189a234"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 162.9761,
+                        "y": 112.2786
+                    },
+                    "uuid": "b2ac65e7-9da0-449b-b343-fbebf4e06738"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 158.2261,
+                        "y": 109.5036
+                    },
+                    "uuid": "b99200ee-565f-4dcd-b5b1-9998751ed5e2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 135.1511,
+                        "y": 95.2286
+                    },
+                    "uuid": "c3cc11a1-e669-4482-8eab-d12bfe9f4d00"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 144.35366,
+                        "y": 100.7588
+                    },
+                    "uuid": "c63a618d-2f1d-4dde-8e18-f6d8a5e09749"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 160.7511,
+                        "y": 112.6036
+                    },
+                    "uuid": "cbded7d8-2632-4647-957f-e00c3138bae1"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 154.3511,
+                        "y": 100.4536
+                    },
+                    "uuid": "cd586458-6728-4118-9f4f-8071d452b77f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 147.65366,
+                        "y": 100.7588
+                    },
+                    "uuid": "cfa0d8b5-e7d5-4819-b214-b352299f636e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 140.3011,
+                        "y": 94.5536
+                    },
+                    "uuid": "d95023ce-1251-4495-84e8-c4163d653610"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 144.35366,
+                        "y": 105.1588
+                    },
+                    "uuid": "dd433baa-dbf7-4ec5-af20-9c3461c35fff"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 150.0011,
+                        "y": 91.6786
+                    },
+                    "uuid": "e3311637-1904-4f9a-af61-3a094628c0b2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 144.2511,
+                        "y": 95.9536
+                    },
+                    "uuid": "ea850754-1b8f-430b-94cd-e1cd716b3625"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 146.6511,
+                        "y": 109.2286
+                    },
+                    "uuid": "ee803c17-1d24-4a1a-8721-e325e0fe86e2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 144.35366,
+                        "y": 104.0588
+                    },
+                    "uuid": "f10fa28d-2bcb-4665-9b24-bd917325c2a3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 140.3011,
+                        "y": 93.4536
+                    },
+                    "uuid": "f500c50a-cc43-47b4-bb2f-3b296d4bc1ee"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 139.0511,
+                        "y": 101.5036
+                    },
+                    "uuid": "fb8ccda9-8b95-47a2-aa28-512c9c9fdac8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 140.7761,
+                        "y": 104.5786
+                    },
+                    "uuid": "fbf513fe-63c5-42c6-af22-6e0cbc5fd8d1"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 139.2011,
+                        "y": 93.4536
+                    },
+                    "uuid": "fdf5dad6-9f7a-4e8b-82b2-e4fb7357c58c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 147.0011,
+                        "y": 121.0036
+                    },
+                    "uuid": "1c1c676b-a45f-432e-8e6c-2a2ad97d439d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 152.7511,
+                        "y": 99.0036
+                    },
+                    "uuid": "3044ced0-66c3-4233-98a4-f4eb00a0e7b6"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 144.5011,
+                        "y": 91.5036
+                    },
+                    "uuid": "6cb455dc-2bfe-403f-8184-b26e95a66d06"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 150.5011,
+                        "y": 121.0036
+                    },
+                    "uuid": "8f891547-a49a-4d0e-bbe5-b5768d8b86ea"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 137.5011,
+                        "y": 97.7536
+                    },
+                    "uuid": "9e061a69-e43e-48fd-b010-1575b9b563e5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 155.5011,
+                        "y": 98.0036
+                    },
+                    "uuid": "af872640-50c8-4004-a240-739cc3bd9548"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 144.5011,
+                        "y": 94.2536
+                    },
+                    "uuid": "d724c25a-dc0d-42d2-8a88-c8c8da6ffac5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on L1 (SIgnal) - L4 (SIgnal)",
+                    "pos": {
+                        "x": 134.7511,
+                        "y": 98.0036
+                    },
+                    "uuid": "e1bfbe49-f63c-414b-adca-61be571b7c9d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad MH [<no net>] of ",
+                    "pos": {
+                        "x": 163.5011,
+                        "y": 90.0036
+                    },
+                    "uuid": "5bfef397-13f5-4776-8cbe-86bd170b0d1e"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad TH [<no net>] of ",
+                    "pos": {
+                        "x": 131.5011,
+                        "y": 92.5036
+                    },
+                    "uuid": "b5a67068-68c9-4015-ae6d-4f15727c3f77"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad MH [<no net>] of ",
+                    "pos": {
+                        "x": 163.5011,
+                        "y": 120.0036
+                    },
+                    "uuid": "a530b401-0e7b-4a63-af49-78c7350b8563"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad MH [<no net>] of ",
+                    "pos": {
+                        "x": 133.5011,
+                        "y": 90.0036
+                    },
+                    "uuid": "5f7c0d24-d1b6-4ed1-bb2d-caf5d1353a0c"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad MH [<no net>] of ",
+                    "pos": {
+                        "x": 133.5011,
+                        "y": 120.0036
+                    },
+                    "uuid": "fff1f7f4-281e-4229-beea-223e4cd58382"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad TH [<no net>] of ",
+                    "pos": {
+                        "x": 165.2511,
+                        "y": 117.5036
+                    },
+                    "uuid": "131b395a-9ac2-4977-ae4d-08cd86c43cb5"
+                }
+            ],
+            "severity": "error",
+            "type": "annular_width"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of R4 ('.Designator')",
+                    "pos": {
+                        "x": 152.1511,
+                        "y": 106.78894
+                    },
+                    "uuid": "694e4591-d58c-46f7-b32a-d842afd575b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C4 ('.Designator')",
+                    "pos": {
+                        "x": 160.71576,
+                        "y": 115.40359
+                    },
+                    "uuid": "4a30c9ec-2139-449e-8c34-63c82f39174f"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of D2 ('.Designator')",
+                    "pos": {
+                        "x": 152.1511,
+                        "y": 105.16194
+                    },
+                    "uuid": "89ee7db7-cad6-478b-879d-bc56cf459f25"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "PCB Text Box '+' on Mechanical 13",
+                    "pos": {
+                        "x": 150.11788,
+                        "y": 103.76207
+                    },
+                    "uuid": "281db2f8-c679-4bab-9cf7-f7f3fe79f8b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C3 ('.Designator')",
+                    "pos": {
+                        "x": 155.3511,
+                        "y": 109.46826
+                    },
+                    "uuid": "a3135f6f-191e-4fa9-b7ce-f8755d401e77"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C10 ('.Designator')",
+                    "pos": {
+                        "x": 136.05944,
+                        "y": 92.528605
+                    },
+                    "uuid": "c8de2c64-c978-4dae-bda0-eee5d4b4fdaa"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C5 ('.Designator')",
+                    "pos": {
+                        "x": 147.5511,
+                        "y": 108.03894
+                    },
+                    "uuid": "6fd3e65b-96d4-49d9-962d-85fd7ec482aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C14 ('.Designator')",
+                    "pos": {
+                        "x": 141.69276,
+                        "y": 104.903595
+                    },
+                    "uuid": "7107f7ee-46de-40d9-93c4-ee99faa41057"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C15 ('.Designator')",
+                    "pos": {
+                        "x": 150.001095,
+                        "y": 107.81194
+                    },
+                    "uuid": "ce616cf3-3658-47a3-b36b-60587a6962ab"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C13 ('.Designator')",
+                    "pos": {
+                        "x": 141.40944,
+                        "y": 100.578605
+                    },
+                    "uuid": "de492faa-7b78-408a-80b1-f7d9566ebbbd"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C9 ('.Designator')",
+                    "pos": {
+                        "x": 136.13444,
+                        "y": 94.5786
+                    },
+                    "uuid": "40d8d669-3f31-45d3-a04e-2f1095870c37"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C ('.Designator')",
+                    "pos": {
+                        "x": 143.851105,
+                        "y": 98.09526
+                    },
+                    "uuid": "386c2c8d-b501-43be-9864-cd6a6915d729"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C7 ('.Designator')",
+                    "pos": {
+                        "x": 137.2761,
+                        "y": 104.83694
+                    },
+                    "uuid": "a628b778-a790-4170-94e0-16060113bc3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of R7 ('.Designator')",
+                    "pos": {
+                        "x": 145.71576,
+                        "y": 96.1536
+                    },
+                    "uuid": "5e6c1e3b-ae4f-48b6-893b-2fd0004d3d48"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of R3 ('.Designator')",
+                    "pos": {
+                        "x": 145.8511,
+                        "y": 94.21826
+                    },
+                    "uuid": "bb30a0a2-bda2-4fa1-9b92-de74beb0c30c"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of X1 ('.Designator')",
+                    "pos": {
+                        "x": 138.0261,
+                        "y": 107.21394
+                    },
+                    "uuid": "9df4ef99-5e7f-4e9f-b4b9-12dc523f0e5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C6 ('.Designator')",
+                    "pos": {
+                        "x": 151.65109,
+                        "y": 91.41194
+                    },
+                    "uuid": "aaa5b815-eeeb-46fd-bb5b-ab8eca1c3e3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of J3 ('.Designator')",
+                    "pos": {
+                        "x": 143.676105,
+                        "y": 119.78894
+                    },
+                    "uuid": "b66d1c33-eca6-463b-995f-a99831831492"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of R1 ('.Designator')",
+                    "pos": {
+                        "x": 162.96576,
+                        "y": 113.9036
+                    },
+                    "uuid": "1fbc127b-00ae-4fad-a3e1-57f79e84a40f"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C16 ('.Designator')",
+                    "pos": {
+                        "x": 151.40944,
+                        "y": 99.753595
+                    },
+                    "uuid": "d9ffc9ed-625b-4d3b-8fc2-189e23d04ab3"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of J2 ('.Designator')",
+                    "pos": {
+                        "x": 152.7471,
+                        "y": 94.199748
+                    },
+                    "uuid": "dc1a88cb-9190-43c8-b9eb-e2ffca65ef60"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C11 ('.Designator')",
+                    "pos": {
+                        "x": 143.15944,
+                        "y": 95.2786
+                    },
+                    "uuid": "70dfc277-7c67-406d-9392-4d66751b5136"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C12 ('.Designator')",
+                    "pos": {
+                        "x": 140.28644,
+                        "y": 100.603595
+                    },
+                    "uuid": "92dc664a-7646-4252-a615-f730001e55d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of D1 ('.Designator')",
+                    "pos": {
+                        "x": 162.90944,
+                        "y": 115.8536
+                    },
+                    "uuid": "6171a53c-eed4-4829-a7a1-6e7f0ff46a8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "PCB Text Box '+' on Mechanical 13",
+                    "pos": {
+                        "x": 161.50957,
+                        "y": 117.88682
+                    },
+                    "uuid": "79469c61-a38e-4912-b5b6-7e4ed718b1de"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of R6 ('.Designator')",
+                    "pos": {
+                        "x": 139.7261,
+                        "y": 103.71394
+                    },
+                    "uuid": "bb48e809-a3e3-421c-b645-f04e54f86164"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C8 ('.Designator')",
+                    "pos": {
+                        "x": 139.4261,
+                        "y": 105.02026
+                    },
+                    "uuid": "800910a5-1fcf-41d7-abc5-481145818c11"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C17 ('.Designator')",
+                    "pos": {
+                        "x": 138.801095,
+                        "y": 97.72026
+                    },
+                    "uuid": "68bf696d-6127-4080-8d17-24eee812c868"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of R2 ('.Designator')",
+                    "pos": {
+                        "x": 148.1511,
+                        "y": 94.28894
+                    },
+                    "uuid": "bdd0598d-e50b-426a-8a1d-d61d048fb104"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of R5 ('.Designator')",
+                    "pos": {
+                        "x": 153.9011,
+                        "y": 91.53894
+                    },
+                    "uuid": "f60ac6ec-5322-40b5-9b3c-b52705b1c997"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "PCB Text Box 'SWD' on Top Overlay",
+                    "pos": {
+                        "x": 149.2511,
+                        "y": 94.44826
+                    },
+                    "uuid": "15534e05-2d8f-4567-a88c-4f87bf2b2b1b"
+                },
+                {
+                    "description": "Segment of J2 on Top Overlay",
+                    "pos": {
+                        "x": 149.5011,
+                        "y": 96.1536
+                    },
+                    "uuid": "7738f78d-d759-4853-a8ff-13f5ff15b484"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "PCB Text Box 'SWD' on Top Overlay",
+                    "pos": {
+                        "x": 149.2511,
+                        "y": 94.44826
+                    },
+                    "uuid": "15534e05-2d8f-4567-a88c-4f87bf2b2b1b"
+                },
+                {
+                    "description": "Segment of J2 on Top Overlay",
+                    "pos": {
+                        "x": 156.5011,
+                        "y": 94.9536
+                    },
+                    "uuid": "54e529ca-de5b-4ef2-aa3d-33ea5d8342b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB Text Box 'SWD' on Top Overlay",
+                    "pos": {
+                        "x": 149.2511,
+                        "y": 94.44826
+                    },
+                    "uuid": "15534e05-2d8f-4567-a88c-4f87bf2b2b1b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 152.0011,
+                        "y": 106.7536
+                    },
+                    "uuid": "03bbe00a-b9bf-4369-a230-c68aef310442"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 160.7511,
+                        "y": 115.2536
+                    },
+                    "uuid": "08d32987-d78a-40fe-88a4-6b661be1a323"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Vault'.",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 146.55366,
+                        "y": 102.9588
+                    },
+                    "uuid": "09303679-983f-40d6-915e-7c0acd416f48"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib'.",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 163.4011,
+                        "y": 102.4786
+                    },
+                    "uuid": "0bf287d6-76d7-4c53-821e-9d88b11395f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 155.5511,
+                        "y": 107.5536
+                    },
+                    "uuid": "111bd07f-18e5-4232-84b3-ddcbb591659a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib'.",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 162.4511,
+                        "y": 95.1536
+                    },
+                    "uuid": "1324af4d-b5ad-46b5-9fa7-0e017921da03"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 152.0011,
+                        "y": 105.2536
+                    },
+                    "uuid": "19547383-5b6f-434c-add8-66b080aed7cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 155.5011,
+                        "y": 109.5036
+                    },
+                    "uuid": "3595f6bc-aff0-4546-ba10-c6a3f078dc23"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 136.1511,
+                        "y": 92.6786
+                    },
+                    "uuid": "41169dae-3dff-4a44-9240-583be6ff05e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib'.",
+            "items": [
+                {
+                    "description": "Footprint D5",
+                    "pos": {
+                        "x": 155.9011,
+                        "y": 100.3036
+                    },
+                    "uuid": "4393dd3a-8b35-4f44-acb0-ba54880df24d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 147.4011,
+                        "y": 108.0036
+                    },
+                    "uuid": "442b00f1-4501-4bff-8955-9fa4952a583d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C14",
+                    "pos": {
+                        "x": 141.6011,
+                        "y": 104.7536
+                    },
+                    "uuid": "47d58019-abfe-41c4-a3e0-2940879044d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C15",
+                    "pos": {
+                        "x": 149.8511,
+                        "y": 107.9036
+                    },
+                    "uuid": "4af2f87b-45c0-43b9-9e0c-5619f4fe5b60"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 141.5011,
+                        "y": 100.7286
+                    },
+                    "uuid": "4cbe5948-e34a-4a81-9fad-9189d75bb9fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 136.2261,
+                        "y": 94.7286
+                    },
+                    "uuid": "51980a9d-f4b1-4f8f-a398-31e9764b359c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C",
+                    "pos": {
+                        "x": 144.0011,
+                        "y": 98.0036
+                    },
+                    "uuid": "54a247cd-f294-4da0-bb09-0ad5714bd662"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Vault'.",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 139.7511,
+                        "y": 94.0036
+                    },
+                    "uuid": "5b67ff17-bd13-4c85-b018-eb93613e0c33"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 137.1261,
+                        "y": 104.9286
+                    },
+                    "uuid": "5da78c9d-6353-4cef-8d20-d0274f3f681a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 145.7511,
+                        "y": 96.0036
+                    },
+                    "uuid": "69787699-5cf6-4a91-b9f7-3e702c3d08ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 146.0011,
+                        "y": 94.2536
+                    },
+                    "uuid": "719d2976-9d4a-45e7-89df-8d43dd7a9ac5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint X1",
+                    "pos": {
+                        "x": 137.8761,
+                        "y": 107.1786
+                    },
+                    "uuid": "79995699-69f1-4e35-8231-3fe314135d21"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 151.5011,
+                        "y": 91.5036
+                    },
+                    "uuid": "8007c9ac-0129-4801-b24c-f21225117e20"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 143.5011,
+                        "y": 119.7536
+                    },
+                    "uuid": "8a53e528-45a5-46f5-95a2-c41695f55ad2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 163.0011,
+                        "y": 113.7536
+                    },
+                    "uuid": "9122dd9e-cd9a-4eca-b19e-bfaacf9a5472"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib'.",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 162.4011,
+                        "y": 109.8786
+                    },
+                    "uuid": "93046cbc-bc91-4128-b150-efe60cba6ed2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C16",
+                    "pos": {
+                        "x": 151.5011,
+                        "y": 99.9036
+                    },
+                    "uuid": "96d12103-f159-4a1b-995a-f2a32794b208"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 153.0011,
+                        "y": 94.2536
+                    },
+                    "uuid": "9a654a29-8eb0-4aaa-862e-6ae7552cd0a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Vault'.",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 155.5011,
+                        "y": 115.2536
+                    },
+                    "uuid": "9abb34e5-5545-4ca9-a21c-f5be0335d55d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib'.",
+            "items": [
+                {
+                    "description": "Footprint D3",
+                    "pos": {
+                        "x": 155.5761,
+                        "y": 106.2036
+                    },
+                    "uuid": "c577305d-eb4e-42d0-a692-886f4623ecb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 143.2511,
+                        "y": 95.4286
+                    },
+                    "uuid": "cbf1cf73-0a50-4c5d-98a7-e7b79f2d2929"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 140.2511,
+                        "y": 100.7536
+                    },
+                    "uuid": "d3ac1924-93b1-4b02-9757-ed2abd49ceec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib'.",
+            "items": [
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 155.9011,
+                        "y": 103.6286
+                    },
+                    "uuid": "debcad1b-d066-4270-999b-0a4306795138"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 163.0011,
+                        "y": 116.0036
+                    },
+                    "uuid": "e0b5cdcd-2d5d-40f4-9eca-aab9c096594f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 139.5761,
+                        "y": 103.6786
+                    },
+                    "uuid": "e2e6af8a-c63d-41bf-86a0-f0b6dd043647"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 139.5761,
+                        "y": 104.9286
+                    },
+                    "uuid": "e40a2306-6965-4de6-98c4-2fa607f3f712"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint C17",
+                    "pos": {
+                        "x": 138.9511,
+                        "y": 97.6286
+                    },
+                    "uuid": "e4dc46f6-3da3-40db-87c4-54bfa3d81017"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 148.0011,
+                        "y": 94.2536
+                    },
+                    "uuid": "ed16b5e9-8f7e-490a-b42e-6fe6e19982ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Footprint-Lib-PhilsLab'.",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 153.7511,
+                        "y": 91.5036
+                    },
+                    "uuid": "f143a226-54fa-487d-826e-4ce3c4002803"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Padstack is questionable (PTH pad hole leaves no copper)",
+            "items": [
+                {
+                    "description": "PTH pad MH [<no net>] of ",
+                    "pos": {
+                        "x": 163.5011,
+                        "y": 90.0036
+                    },
+                    "uuid": "5bfef397-13f5-4776-8cbe-86bd170b0d1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (PTH pad hole leaves no copper)",
+            "items": [
+                {
+                    "description": "PTH pad TH [<no net>] of ",
+                    "pos": {
+                        "x": 131.5011,
+                        "y": 92.5036
+                    },
+                    "uuid": "b5a67068-68c9-4015-ae6d-4f15727c3f77"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "PTH pad S1 [GND] of J1",
+                    "pos": {
+                        "x": 160.5511,
+                        "y": 106.7986
+                    },
+                    "uuid": "b4c7e897-f666-441b-a866-180d73f8f450"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "PTH pad S2 [GND] of J1",
+                    "pos": {
+                        "x": 160.5511,
+                        "y": 98.1586
+                    },
+                    "uuid": "dccf9435-b68f-49c4-8524-652fa565b2b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "PTH pad S3 [GND] of J1",
+                    "pos": {
+                        "x": 164.5511,
+                        "y": 106.7986
+                    },
+                    "uuid": "2df9fd81-8cde-449b-9854-e323ffbccd6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (negative solder paste margin is larger than pad; no solder paste mask will be generated)",
+            "items": [
+                {
+                    "description": "PTH pad S4 [GND] of J1",
+                    "pos": {
+                        "x": 164.5511,
+                        "y": 98.1586
+                    },
+                    "uuid": "eba7f2c8-5f6d-464c-8dff-668d59ae0798"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (PTH pad hole leaves no copper)",
+            "items": [
+                {
+                    "description": "PTH pad MH [<no net>] of ",
+                    "pos": {
+                        "x": 163.5011,
+                        "y": 120.0036
+                    },
+                    "uuid": "a530b401-0e7b-4a63-af49-78c7350b8563"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (PTH pad hole leaves no copper)",
+            "items": [
+                {
+                    "description": "PTH pad MH [<no net>] of ",
+                    "pos": {
+                        "x": 133.5011,
+                        "y": 90.0036
+                    },
+                    "uuid": "5f7c0d24-d1b6-4ed1-bb2d-caf5d1353a0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (PTH pad hole leaves no copper)",
+            "items": [
+                {
+                    "description": "PTH pad MH [<no net>] of ",
+                    "pos": {
+                        "x": 133.5011,
+                        "y": 120.0036
+                    },
+                    "uuid": "fff1f7f4-281e-4229-beea-223e4cd58382"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Padstack is questionable (PTH pad hole leaves no copper)",
+            "items": [
+                {
+                    "description": "PTH pad TH [<no net>] of ",
+                    "pos": {
+                        "x": 165.2511,
+                        "y": 117.5036
+                    },
+                    "uuid": "131b395a-9ac2-4977-ae4d-08cd86c43cb5"
+                }
+            ],
+            "severity": "warning",
+            "type": "padstack"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 166.5011,
+                        "y": 88.2736
+                    },
+                    "uuid": "29bce353-d659-4b17-a809-d41386597501"
+                },
+                {
+                    "description": "Segment of J1 on Top Overlay",
+                    "pos": {
+                        "x": 166.0261,
+                        "y": 97.9086
+                    },
+                    "uuid": "f62ae77a-e8d9-4d78-a937-cd7ab309cd98"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 166.5011,
+                        "y": 88.2736
+                    },
+                    "uuid": "29bce353-d659-4b17-a809-d41386597501"
+                },
+                {
+                    "description": "Segment of J1 on Top Overlay",
+                    "pos": {
+                        "x": 166.0261,
+                        "y": 107.0486
+                    },
+                    "uuid": "d8414ecf-8960-4cad-935c-c242dbbcd9f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [GND] on L1 (SIgnal), length 0.0000 mm",
+                    "pos": {
+                        "x": 148.8011,
+                        "y": 107.3036
+                    },
+                    "uuid": "e38e9bc8-dab8-4807-845f-b7bfd3e253b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [+3V3] on L1 (SIgnal), length 0.0000 mm",
+                    "pos": {
+                        "x": 138.7511,
+                        "y": 114.2536
+                    },
+                    "uuid": "27c49bdc-0ea6-4e66-9228-ef04c465830e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [+3V3] on L1 (SIgnal), length 0.0000 mm",
+                    "pos": {
+                        "x": 138.2511,
+                        "y": 100.0036
+                    },
+                    "uuid": "77cbf0b4-445d-4ce7-9ca6-2c7406bd1033"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}

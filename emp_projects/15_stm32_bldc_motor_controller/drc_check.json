@@ -1,0 +1,176 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:33:07+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "stm32_bldc_motor_controller.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 100.0
+                    },
+                    "uuid": "72c538b4-07cb-4b91-aeb7-fbfc8966df55"
+                },
+                {
+                    "description": "PTH pad 1 [<no net>] of J1",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 125.0
+                    },
+                    "uuid": "b7791743-a18c-45c5-8fc0-44cda40da015"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 100.0
+                    },
+                    "uuid": "72c538b4-07cb-4b91-aeb7-fbfc8966df55"
+                },
+                {
+                    "description": "PTH pad 2 [<no net>] of J1",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 119.92
+                    },
+                    "uuid": "60896ae0-ef3d-4921-b865-85a0a9d07335"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 100.0
+                    },
+                    "uuid": "72c538b4-07cb-4b91-aeb7-fbfc8966df55"
+                },
+                {
+                    "description": "PTH pad 3 [<no net>] of J1",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 114.84
+                    },
+                    "uuid": "a28e04f2-b941-459b-a046-4c42fe044407"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "7dfb1546-67bb-4f30-91e4-f4de464058f4"
+                },
+                {
+                    "description": "Reference field of MH2",
+                    "pos": {
+                        "x": 191.0,
+                        "y": 99.85
+                    },
+                    "uuid": "2e66b174-4b5d-468d-9680-0dbae5772d26"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 100.0
+                    },
+                    "uuid": "72c538b4-07cb-4b91-aeb7-fbfc8966df55"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 189.68,
+                        "y": 112.18
+                    },
+                    "uuid": "beb2a92f-2d60-473c-8474-0483385e9e82"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 100.0
+                    },
+                    "uuid": "72c538b4-07cb-4b91-aeb7-fbfc8966df55"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 199.72,
+                        "y": 127.66
+                    },
+                    "uuid": "52740c06-daea-4f05-9ce5-9a46c6c26952"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "7dfb1546-67bb-4f30-91e4-f4de464058f4"
+                },
+                {
+                    "description": "Reference field of MH1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 99.85
+                    },
+                    "uuid": "9b96ce66-5eba-4573-9070-9715d5524b6e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

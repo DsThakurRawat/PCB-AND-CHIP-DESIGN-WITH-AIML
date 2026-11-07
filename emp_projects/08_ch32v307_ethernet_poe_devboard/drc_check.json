@@ -1,0 +1,498 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:33:04+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "ch32v307_ethernet_poe.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 160.0
+                    },
+                    "uuid": "d5b43564-726c-445a-959e-438ebf624a18"
+                },
+                {
+                    "description": "PTH pad S1 [<no net>] of J2",
+                    "pos": {
+                        "x": 148.65,
+                        "y": 159.36
+                    },
+                    "uuid": "8b873efe-f435-4214-b557-5b7cfe14c1dd"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 160.0
+                    },
+                    "uuid": "d5b43564-726c-445a-959e-438ebf624a18"
+                },
+                {
+                    "description": "PTH pad S1 [<no net>] of J2",
+                    "pos": {
+                        "x": 157.3,
+                        "y": 159.36
+                    },
+                    "uuid": "72396301-25b7-49e7-b3a5-a1f33503102f"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 120.0
+                    },
+                    "uuid": "712eb3d8-af7e-4d66-939b-db3930098d00"
+                },
+                {
+                    "description": "Footprint MH1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 104.0
+                    },
+                    "uuid": "9205cb96-d6ee-4878-81df-8bf6df9c50d3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A1 [<no net>] of J2",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 155.0
+                    },
+                    "uuid": "646dd72e-5d26-41ce-bab6-f73c3db0bc4c"
+                },
+                {
+                    "description": "PTH pad A4 [<no net>] of J2",
+                    "pos": {
+                        "x": 150.85,
+                        "y": 155.0
+                    },
+                    "uuid": "085b91e0-ffc0-42e1-9373-29794ebbe47e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A4 [<no net>] of J2",
+                    "pos": {
+                        "x": 150.85,
+                        "y": 155.0
+                    },
+                    "uuid": "085b91e0-ffc0-42e1-9373-29794ebbe47e"
+                },
+                {
+                    "description": "PTH pad A5 [<no net>] of J2",
+                    "pos": {
+                        "x": 151.7,
+                        "y": 155.0
+                    },
+                    "uuid": "8e64265a-9e6e-45ab-93e8-2c077bad9f41"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A5 [<no net>] of J2",
+                    "pos": {
+                        "x": 151.7,
+                        "y": 155.0
+                    },
+                    "uuid": "8e64265a-9e6e-45ab-93e8-2c077bad9f41"
+                },
+                {
+                    "description": "PTH pad A6 [<no net>] of J2",
+                    "pos": {
+                        "x": 152.55,
+                        "y": 155.0
+                    },
+                    "uuid": "3de07584-43f8-4794-a343-9cb3086a01d3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A6 [<no net>] of J2",
+                    "pos": {
+                        "x": 152.55,
+                        "y": 155.0
+                    },
+                    "uuid": "3de07584-43f8-4794-a343-9cb3086a01d3"
+                },
+                {
+                    "description": "PTH pad A7 [<no net>] of J2",
+                    "pos": {
+                        "x": 153.4,
+                        "y": 155.0
+                    },
+                    "uuid": "b5cbb18d-a7a8-407e-8932-6129161834b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A7 [<no net>] of J2",
+                    "pos": {
+                        "x": 153.4,
+                        "y": 155.0
+                    },
+                    "uuid": "b5cbb18d-a7a8-407e-8932-6129161834b9"
+                },
+                {
+                    "description": "PTH pad A8 [<no net>] of J2",
+                    "pos": {
+                        "x": 154.25,
+                        "y": 155.0
+                    },
+                    "uuid": "2492378b-4f4b-4609-bd0a-2221f9a24e83"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A8 [<no net>] of J2",
+                    "pos": {
+                        "x": 154.25,
+                        "y": 155.0
+                    },
+                    "uuid": "2492378b-4f4b-4609-bd0a-2221f9a24e83"
+                },
+                {
+                    "description": "PTH pad A9 [<no net>] of J2",
+                    "pos": {
+                        "x": 155.1,
+                        "y": 155.0
+                    },
+                    "uuid": "45014ef6-c20c-439f-81b0-aac44ef753dc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A9 [<no net>] of J2",
+                    "pos": {
+                        "x": 155.1,
+                        "y": 155.0
+                    },
+                    "uuid": "45014ef6-c20c-439f-81b0-aac44ef753dc"
+                },
+                {
+                    "description": "PTH pad A12 [<no net>] of J2",
+                    "pos": {
+                        "x": 155.95,
+                        "y": 155.0
+                    },
+                    "uuid": "f189e13b-d1ea-48ad-af88-ff9fee6b0b9e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B1 [<no net>] of J2",
+                    "pos": {
+                        "x": 155.95,
+                        "y": 156.35
+                    },
+                    "uuid": "d9226eb6-e1bf-461a-9497-982f2f1a90b7"
+                },
+                {
+                    "description": "PTH pad B4 [<no net>] of J2",
+                    "pos": {
+                        "x": 155.1,
+                        "y": 156.35
+                    },
+                    "uuid": "88189b41-f4d1-4cdb-b548-71405e90e7df"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B4 [<no net>] of J2",
+                    "pos": {
+                        "x": 155.1,
+                        "y": 156.35
+                    },
+                    "uuid": "88189b41-f4d1-4cdb-b548-71405e90e7df"
+                },
+                {
+                    "description": "PTH pad B5 [<no net>] of J2",
+                    "pos": {
+                        "x": 154.25,
+                        "y": 156.35
+                    },
+                    "uuid": "cb38fe44-8f44-4683-b948-41720151d739"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B5 [<no net>] of J2",
+                    "pos": {
+                        "x": 154.25,
+                        "y": 156.35
+                    },
+                    "uuid": "cb38fe44-8f44-4683-b948-41720151d739"
+                },
+                {
+                    "description": "PTH pad B6 [<no net>] of J2",
+                    "pos": {
+                        "x": 153.4,
+                        "y": 156.35
+                    },
+                    "uuid": "c4d6df22-cafe-40de-a3a2-39f834412c19"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B6 [<no net>] of J2",
+                    "pos": {
+                        "x": 153.4,
+                        "y": 156.35
+                    },
+                    "uuid": "c4d6df22-cafe-40de-a3a2-39f834412c19"
+                },
+                {
+                    "description": "PTH pad B7 [<no net>] of J2",
+                    "pos": {
+                        "x": 152.55,
+                        "y": 156.35
+                    },
+                    "uuid": "397f4e0b-c5a1-45fe-9197-a9eec6fec4b3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B7 [<no net>] of J2",
+                    "pos": {
+                        "x": 152.55,
+                        "y": 156.35
+                    },
+                    "uuid": "397f4e0b-c5a1-45fe-9197-a9eec6fec4b3"
+                },
+                {
+                    "description": "PTH pad B8 [<no net>] of J2",
+                    "pos": {
+                        "x": 151.7,
+                        "y": 156.35
+                    },
+                    "uuid": "cd9209ff-2562-4191-a910-047799fa8555"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B8 [<no net>] of J2",
+                    "pos": {
+                        "x": 151.7,
+                        "y": 156.35
+                    },
+                    "uuid": "cd9209ff-2562-4191-a910-047799fa8555"
+                },
+                {
+                    "description": "PTH pad B9 [<no net>] of J2",
+                    "pos": {
+                        "x": 150.85,
+                        "y": 156.35
+                    },
+                    "uuid": "66503701-7fb8-4653-ab83-cbb134c86e7d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B9 [<no net>] of J2",
+                    "pos": {
+                        "x": 150.85,
+                        "y": 156.35
+                    },
+                    "uuid": "66503701-7fb8-4653-ab83-cbb134c86e7d"
+                },
+                {
+                    "description": "PTH pad B12 [<no net>] of J2",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 156.35
+                    },
+                    "uuid": "1dc077ba-28be-48cb-83a8-d05e8836d3db"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 160.0
+                    },
+                    "uuid": "abaf4727-ac82-44de-9117-9359f3e2a270"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 99.89,
+                        "y": 108.075
+                    },
+                    "uuid": "c701ae9d-8a7b-4371-b5cb-d56e79b9ca00"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 160.0
+                    },
+                    "uuid": "abaf4727-ac82-44de-9117-9359f3e2a270"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 99.89,
+                        "y": 124.805
+                    },
+                    "uuid": "bfbdd40c-efd4-4053-b049-1e853ded996f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "53823ace-e2f0-403f-baf4-0e05082a1b93"
+                },
+                {
+                    "description": "Reference field of MH1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 99.85
+                    },
+                    "uuid": "36ef530a-2fa3-4139-bd21-a3e343941252"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "53823ace-e2f0-403f-baf4-0e05082a1b93"
+                },
+                {
+                    "description": "Reference field of MH2",
+                    "pos": {
+                        "x": 186.0,
+                        "y": 99.85
+                    },
+                    "uuid": "246da33f-2237-4825-b35c-4350e59d731c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

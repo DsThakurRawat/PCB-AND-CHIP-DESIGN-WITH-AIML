@@ -1,0 +1,1134 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:33:07+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "esp32_s3_usbc_devboard.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 4 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 123.25,
+                        "y": 112.55
+                    },
+                    "uuid": "fe4cacf9-2f74-42d9-9384-9ae728afbfc8"
+                },
+                {
+                    "description": "Pad 2 [<no net>] of U2 on F.Cu",
+                    "pos": {
+                        "x": 123.15,
+                        "y": 114.0
+                    },
+                    "uuid": "925f417e-fe11-4d56-9d30-883b522964b0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 5 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 123.25,
+                        "y": 113.82
+                    },
+                    "uuid": "73ce2f35-fe3c-4226-aac8-2a3c7803995b"
+                },
+                {
+                    "description": "Pad 2 [<no net>] of U2 on F.Cu",
+                    "pos": {
+                        "x": 123.15,
+                        "y": 114.0
+                    },
+                    "uuid": "925f417e-fe11-4d56-9d30-883b522964b0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 6 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 123.25,
+                        "y": 115.09
+                    },
+                    "uuid": "968e20ef-1042-40c6-ab10-bd73dbee04ca"
+                },
+                {
+                    "description": "Pad 2 [<no net>] of U2 on F.Cu",
+                    "pos": {
+                        "x": 123.15,
+                        "y": 114.0
+                    },
+                    "uuid": "925f417e-fe11-4d56-9d30-883b522964b0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 129.1,
+                        "y": 115.76
+                    },
+                    "uuid": "b5af445a-1656-4882-9dde-cc21e2d54b52"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 129.1,
+                        "y": 117.16
+                    },
+                    "uuid": "ca8558f8-0604-4a59-b1b5-64a9b47a2cbc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 129.8,
+                        "y": 115.06
+                    },
+                    "uuid": "c639c445-8500-4c6a-aeb1-31ee912cdb51"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 129.8,
+                        "y": 116.46
+                    },
+                    "uuid": "e759b4f4-0770-44c4-96c9-ef9ecb486096"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 129.8,
+                        "y": 117.86
+                    },
+                    "uuid": "cd09e6cf-4640-45cc-98ce-c2e81f6c3a7e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 130.5,
+                        "y": 115.76
+                    },
+                    "uuid": "ea2e995a-9fa2-4aae-8fc2-43b6cae60ef4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 130.5,
+                        "y": 117.16
+                    },
+                    "uuid": "804617ab-8754-45d0-b4e3-ce00932b151b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 131.2,
+                        "y": 115.06
+                    },
+                    "uuid": "cf606e5e-c812-4a27-b6a0-3c78a0586251"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 131.2,
+                        "y": 116.46
+                    },
+                    "uuid": "28be6da6-8723-4da0-8452-e3caa81cbdb4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 131.2,
+                        "y": 117.86
+                    },
+                    "uuid": "d1de2045-9b43-4740-81d8-f85fcdb8f62b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 131.9,
+                        "y": 115.76
+                    },
+                    "uuid": "c9e7eae8-f9df-475d-9712-ba61116dfcc8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [<no net>] of U1",
+                    "pos": {
+                        "x": 131.9,
+                        "y": 117.16
+                    },
+                    "uuid": "fe8a8c22-8e72-41c0-9c5b-028c3137483b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 114.0
+                    },
+                    "uuid": "17d2cb0b-7b39-4d74-adca-4992b16f6d35"
+                },
+                {
+                    "description": "Footprint MH1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 104.0
+                    },
+                    "uuid": "7faafd77-de4d-47b5-9c1b-e766857631a3"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 114.0
+                    },
+                    "uuid": "17d2cb0b-7b39-4d74-adca-4992b16f6d35"
+                },
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 105.0
+                    },
+                    "uuid": "93c046bd-38e7-4088-8567-566c02a72049"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 114.0
+                    },
+                    "uuid": "17d2cb0b-7b39-4d74-adca-4992b16f6d35"
+                },
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 132.0,
+                        "y": 114.0
+                    },
+                    "uuid": "c3108e35-4c17-4ef6-8257-c568c9143c84"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 114.0
+                    },
+                    "uuid": "17d2cb0b-7b39-4d74-adca-4992b16f6d35"
+                },
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 114.0
+                    },
+                    "uuid": "e4bf3e16-9ba7-4476-96d5-4b1eb016a54d"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 105.0
+                    },
+                    "uuid": "93c046bd-38e7-4088-8567-566c02a72049"
+                },
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 132.0,
+                        "y": 114.0
+                    },
+                    "uuid": "c3108e35-4c17-4ef6-8257-c568c9143c84"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint MH2",
+                    "pos": {
+                        "x": 154.0,
+                        "y": 104.0
+                    },
+                    "uuid": "a60dd4da-e2d4-4655-aa9e-4813990e8f40"
+                },
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 132.0,
+                        "y": 114.0
+                    },
+                    "uuid": "c3108e35-4c17-4ef6-8257-c568c9143c84"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 132.0,
+                        "y": 114.0
+                    },
+                    "uuid": "c3108e35-4c17-4ef6-8257-c568c9143c84"
+                },
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 114.0
+                    },
+                    "uuid": "e4bf3e16-9ba7-4476-96d5-4b1eb016a54d"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A1 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 114.0
+                    },
+                    "uuid": "c3f1414c-f30d-46cf-9d1c-12ed2efc4cd4"
+                },
+                {
+                    "description": "PTH pad A4 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 113.15
+                    },
+                    "uuid": "af83c660-9905-46f4-aae7-805b51404f83"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A4 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 113.15
+                    },
+                    "uuid": "af83c660-9905-46f4-aae7-805b51404f83"
+                },
+                {
+                    "description": "PTH pad A5 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 112.3
+                    },
+                    "uuid": "ac2ff74b-69ed-42e8-977f-9c2d389b03cf"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A5 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 112.3
+                    },
+                    "uuid": "ac2ff74b-69ed-42e8-977f-9c2d389b03cf"
+                },
+                {
+                    "description": "PTH pad A6 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 111.45
+                    },
+                    "uuid": "02e3d521-e8f4-4765-b9c4-19bae324e7da"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A6 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 111.45
+                    },
+                    "uuid": "02e3d521-e8f4-4765-b9c4-19bae324e7da"
+                },
+                {
+                    "description": "PTH pad A7 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 110.6
+                    },
+                    "uuid": "df9c1faa-8596-4a47-8555-d8e3eb941e5a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A7 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 110.6
+                    },
+                    "uuid": "df9c1faa-8596-4a47-8555-d8e3eb941e5a"
+                },
+                {
+                    "description": "PTH pad A8 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 109.75
+                    },
+                    "uuid": "97908d16-a477-4b81-a415-85ddc426b206"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A7 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 110.6
+                    },
+                    "uuid": "df9c1faa-8596-4a47-8555-d8e3eb941e5a"
+                },
+                {
+                    "description": "PTH pad A8 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 109.75
+                    },
+                    "uuid": "97908d16-a477-4b81-a415-85ddc426b206"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A8 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 109.75
+                    },
+                    "uuid": "97908d16-a477-4b81-a415-85ddc426b206"
+                },
+                {
+                    "description": "PTH pad A9 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 108.9
+                    },
+                    "uuid": "d51550dd-a824-4c5b-a059-08ddf24b4842"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad A9 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 108.9
+                    },
+                    "uuid": "d51550dd-a824-4c5b-a059-08ddf24b4842"
+                },
+                {
+                    "description": "PTH pad A12 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 108.05
+                    },
+                    "uuid": "72dd2de5-34f1-4dc1-b7ca-fc5683fc6d60"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B1 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 108.05
+                    },
+                    "uuid": "4a56311f-b691-46ea-89b7-17ec7bbf09ad"
+                },
+                {
+                    "description": "PTH pad B4 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 108.9
+                    },
+                    "uuid": "de73025e-08d9-4dde-8a3c-5b1e30104ab9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B4 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 108.9
+                    },
+                    "uuid": "de73025e-08d9-4dde-8a3c-5b1e30104ab9"
+                },
+                {
+                    "description": "PTH pad B5 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 109.75
+                    },
+                    "uuid": "fe46d8d0-c0f9-4657-a095-591c7ee38721"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B5 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 109.75
+                    },
+                    "uuid": "fe46d8d0-c0f9-4657-a095-591c7ee38721"
+                },
+                {
+                    "description": "PTH pad B6 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 110.6
+                    },
+                    "uuid": "c8aea54d-d08e-4641-8fb9-0365b1f788d3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B6 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 110.6
+                    },
+                    "uuid": "c8aea54d-d08e-4641-8fb9-0365b1f788d3"
+                },
+                {
+                    "description": "PTH pad B7 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 111.45
+                    },
+                    "uuid": "45bc885a-bd02-4bab-94fa-f3a3725eacb6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B7 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 111.45
+                    },
+                    "uuid": "45bc885a-bd02-4bab-94fa-f3a3725eacb6"
+                },
+                {
+                    "description": "PTH pad B8 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 112.3
+                    },
+                    "uuid": "e8b2e9b5-fa68-41ec-9beb-ce195dde4b1a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B8 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 112.3
+                    },
+                    "uuid": "e8b2e9b5-fa68-41ec-9beb-ce195dde4b1a"
+                },
+                {
+                    "description": "PTH pad B9 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 113.15
+                    },
+                    "uuid": "79b92331-8071-45e5-a60f-98d67a8ffd52"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "PTH pad B9 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 113.15
+                    },
+                    "uuid": "79b92331-8071-45e5-a60f-98d67a8ffd52"
+                },
+                {
+                    "description": "PTH pad B12 [<no net>] of J1",
+                    "pos": {
+                        "x": 109.35,
+                        "y": 114.0
+                    },
+                    "uuid": "3abc8ed9-ef8f-4e25-8093-a01caf9f7aed"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 123.25,
+                        "y": 112.55
+                    },
+                    "uuid": "fe4cacf9-2f74-42d9-9384-9ae728afbfc8"
+                },
+                {
+                    "description": "Pad 2 [<no net>] of U2 on F.Cu",
+                    "pos": {
+                        "x": 123.15,
+                        "y": 114.0
+                    },
+                    "uuid": "925f417e-fe11-4d56-9d30-883b522964b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 5 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 123.25,
+                        "y": 113.82
+                    },
+                    "uuid": "73ce2f35-fe3c-4226-aac8-2a3c7803995b"
+                },
+                {
+                    "description": "Pad 2 [<no net>] of U2 on F.Cu",
+                    "pos": {
+                        "x": 123.15,
+                        "y": 114.0
+                    },
+                    "uuid": "925f417e-fe11-4d56-9d30-883b522964b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 123.25,
+                        "y": 115.09
+                    },
+                    "uuid": "968e20ef-1042-40c6-ab10-bd73dbee04ca"
+                },
+                {
+                    "description": "Pad 2 [<no net>] of U2 on F.Cu",
+                    "pos": {
+                        "x": 123.15,
+                        "y": 114.0
+                    },
+                    "uuid": "925f417e-fe11-4d56-9d30-883b522964b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0100 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 123.25,
+                        "y": 116.36
+                    },
+                    "uuid": "307b1c51-5074-4bbc-a284-262ed6e574a5"
+                },
+                {
+                    "description": "Pad 2 [<no net>] of U2 on F.Cu",
+                    "pos": {
+                        "x": 123.15,
+                        "y": 114.0
+                    },
+                    "uuid": "925f417e-fe11-4d56-9d30-883b522964b0"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "PTH pad S1 [<no net>] of J1",
+                    "pos": {
+                        "x": 108.98,
+                        "y": 106.7
+                    },
+                    "uuid": "14561911-4f8b-4893-b22e-f89a07bf957d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "PTH pad S1 [<no net>] of J1",
+                    "pos": {
+                        "x": 112.36,
+                        "y": 106.7
+                    },
+                    "uuid": "1c45f40d-c6ea-477a-ab38-c058b5604c3e"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 114.0
+                    },
+                    "uuid": "17d2cb0b-7b39-4d74-adca-4992b16f6d35"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "Pad 1 [<no net>] of SW1 on F.Cu",
+                    "pos": {
+                        "x": 109.9,
+                        "y": 105.0
+                    },
+                    "uuid": "c89812fc-e8ae-459a-a74f-fabac383889d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "Pad 2 [<no net>] of SW1 on F.Cu",
+                    "pos": {
+                        "x": 114.1,
+                        "y": 105.0
+                    },
+                    "uuid": "74be7619-679c-428b-989a-41d0b479c427"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 105.0
+                    },
+                    "uuid": "93c046bd-38e7-4088-8567-566c02a72049"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "NPTH pad of MH2",
+                    "pos": {
+                        "x": 154.0,
+                        "y": 104.0
+                    },
+                    "uuid": "b2548c4a-75cd-453c-8cb8-7d77e7d0035a"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed (keepout area)",
+            "items": [
+                {
+                    "description": "Footprint MH2",
+                    "pos": {
+                        "x": 154.0,
+                        "y": 104.0
+                    },
+                    "uuid": "a60dd4da-e2d4-4655-aa9e-4813990e8f40"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Polygon of U2 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.87,
+                        "y": 110.69
+                    },
+                    "uuid": "a6e6eefb-ec94-42d9-80e9-c3c6ee6de0eb"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.73,
+                        "y": 115.62
+                    },
+                    "uuid": "c8914513-5459-4080-9454-d2fe5ed10ec1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.07,
+                        "y": 106.27
+                    },
+                    "uuid": "9bfbb52b-4462-491f-976d-a6df9ec898e7"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 106.43
+                    },
+                    "uuid": "e42875ae-70e5-40b1-add6-b5c9cd2ae885"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 115.62
+                    },
+                    "uuid": "afe8f7c7-4d85-4658-9dc2-5d14ad6c00bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 116.73,
+                        "y": 115.62
+                    },
+                    "uuid": "c8914513-5459-4080-9454-d2fe5ed10ec1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.93,
+                        "y": 106.57
+                    },
+                    "uuid": "5186e7e2-7fae-4fff-a8ba-76de314e251b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of SW1 on F.Silkscreen",
+                    "pos": {
+                        "x": 114.07,
+                        "y": 106.57
+                    },
+                    "uuid": "11a0e65f-012f-4495-8399-5f9b60a3dd3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "ba5e08c6-7ecd-47c2-9e6d-aa6176c3e3e4"
+                },
+                {
+                    "description": "Reference field of MH1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 99.85
+                    },
+                    "uuid": "552ef749-aa01-4990-93b6-a7f540b9a954"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 100.0
+                    },
+                    "uuid": "ba5e08c6-7ecd-47c2-9e6d-aa6176c3e3e4"
+                },
+                {
+                    "description": "Reference field of MH2",
+                    "pos": {
+                        "x": 154.0,
+                        "y": 99.85
+                    },
+                    "uuid": "80cdf940-1ff8-47bc-94f6-32553d5d1693"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        }
+    ]
+}

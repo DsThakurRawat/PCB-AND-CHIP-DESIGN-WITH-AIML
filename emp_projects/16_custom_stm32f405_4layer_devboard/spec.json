@@ -1,0 +1,12 @@
+{
+  "project_name": "custom_stm32f405_4layer",
+  "title": "Custom STM32F405 4-Layer Development Board",
+  "revision": "v1.0",
+  "description": "High-density 4-layer development module with STM32F405RGT6 (168MHz ARM Cortex-M4), solid internal ground/power planes, USB-C interface, SWD programming header, and peripheral breakout headers.",
+  "layers": 4,
+  "dimensions_mm": [
+    80,
+    60
+  ],
+  "components": []
+}

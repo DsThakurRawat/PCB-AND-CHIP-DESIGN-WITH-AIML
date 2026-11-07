@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:39:36+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/7b498600-7f8c-41be-ac13-492b48b429b0",
+            "violations": []
+        }
+    ],
+    "source": "ch32v307_ethernet_poe.kicad_sch"
+}

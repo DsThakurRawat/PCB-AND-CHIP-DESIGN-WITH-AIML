@@ -1,0 +1,4621 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:40:09+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "mixed_signal_stm32_devboard.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.1,
+                        "y": 98.4
+                    },
+                    "uuid": "119796b6-27c4-4df0-9239-b784d74399e7"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 164.1,
+                        "y": 98.4
+                    },
+                    "uuid": "774d577f-5a17-46a0-9213-c9fa8b542f1c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.1,
+                        "y": 97.5
+                    },
+                    "uuid": "813ca341-5e82-47f1-9b6f-3f938ad24aad"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 164.1,
+                        "y": 96.65
+                    },
+                    "uuid": "ac7e55e8-a338-4566-abe1-018e92c2a408"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 164.1,
+                        "y": 97.5
+                    },
+                    "uuid": "e1e0c3be-7f75-4a60-b5f7-94f50a347d43"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.1,
+                        "y": 96.65
+                    },
+                    "uuid": "f23e7fbc-7f50-4a84-8f7e-da664f9b8476"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C307",
+                    "pos": {
+                        "x": 152.9,
+                        "y": 100.75
+                    },
+                    "uuid": "00976592-f4b8-4b05-9e57-f504d1699ee5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R103",
+                    "pos": {
+                        "x": 192.25,
+                        "y": 70.0
+                    },
+                    "uuid": "08764824-62d5-4ed1-aff2-20e0eb5adffb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C104",
+                    "pos": {
+                        "x": 177.6,
+                        "y": 69.55
+                    },
+                    "uuid": "0a01cffe-7ead-47f0-9c89-a2f50bd056cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint U401",
+                    "pos": {
+                        "x": 177.454424,
+                        "y": 108.635576
+                    },
+                    "uuid": "0b7c81da-9b64-4ebd-a4b1-a640188fcfe6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C302",
+                    "pos": {
+                        "x": 158.3,
+                        "y": 103.85
+                    },
+                    "uuid": "0cb29040-e73e-455c-84e9-0685791b870b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C405",
+                    "pos": {
+                        "x": 175.954424,
+                        "y": 106.135576
+                    },
+                    "uuid": "13fcebc6-7051-4caa-b658-e6d7e273843b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R209",
+                    "pos": {
+                        "x": 146.4,
+                        "y": 78.2
+                    },
+                    "uuid": "1be67585-80df-4cfb-83d7-88a78a6b39da"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C400",
+                    "pos": {
+                        "x": 177.0,
+                        "y": 90.45
+                    },
+                    "uuid": "1c163335-7166-4f1a-bf8f-a8d30c8aafb9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C204",
+                    "pos": {
+                        "x": 165.05,
+                        "y": 74.25
+                    },
+                    "uuid": "1c3f50d9-4983-4251-b3a0-ca0691661f7a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C315",
+                    "pos": {
+                        "x": 151.0,
+                        "y": 90.15
+                    },
+                    "uuid": "1d03d72a-9a1e-48fa-8315-b12048526151"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C106",
+                    "pos": {
+                        "x": 180.6,
+                        "y": 73.05
+                    },
+                    "uuid": "1dbfa348-8ba4-4ef9-8cb8-e4874836cb1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R204",
+                    "pos": {
+                        "x": 175.95,
+                        "y": 78.4
+                    },
+                    "uuid": "1e6c3327-1931-4eb6-a6f2-b35ac727ab21"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C402",
+                    "pos": {
+                        "x": 176.15,
+                        "y": 94.425
+                    },
+                    "uuid": "2037838e-b98f-466a-9bc0-85544fad3c25"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LED_0603_1608Metric' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D100",
+                    "pos": {
+                        "x": 191.95,
+                        "y": 68.6
+                    },
+                    "uuid": "22ddf18b-29e1-4be4-bd8d-b49b930c0bf4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C102",
+                    "pos": {
+                        "x": 167.4,
+                        "y": 97.1
+                    },
+                    "uuid": "23a4fea9-4ddd-4951-9ac9-e13d019b2704"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C403",
+                    "pos": {
+                        "x": 177.954424,
+                        "y": 104.135576
+                    },
+                    "uuid": "297560af-1223-416a-bbf2-d5039e1b5d71"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C100",
+                    "pos": {
+                        "x": 185.8,
+                        "y": 84.25
+                    },
+                    "uuid": "2a17b097-bd50-41ff-be18-e0a9a7c7df92"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R201",
+                    "pos": {
+                        "x": 155.392181,
+                        "y": 79.31827
+                    },
+                    "uuid": "2a4e2d27-7e9a-4a66-a4e3-bed4d77cbbdf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 178.6,
+                        "y": 72.05
+                    },
+                    "uuid": "2b4a1d42-b342-4905-aa05-87b06526e9c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'L_0402_1005Metric' does not match copy in library 'Inductor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint L100",
+                    "pos": {
+                        "x": 184.95,
+                        "y": 82.15
+                    },
+                    "uuid": "2dc98f1e-81ee-4eb7-a17b-05eae06b5da1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R105",
+                    "pos": {
+                        "x": 166.75,
+                        "y": 109.25
+                    },
+                    "uuid": "2f560c4c-b3a1-4d92-a7a1-9ffb80413fed"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C203",
+                    "pos": {
+                        "x": 173.45,
+                        "y": 77.3
+                    },
+                    "uuid": "344af6e5-3f21-4882-a6c3-f153b2e71044"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R301",
+                    "pos": {
+                        "x": 156.6,
+                        "y": 109.789475
+                    },
+                    "uuid": "359d0c40-560f-4539-9ae1-f1d1097eae43"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C107",
+                    "pos": {
+                        "x": 166.3,
+                        "y": 111.0
+                    },
+                    "uuid": "378f3747-49e0-4f24-a016-b5ebbf4eda6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C300",
+                    "pos": {
+                        "x": 157.7,
+                        "y": 109.8
+                    },
+                    "uuid": "37c9daaa-f825-4bbe-9798-0efa9b5a7d6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint U302",
+                    "pos": {
+                        "x": 146.254424,
+                        "y": 99.385576
+                    },
+                    "uuid": "409af666-955e-4604-a1f9-1a025ffb667b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C406",
+                    "pos": {
+                        "x": 174.704424,
+                        "y": 109.135576
+                    },
+                    "uuid": "42a477e7-9f03-4614-b638-294b6eadad49"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R304",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 107.25
+                    },
+                    "uuid": "430bf171-cc23-4eed-8aec-719537c19d0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R212",
+                    "pos": {
+                        "x": 157.15,
+                        "y": 67.35
+                    },
+                    "uuid": "43173550-05b9-47ad-b4d4-dea3d7535ab6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'MixedSignalBoardParts'.",
+            "items": [
+                {
+                    "description": "Footprint U400",
+                    "pos": {
+                        "x": 178.454424,
+                        "y": 95.835576
+                    },
+                    "uuid": "4698bb26-e9ce-429d-94ee-d674ea8efa16"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C206",
+                    "pos": {
+                        "x": 160.05,
+                        "y": 81.5
+                    },
+                    "uuid": "4c789523-c2b7-4f4d-bbe8-27d4ef3a78f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C404",
+                    "pos": {
+                        "x": 180.65,
+                        "y": 107.65
+                    },
+                    "uuid": "4dd1dd46-8b1c-4405-8247-7dcb39f98059"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C401",
+                    "pos": {
+                        "x": 177.45,
+                        "y": 92.0
+                    },
+                    "uuid": "4e802d15-d1b0-4411-aedf-7055e2a27d00"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C208",
+                    "pos": {
+                        "x": 157.615769,
+                        "y": 77.952317
+                    },
+                    "uuid": "50c4c83c-fc1e-4fe8-95d4-96da4f2e858b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R210",
+                    "pos": {
+                        "x": 164.201713,
+                        "y": 62.401713
+                    },
+                    "uuid": "52ab38a7-c923-44b8-8c2b-571447f8a3d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R207",
+                    "pos": {
+                        "x": 146.4,
+                        "y": 76.6
+                    },
+                    "uuid": "532d836d-d0e5-4b60-bda0-ccd3ecd256f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint U201",
+                    "pos": {
+                        "x": 185.5,
+                        "y": 79.25
+                    },
+                    "uuid": "55e5408a-2f70-47fa-8b75-ad17a728575d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R202",
+                    "pos": {
+                        "x": 173.55,
+                        "y": 83.75
+                    },
+                    "uuid": "5639e815-49e8-4547-a425-e887ca87b8bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C301",
+                    "pos": {
+                        "x": 159.257029,
+                        "y": 110.289261
+                    },
+                    "uuid": "57b761bb-ff56-4599-9cb9-4334cc4aa2c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C202",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 86.025
+                    },
+                    "uuid": "58b16e39-f4a1-4cfe-b285-ed49d7617d19"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C306",
+                    "pos": {
+                        "x": 155.25,
+                        "y": 103.75
+                    },
+                    "uuid": "5915237c-1fdb-4898-bf70-bcac319f4ba5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C211",
+                    "pos": {
+                        "x": 143.35,
+                        "y": 74.75
+                    },
+                    "uuid": "5b9a358d-2b3e-4ef9-8c8a-c7e52c33fce5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C309",
+                    "pos": {
+                        "x": 146.504424,
+                        "y": 102.385576
+                    },
+                    "uuid": "5c807ba4-956d-4118-adc4-1f02b008c385"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C207",
+                    "pos": {
+                        "x": 158.3,
+                        "y": 81.5
+                    },
+                    "uuid": "686c289c-9365-4221-90a3-0b8f9657e441"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint U102",
+                    "pos": {
+                        "x": 168.0,
+                        "y": 106.75
+                    },
+                    "uuid": "692e9b51-2f5e-4975-891a-c1f0616bba30"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'LQFP-48_7x7mm_P0.5mm' does not match copy in library 'Package_QFP'.",
+            "items": [
+                {
+                    "description": "Footprint U200",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 80.25
+                    },
+                    "uuid": "6dd3af8f-4e7c-439d-8d7f-9131d8eb43fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R300",
+                    "pos": {
+                        "x": 155.2,
+                        "y": 110.85
+                    },
+                    "uuid": "72de256d-2cc5-418f-a5fb-20c28c742b35"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'MixedSignalBoardParts'.",
+            "items": [
+                {
+                    "description": "Footprint L201",
+                    "pos": {
+                        "x": 180.1,
+                        "y": 79.25
+                    },
+                    "uuid": "733576cf-0659-4756-838d-cf4190f057e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C305",
+                    "pos": {
+                        "x": 153.75,
+                        "y": 106.75
+                    },
+                    "uuid": "757569ca-e340-483e-9038-cd75a4ddf633"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R211",
+                    "pos": {
+                        "x": 159.552763,
+                        "y": 67.370987
+                    },
+                    "uuid": "75db2a8b-b6c7-46fa-b341-6c4d8a499031"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint U301",
+                    "pos": {
+                        "x": 152.5,
+                        "y": 104.25
+                    },
+                    "uuid": "7a0b8bfa-d607-4b8c-80de-316f1a62fe8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'MixedSignalBoardParts'.",
+            "items": [
+                {
+                    "description": "Footprint U303",
+                    "pos": {
+                        "x": 153.004424,
+                        "y": 95.885576
+                    },
+                    "uuid": "7b594520-8101-4290-b827-94e92c2e0b87"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R104",
+                    "pos": {
+                        "x": 169.4,
+                        "y": 109.6
+                    },
+                    "uuid": "7d7e061e-1c46-4c72-b9c7-5cbdc3efaf8a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint U300",
+                    "pos": {
+                        "x": 158.74,
+                        "y": 106.5
+                    },
+                    "uuid": "8272f893-835d-4ece-8e35-8406546bff71"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C105",
+                    "pos": {
+                        "x": 184.1,
+                        "y": 69.55
+                    },
+                    "uuid": "82addc16-0cdb-4e93-9638-b656504bf640"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C210",
+                    "pos": {
+                        "x": 185.928267,
+                        "y": 76.627567
+                    },
+                    "uuid": "83569f6c-1321-4198-9af3-0df55ef1339c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R101",
+                    "pos": {
+                        "x": 180.6,
+                        "y": 72.05
+                    },
+                    "uuid": "85ff285a-43ea-435e-ba52-f835e2108aa0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'PinHeader_2x05_P1.27mm_Vertical_SMD' does not match copy in library 'Connector_PinHeader_1.27mm'.",
+            "items": [
+                {
+                    "description": "Footprint J201",
+                    "pos": {
+                        "x": 157.65,
+                        "y": 60.3
+                    },
+                    "uuid": "8754865b-6058-4a79-9759-30a8ef386a95"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C212",
+                    "pos": {
+                        "x": 150.65,
+                        "y": 64.4
+                    },
+                    "uuid": "87dc44d1-687e-475f-ab98-78f16b731c60"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'L_0402_1005Metric' does not match copy in library 'Inductor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint L200",
+                    "pos": {
+                        "x": 159.175,
+                        "y": 83.65
+                    },
+                    "uuid": "8b0ca139-9563-4bae-b100-bc5483630100"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C310",
+                    "pos": {
+                        "x": 149.254424,
+                        "y": 97.635576
+                    },
+                    "uuid": "8bdacc68-62c2-4587-9f1f-a62f4f184af1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R405",
+                    "pos": {
+                        "x": 180.229424,
+                        "y": 110.150576
+                    },
+                    "uuid": "93f15cf5-9501-472c-8bba-c96164636a79"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R404",
+                    "pos": {
+                        "x": 178.954424,
+                        "y": 106.135576
+                    },
+                    "uuid": "94176d2c-56b3-4334-b34a-43efff889b8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R402",
+                    "pos": {
+                        "x": 177.454424,
+                        "y": 102.635576
+                    },
+                    "uuid": "993a237b-8040-451c-95eb-a79d53130a53"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C312",
+                    "pos": {
+                        "x": 149.254424,
+                        "y": 94.135576
+                    },
+                    "uuid": "9a8f3f7c-5ef7-408d-b4fb-2d6c69828c28"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R203",
+                    "pos": {
+                        "x": 164.4,
+                        "y": 86.25
+                    },
+                    "uuid": "9bd8c5db-734f-4546-b185-76e625ececaa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R302",
+                    "pos": {
+                        "x": 160.25,
+                        "y": 109.15
+                    },
+                    "uuid": "9e78b2d8-643a-4738-a183-9e06b68bedeb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C303",
+                    "pos": {
+                        "x": 153.25,
+                        "y": 108.25
+                    },
+                    "uuid": "9ed1ff26-26bb-4163-b31c-5f72692db237"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R306",
+                    "pos": {
+                        "x": 151.4,
+                        "y": 101.25
+                    },
+                    "uuid": "9fc556c5-f69d-4c5f-a8ac-4cec0ffe9cec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C101",
+                    "pos": {
+                        "x": 184.1,
+                        "y": 84.25
+                    },
+                    "uuid": "a0c4af7a-216f-417c-b773-9c3b5f641115"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R308",
+                    "pos": {
+                        "x": 145.9,
+                        "y": 91.2
+                    },
+                    "uuid": "a580eca0-7034-4f3d-92bc-ae5b2fdf5946"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R303",
+                    "pos": {
+                        "x": 154.75,
+                        "y": 107.75
+                    },
+                    "uuid": "a5df15b9-74ab-4d39-8816-4c8fae72a0d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C209",
+                    "pos": {
+                        "x": 155.4,
+                        "y": 77.95
+                    },
+                    "uuid": "afad37a2-79b9-45f1-99c7-63bf79e354c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'MixedSignalBoardParts'.",
+            "items": [
+                {
+                    "description": "Footprint J300",
+                    "pos": {
+                        "x": 155.17,
+                        "y": 116.92
+                    },
+                    "uuid": "b5bc5cdb-946e-476a-8807-ca768688d45d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'LED_Avago_PLCC4_3.2x2.8mm_CW' does not match copy in library 'LED_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint D200",
+                    "pos": {
+                        "x": 143.4,
+                        "y": 78.1
+                    },
+                    "uuid": "b7884d12-6389-4220-81d5-2397c15af208"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C304",
+                    "pos": {
+                        "x": 148.65,
+                        "y": 106.25
+                    },
+                    "uuid": "b9e8d511-004c-4801-a690-eae82b35f011"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R309",
+                    "pos": {
+                        "x": 154.3,
+                        "y": 88.95
+                    },
+                    "uuid": "b9ecca47-3be0-4b14-9238-04d267a254bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R205",
+                    "pos": {
+                        "x": 193.75,
+                        "y": 86.25
+                    },
+                    "uuid": "bbb93ff7-4c7d-48d4-b54f-5306f13b3fc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R400",
+                    "pos": {
+                        "x": 178.95,
+                        "y": 87.85
+                    },
+                    "uuid": "bdc5b5b6-20cc-4465-8d38-eb99a543f226"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C200",
+                    "pos": {
+                        "x": 160.025,
+                        "y": 77.075
+                    },
+                    "uuid": "c6ffc44e-0ef9-4770-90af-6c7ee2770cd4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R307",
+                    "pos": {
+                        "x": 154.45,
+                        "y": 101.25
+                    },
+                    "uuid": "c9c33289-e9d5-46fe-9df2-0bbdc135c25b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'MixedSignalBoardParts'.",
+            "items": [
+                {
+                    "description": "Footprint J400",
+                    "pos": {
+                        "x": 179.75,
+                        "y": 116.98
+                    },
+                    "uuid": "cb52f788-05fb-4828-9602-1488fb676475"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint U101",
+                    "pos": {
+                        "x": 180.85,
+                        "y": 69.55
+                    },
+                    "uuid": "d106d80e-13b9-422c-a25d-4ea14537485e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'USB_C_Receptacle_HRO_TYPE-C-31-M-12' does not match copy in library 'Connector_USB'.",
+            "items": [
+                {
+                    "description": "Footprint J200",
+                    "pos": {
+                        "x": 195.25,
+                        "y": 79.741488
+                    },
+                    "uuid": "d10d7cb3-05c0-43b7-9c51-658cd94a38b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R403",
+                    "pos": {
+                        "x": 177.454424,
+                        "y": 105.635576
+                    },
+                    "uuid": "d1861e0d-8432-4a40-8009-1ed701daaff0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C311",
+                    "pos": {
+                        "x": 150.754424,
+                        "y": 97.635576
+                    },
+                    "uuid": "d1ef716a-a922-468e-868b-19f6fadf56f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C205",
+                    "pos": {
+                        "x": 161.5,
+                        "y": 81.2
+                    },
+                    "uuid": "d23a6238-fa6d-4d29-adb8-30195dc2f689"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C313",
+                    "pos": {
+                        "x": 150.754424,
+                        "y": 94.135576
+                    },
+                    "uuid": "d3f16569-f338-476c-8641-ee1a2e58c969"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C103",
+                    "pos": {
+                        "x": 164.4,
+                        "y": 100.85
+                    },
+                    "uuid": "d3f5750d-ea91-4b1a-ba65-a874410044fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C108",
+                    "pos": {
+                        "x": 170.75,
+                        "y": 106.25
+                    },
+                    "uuid": "db33f453-2db8-416d-a42a-81dc9ae6a201"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R305",
+                    "pos": {
+                        "x": 150.25,
+                        "y": 106.75
+                    },
+                    "uuid": "de0ffc87-d4e2-4389-8490-881577bc9222"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C308",
+                    "pos": {
+                        "x": 145.15,
+                        "y": 89.45
+                    },
+                    "uuid": "df8f5c35-f3ad-47be-8a63-90d0b03e9e91"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R213",
+                    "pos": {
+                        "x": 151.15,
+                        "y": 62.85
+                    },
+                    "uuid": "e1dd2b05-f17b-4807-9a5c-8b2f8f9e35f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R206",
+                    "pos": {
+                        "x": 193.95,
+                        "y": 73.25
+                    },
+                    "uuid": "e4c462b9-e761-41c6-8a3f-5201ec50700f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'Crystal_SMD_3225-4Pin_3.2x2.5mm' does not match copy in library 'Crystal'.",
+            "items": [
+                {
+                    "description": "Footprint Y200",
+                    "pos": {
+                        "x": 156.55,
+                        "y": 75.425
+                    },
+                    "uuid": "e50c9150-3fe2-4820-8f44-542f252c0f22"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R401",
+                    "pos": {
+                        "x": 178.85,
+                        "y": 100.735576
+                    },
+                    "uuid": "eca27cab-8ee3-4fcc-a391-935542677fe9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C201",
+                    "pos": {
+                        "x": 161.559592,
+                        "y": 77.015773
+                    },
+                    "uuid": "f242dbbc-b914-475f-bad8-903c7f22b3b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'L_Sunlord_MWSA0603S' does not match copy in library 'Inductor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint L101",
+                    "pos": {
+                        "x": 180.85,
+                        "y": 63.8
+                    },
+                    "uuid": "f5660fca-361b-498b-b94c-6f137b017a2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R208",
+                    "pos": {
+                        "x": 146.4,
+                        "y": 79.6
+                    },
+                    "uuid": "f7895fc4-0b76-4722-ba2d-7f40358f3b79"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint C314",
+                    "pos": {
+                        "x": 151.654424,
+                        "y": 91.635576
+                    },
+                    "uuid": "f988a137-c9db-47ce-91d5-1c9c26c2b10f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R200",
+                    "pos": {
+                        "x": 166.8,
+                        "y": 74.0
+                    },
+                    "uuid": "fd98512c-e552-4e14-813e-665de07cdd6e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint R100",
+                    "pos": {
+                        "x": 168.4,
+                        "y": 93.865
+                    },
+                    "uuid": "fe3ba4a7-df18-4deb-8111-46a3e26ef873"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 169.7,
+                        "y": 80.85
+                    },
+                    "uuid": "0034f498-cdad-4e8a-ba43-ca0aa61ed408"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 162.5,
+                        "y": 112.25
+                    },
+                    "uuid": "00ffe87d-fce2-4834-a7f4-ff26d7a48124"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 117.25
+                    },
+                    "uuid": "01206911-1097-4b18-99ae-dbe719d6e063"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 107.25
+                    },
+                    "uuid": "046527bc-140d-47b6-93b8-88ee52006791"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 82.25
+                    },
+                    "uuid": "05f2629f-10ea-4b48-a1d5-5b72b3cd05b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 192.5,
+                        "y": 89.75
+                    },
+                    "uuid": "06430e38-9345-4dd9-943d-b39b1b4ca7ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 156.75,
+                        "y": 84.95
+                    },
+                    "uuid": "06f905d4-c768-4cab-9214-2dba8d6c8277"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 122.25
+                    },
+                    "uuid": "07ee44c9-4d18-4db6-b2f1-77d166eaffb4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 117.25
+                    },
+                    "uuid": "08074d53-79a3-4b24-b9f1-607aa58bfccb"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 167.467631,
+                        "y": 80.667631
+                    },
+                    "uuid": "088392f8-6847-411a-b261-5bcc8a2a6720"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 62.25
+                    },
+                    "uuid": "08afb2ff-df3e-46ce-a16c-0692b2d70068"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 182.5,
+                        "y": 102.25
+                    },
+                    "uuid": "08ee9b94-ef23-4abb-878a-95d08b487c9a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 177.5,
+                        "y": 122.25
+                    },
+                    "uuid": "0c66d7f1-65d2-4790-a92b-4321adebf1a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 127.25
+                    },
+                    "uuid": "0f0fbc56-c5e5-4ef8-8c8a-55aa648aef6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 102.25
+                    },
+                    "uuid": "0fde40df-8e89-468f-abfd-b76549442ea6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 69.75
+                    },
+                    "uuid": "10fed35e-33de-4aea-a9a2-7a80a07c0e41"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 177.5,
+                        "y": 114.75
+                    },
+                    "uuid": "119c00ae-5250-463d-914b-449637f29073"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 87.25
+                    },
+                    "uuid": "128bb6d5-67d8-42ad-9ca8-1a03b22132e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 192.5,
+                        "y": 102.25
+                    },
+                    "uuid": "13f78a10-a48d-4bf3-babe-063bad31c069"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 57.25
+                    },
+                    "uuid": "14351c5c-8b36-4f5a-825d-b447d40c77d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 177.5,
+                        "y": 119.75
+                    },
+                    "uuid": "144c2ffa-4c6b-4823-95ac-c219be18c33c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 160.0,
+                        "y": 114.75
+                    },
+                    "uuid": "15125114-05d5-4982-8a6e-849f1520f03b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 162.5,
+                        "y": 114.75
+                    },
+                    "uuid": "159f239a-14fa-44e1-9f83-bcc31ddda4b9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 182.5,
+                        "y": 59.75
+                    },
+                    "uuid": "15b5e615-ee78-429e-b9ce-d13fee44210a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 117.25
+                    },
+                    "uuid": "162ba7f7-00b0-4b6a-a9c2-fc003012a5e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 84.75
+                    },
+                    "uuid": "165a4a03-1ee4-41ed-bff3-832c9eb246d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 114.75
+                    },
+                    "uuid": "17370eb3-0b4a-42c3-b018-bc5b3ca04810"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.0,
+                        "y": 59.75
+                    },
+                    "uuid": "17ee50e2-847f-4590-81f4-7d03134b17e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 102.25
+                    },
+                    "uuid": "196f6fd8-c34b-4b1c-869e-d7c83ed1a78c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 74.75
+                    },
+                    "uuid": "1a9fed91-b6ef-4932-ad32-32d52bce7dc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 157.5,
+                        "y": 97.25
+                    },
+                    "uuid": "1ad4a782-8782-4f2e-a108-c12fce07b8b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 157.5,
+                        "y": 114.75
+                    },
+                    "uuid": "1b900241-5087-4989-906c-221ec4acdcd4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 64.75
+                    },
+                    "uuid": "1b9f35d3-50a3-4274-a7d4-f8d56e7a59bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.0,
+                        "y": 124.75
+                    },
+                    "uuid": "1c4278ae-e133-4e38-8eca-c86c257fc18f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 69.75
+                    },
+                    "uuid": "1d00c55f-235e-43c4-be3f-add5e91ff9fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 157.5,
+                        "y": 94.75
+                    },
+                    "uuid": "1dea592d-7e37-4996-ad78-4855e913c579"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 57.25
+                    },
+                    "uuid": "1e692d2d-1332-448d-8810-9f7e2075e864"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 109.75
+                    },
+                    "uuid": "1e9bd0e3-9b60-4013-9391-567b145d50c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 119.75
+                    },
+                    "uuid": "1f896c2e-8b9e-4ecf-a36b-1f062601e28e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 152.5,
+                        "y": 67.25
+                    },
+                    "uuid": "1ffe3eb6-4410-43df-92a3-81d7d5132616"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 94.75
+                    },
+                    "uuid": "202c6cec-d84e-4b58-9e16-b2b638faf5da"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 157.5,
+                        "y": 119.75
+                    },
+                    "uuid": "20348342-4b28-4a15-afbf-ff3fc56b3db1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 192.5,
+                        "y": 67.25
+                    },
+                    "uuid": "212dfe15-a26f-4d18-9fed-cde1325df947"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 69.75
+                    },
+                    "uuid": "217cb21e-7088-47b0-b318-ba199fa8a5bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.0,
+                        "y": 122.25
+                    },
+                    "uuid": "217d34d0-dce0-4219-83ec-00d1b31e81b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 72.25
+                    },
+                    "uuid": "21eb01bf-a52e-49bd-9a0e-734b588999a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 107.25
+                    },
+                    "uuid": "220e67c8-d231-4546-b637-7494eae82718"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 160.0,
+                        "y": 124.75
+                    },
+                    "uuid": "22119902-5190-4aaf-885b-d47ad7d51df9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.0,
+                        "y": 114.75
+                    },
+                    "uuid": "22333ded-e82d-4015-af8e-9f993d4a5b01"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 92.25
+                    },
+                    "uuid": "232a80fd-8c4b-47fb-aff1-72bba7c8d761"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 89.75
+                    },
+                    "uuid": "256f9d69-95c4-4347-9cee-c280db1f805e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 192.5,
+                        "y": 64.75
+                    },
+                    "uuid": "25c05a91-2379-47a2-b81a-25c09c2bf1cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 59.75
+                    },
+                    "uuid": "26357fef-dea9-46ba-ae4e-9d97e3a0bc0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 117.25
+                    },
+                    "uuid": "26bc6537-25a5-4eac-9465-dca2016d17e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 89.75
+                    },
+                    "uuid": "26dcbd09-cd5f-437a-a0fb-11d2c0364b8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 57.25
+                    },
+                    "uuid": "271ab31a-60fc-46ca-bf57-e5977102c21b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 112.25
+                    },
+                    "uuid": "27964e47-ed5a-4df9-8913-c774e1093282"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 109.75
+                    },
+                    "uuid": "27c1cb41-1d11-41a7-88f5-111d62672696"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 127.25
+                    },
+                    "uuid": "27cd208f-54a3-4d18-91eb-e04bf99991be"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 117.25
+                    },
+                    "uuid": "28b19ad8-7eec-4b85-b4cc-4f38d6a6a25e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 182.5,
+                        "y": 104.75
+                    },
+                    "uuid": "28e47510-a350-469d-9ab7-72a07eb8fef2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 59.75
+                    },
+                    "uuid": "28fecc72-9a02-4a72-a46f-088babacab65"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 114.75
+                    },
+                    "uuid": "2b3568dc-5348-4006-9a05-2dd830ad7862"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 109.75
+                    },
+                    "uuid": "2d58c9a8-7966-4aea-bba8-f1ef3a4ea2b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 74.75
+                    },
+                    "uuid": "2e96f732-98e3-4cf7-bc5e-36bdc2add509"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 59.75
+                    },
+                    "uuid": "2e998f72-68e7-403d-a47f-7fc020ee895b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 87.25
+                    },
+                    "uuid": "2f32d7a2-2648-461a-a103-5faee04f860d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 124.75
+                    },
+                    "uuid": "2f6d6651-b4a1-47f1-bd37-fc23444a824d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 99.75
+                    },
+                    "uuid": "2f71bdf9-2e7a-47f2-b3e4-8d1e33938577"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 124.75
+                    },
+                    "uuid": "2ff6abc0-9df3-4713-b82a-0a816d28f317"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 156.1,
+                        "y": 101.0
+                    },
+                    "uuid": "32174f36-0495-400e-8982-7048163b8348"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 127.25
+                    },
+                    "uuid": "32a0201b-87bc-471c-9d94-73089136a9fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 92.25
+                    },
+                    "uuid": "32b8fcc4-cc23-4640-a6ae-0e70215902f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 119.75
+                    },
+                    "uuid": "33525bb2-b61c-4005-b489-ee0f8551b5d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 192.5,
+                        "y": 117.25
+                    },
+                    "uuid": "35049c2b-9241-4d5b-9a9b-39f6c2e2c41c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 64.75
+                    },
+                    "uuid": "354d20f1-7fc1-4d74-bcac-b2c66a5a7e9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 152.5,
+                        "y": 119.75
+                    },
+                    "uuid": "36579ae6-475e-4ad5-8d05-83beb994bc95"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.0,
+                        "y": 59.75
+                    },
+                    "uuid": "36a5843a-bb98-49b2-b92d-89614e8afc97"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 124.75
+                    },
+                    "uuid": "36cf9d58-291b-4b2d-8e39-d331ff1e72fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 122.25
+                    },
+                    "uuid": "370449a8-5023-41d4-b53c-6891bcd4249f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 114.75
+                    },
+                    "uuid": "382ca1a3-6f7d-4bde-b3c3-07e1a2615004"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 109.75
+                    },
+                    "uuid": "399b252c-fdeb-489a-ac37-e6cd731246c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 119.75
+                    },
+                    "uuid": "399e6958-737c-4266-a508-559d207885fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 182.5,
+                        "y": 57.25
+                    },
+                    "uuid": "39b955ae-ad44-4c17-9b18-0045c49ebfee"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 182.5,
+                        "y": 119.75
+                    },
+                    "uuid": "39c72323-df8e-462c-8d14-a25fa77ccc25"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 87.25
+                    },
+                    "uuid": "3aab51cd-9aea-4b81-9bac-864fb37794ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 57.25
+                    },
+                    "uuid": "3aecf400-4249-40f7-84ec-f54201e4d24a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 181.6,
+                        "y": 95.95
+                    },
+                    "uuid": "3be6c2ef-4e87-484b-bd43-4af2adb96ca5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 117.25
+                    },
+                    "uuid": "3c07a1b4-7526-49ed-bd96-363b84e9e2fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.0,
+                        "y": 119.75
+                    },
+                    "uuid": "3d2e4156-84ff-4612-a2de-b15cd6651d9c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 127.25
+                    },
+                    "uuid": "3d4bd3ea-7f9b-4a97-b21f-f851b8aef00d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 64.75
+                    },
+                    "uuid": "3da869ce-8638-48c1-b1c3-7bf5131d0ea1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 69.75
+                    },
+                    "uuid": "40e51b31-9b1e-4330-abbb-71e322409a6f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 82.25
+                    },
+                    "uuid": "41a3cd8f-f6dc-4211-b3a7-b8a0d48b036f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 156.75,
+                        "y": 81.8
+                    },
+                    "uuid": "41d63280-8961-4e74-9c5d-6b05ea836faf"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 67.25
+                    },
+                    "uuid": "42aa202b-b4de-40a5-a2ed-f94b60320176"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 74.75
+                    },
+                    "uuid": "430bc6f6-8498-418c-ac71-6307e7893494"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 182.5,
+                        "y": 109.75
+                    },
+                    "uuid": "438ef54f-bf6b-4a7f-a3e8-78c8df459d52"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 152.5,
+                        "y": 74.75
+                    },
+                    "uuid": "44391a59-2dd1-4606-bac4-5d6ae56f3c7a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 114.75
+                    },
+                    "uuid": "45a3d419-102f-4ee3-830c-9a2ea2320eba"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 112.25
+                    },
+                    "uuid": "462ca434-32dc-4ec1-9cfd-d067dd160fb8"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.0,
+                        "y": 127.25
+                    },
+                    "uuid": "48f36bd8-c147-42dc-ba4c-7f85e7ea71c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 97.25
+                    },
+                    "uuid": "49da6d67-a3c3-4de7-a29d-6899e2b06a46"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.0,
+                        "y": 102.25
+                    },
+                    "uuid": "4ab0d692-2b73-45dd-ba6d-766caa91e430"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 192.5,
+                        "y": 72.25
+                    },
+                    "uuid": "4af906c1-a6c1-46a4-9ca8-b5983dad11ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.1,
+                        "y": 84.35
+                    },
+                    "uuid": "4b19f120-e751-4774-9427-7ec65e8c8d02"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 119.75
+                    },
+                    "uuid": "4e70eafe-3940-4a6c-a9aa-017c0e7e8a95"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 127.25
+                    },
+                    "uuid": "500cc00f-4fa6-4207-80a7-81647c20d3d8"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 62.25
+                    },
+                    "uuid": "51a0f96e-1919-4df4-a40f-dd893216b12a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 79.75
+                    },
+                    "uuid": "52089b49-275b-4eea-80a8-ec67727b2ed4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 57.25
+                    },
+                    "uuid": "533ea72d-3dd9-4399-9089-a903d682322e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 114.75
+                    },
+                    "uuid": "5362aa2d-792d-45dd-9d37-f4ec960d61fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 117.25
+                    },
+                    "uuid": "53be3054-acb8-4cf1-91b9-3196c978b5c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 181.798741,
+                        "y": 82.95
+                    },
+                    "uuid": "542ddec9-7d72-498b-9d6d-d2a7f97150e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 67.25
+                    },
+                    "uuid": "545fa094-4b84-4994-8128-4e6d3d75817a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 97.25
+                    },
+                    "uuid": "54a85826-40bb-48c0-89cc-c6b5e0073630"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 182.5,
+                        "y": 94.75
+                    },
+                    "uuid": "54d8f0c1-aae6-4a03-bed2-abfa5f332f62"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 59.75
+                    },
+                    "uuid": "55ecd04a-0acf-4e40-be47-0ce27b839292"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 99.75
+                    },
+                    "uuid": "56c07df5-7514-407a-a19d-c0afaf088932"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 152.5,
+                        "y": 122.25
+                    },
+                    "uuid": "5742f41b-a216-46aa-93ca-ceb8640b20ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 89.75
+                    },
+                    "uuid": "577f764e-3a4b-409d-b0e6-6e061b2f391a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 192.5,
+                        "y": 112.25
+                    },
+                    "uuid": "57b7e586-c42a-4989-bfcc-fec136c28855"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 109.75
+                    },
+                    "uuid": "5891af65-bbc2-4377-a1c3-2f7499342169"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 102.25
+                    },
+                    "uuid": "58cb20f6-0836-4045-9588-e9de43665e65"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 64.75
+                    },
+                    "uuid": "590d5207-119f-43c6-b3a8-53ae96d396e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.0,
+                        "y": 94.75
+                    },
+                    "uuid": "5c1afc98-f712-49bc-b39d-3fa2d2bc8615"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 64.75
+                    },
+                    "uuid": "5d39097e-043d-4d88-8860-7ea4ae1e3bbe"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 57.25
+                    },
+                    "uuid": "5d67ea25-1cfd-413c-a1d0-ad69b5edb0cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 69.75
+                    },
+                    "uuid": "5d6d1617-e97f-43b2-8544-e3a1028d118a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 119.75
+                    },
+                    "uuid": "5f12bb69-62ea-414e-9747-c1744b9107f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 160.0,
+                        "y": 94.75
+                    },
+                    "uuid": "609ec7b2-9b42-40ff-87ea-498b3cf20dbd"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 62.25
+                    },
+                    "uuid": "6256277d-1e66-4d4e-986d-bbc85bf3e311"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 182.5,
+                        "y": 73.865
+                    },
+                    "uuid": "62f15ba3-0024-41ac-aa8a-88460dce8759"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 92.25
+                    },
+                    "uuid": "62fce25d-fd1c-4117-9b74-07910fa020e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 89.75
+                    },
+                    "uuid": "637456ba-1bab-4a7e-9fb4-aa50b3f69884"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 87.25
+                    },
+                    "uuid": "64402380-fe70-4351-8739-8f8bb10533c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 177.45,
+                        "y": 83.8
+                    },
+                    "uuid": "6455a2a1-1ed9-4f72-af97-c5494906708a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 84.75
+                    },
+                    "uuid": "65138643-8de9-49ae-94cd-97f0c372d61a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 122.25
+                    },
+                    "uuid": "65829f96-7ec0-4726-8ebd-e9bfa6d935b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 124.75
+                    },
+                    "uuid": "6635fa5e-f540-4e56-a53c-f8eb9ce4dfc6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.0,
+                        "y": 57.25
+                    },
+                    "uuid": "66584395-816d-47b1-b496-b85fb553d39e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 119.75
+                    },
+                    "uuid": "66c895e7-49b3-41b7-9fae-66e8736e08ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 109.75
+                    },
+                    "uuid": "6728fe44-e77e-469a-8f3d-35a173e66579"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 182.5,
+                        "y": 127.25
+                    },
+                    "uuid": "675f2141-5f98-4883-b597-cc1d1baf71e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 176.65,
+                        "y": 76.45
+                    },
+                    "uuid": "67743882-4560-4f5e-b02a-9078abd9cf73"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 162.5,
+                        "y": 97.25
+                    },
+                    "uuid": "683118cc-97cc-4239-9bcf-4270034b30b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 119.75
+                    },
+                    "uuid": "68428ff8-21c3-4640-b80b-d236458bc096"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 69.75
+                    },
+                    "uuid": "68a2723f-d9f2-4426-bc46-b855e67bc272"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 162.5,
+                        "y": 99.75
+                    },
+                    "uuid": "69697953-c3fb-4d0c-a540-5ae5ab302693"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 124.75
+                    },
+                    "uuid": "6bd4d2d5-b2d7-4631-9adf-9f83c60fd22c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 112.25
+                    },
+                    "uuid": "6bd56dc8-e340-4eec-bd08-02b128a3de23"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 109.75
+                    },
+                    "uuid": "6d5c4353-5e50-44ea-823e-218a4117883b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 182.5,
+                        "y": 99.75
+                    },
+                    "uuid": "6d822db5-97d3-423b-a826-f097a2e00197"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 64.75
+                    },
+                    "uuid": "6fc6b120-e36f-401c-a263-3be61cf892b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 117.25
+                    },
+                    "uuid": "70328315-babe-401f-9eb9-6960fd3dbf23"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 97.25
+                    },
+                    "uuid": "70c6b7a6-6ff9-4c68-a7a0-a472ec53e6ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 119.75
+                    },
+                    "uuid": "711b93b6-3a7e-45e0-956c-e4ff3184c0c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 165.0,
+                        "y": 124.75
+                    },
+                    "uuid": "71962f95-cc84-489d-9daa-38241c06deb2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 104.75
+                    },
+                    "uuid": "728d804c-a7ed-483d-8091-e08331de8a33"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 157.5,
+                        "y": 127.25
+                    },
+                    "uuid": "72e98678-2cdd-4113-9e76-b2770af22650"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.95,
+                        "y": 67.85
+                    },
+                    "uuid": "757a1b36-6c5f-494d-8cd7-04c2dab0d453"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 124.75
+                    },
+                    "uuid": "76276620-511c-4201-8574-046cd94a629c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 59.75
+                    },
+                    "uuid": "7730d925-3188-40bd-9320-e8aa5acd3564"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 112.25
+                    },
+                    "uuid": "7748d753-524f-4a2b-ade2-b18855fb201e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 94.75
+                    },
+                    "uuid": "774cdc77-b36b-4242-895c-1aa6442b4283"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 89.75
+                    },
+                    "uuid": "779be7d9-3da0-4189-b8a6-e64bdaa13668"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 112.25
+                    },
+                    "uuid": "78277fee-74ac-44f6-b145-53ef1fa656f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 162.5,
+                        "y": 94.75
+                    },
+                    "uuid": "782f6a4b-8a6c-47b8-9b62-4a5486c27b6e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 155.0,
+                        "y": 119.75
+                    },
+                    "uuid": "79685ac6-03fa-465c-a096-e4859a69bd71"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 107.25
+                    },
+                    "uuid": "79e1a35a-6e11-465b-89c3-a7609f621b77"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 94.75
+                    },
+                    "uuid": "7a8041f2-9409-4c1a-9ef2-8c7a6a347050"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 97.25
+                    },
+                    "uuid": "7b2f9430-2699-4b76-94a8-f17347e11268"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 99.75
+                    },
+                    "uuid": "7d20c530-ff04-45ae-bc42-1b0b0a4c9d49"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 162.5,
+                        "y": 119.75
+                    },
+                    "uuid": "7d4cd53d-3bdb-4607-99a9-7a88526c3b73"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 92.25
+                    },
+                    "uuid": "7fabf480-f57b-4eb8-a713-37a03de9069e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 114.75
+                    },
+                    "uuid": "809cc1ab-6753-46d4-8c39-67715931ad90"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 160.0,
+                        "y": 117.25
+                    },
+                    "uuid": "8146f85e-4754-419e-acd7-8e4fb4296913"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 192.5,
+                        "y": 119.75
+                    },
+                    "uuid": "8491b186-e783-4116-8a65-ddfacd851f83"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 59.75
+                    },
+                    "uuid": "84be20a3-7e3a-4da2-bf12-441490fc5f7c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 157.9,
+                        "y": 86.85
+                    },
+                    "uuid": "86782393-341a-4d68-8051-329c2e05f268"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 112.25
+                    },
+                    "uuid": "87fd05ff-09c3-47c0-97d8-4ff0c4d127b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 162.5,
+                        "y": 117.25
+                    },
+                    "uuid": "8824eee6-c421-4557-bbb3-812c2d06be93"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 168.45,
+                        "y": 90.4
+                    },
+                    "uuid": "884d541a-5c64-41bc-8634-f936811ec865"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 92.25
+                    },
+                    "uuid": "8894e26b-5740-43bc-833d-b681e7ec5efa"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 59.75
+                    },
+                    "uuid": "89d40d0b-c129-49b1-ab62-deaff6cf4ba5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 112.25
+                    },
+                    "uuid": "8a51ce7e-84cd-4dce-bb3f-74c83005bb12"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 94.75
+                    },
+                    "uuid": "8b6fa3cc-7dea-461a-bac9-0ff983e662b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 185.0,
+                        "y": 119.75
+                    },
+                    "uuid": "8c12c161-feb2-44ac-be79-e621d3bf8e79"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 187.5,
+                        "y": 94.75
+                    },
+                    "uuid": "8e9d7675-75b9-4586-8061-3b4d2fefa793"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 84.75
+                    },
+                    "uuid": "8f17d04f-f780-4cce-8a4e-e38f7a952d89"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 107.25
+                    },
+                    "uuid": "8f825f4d-ee35-4f70-b0ee-cdb88c10a4ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 87.25
+                    },
+                    "uuid": "90e84e65-0bef-49e1-b002-2dcacd658e1c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 92.25
+                    },
+                    "uuid": "917433dd-ae5d-4e24-896d-0a4b01f1d534"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 163.65,
+                        "y": 73.35
+                    },
+                    "uuid": "917dc5a7-2fd1-45c4-8c8b-da9ee36be120"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 92.25
+                    },
+                    "uuid": "9186a7ba-e8cc-4dea-bf20-debbe09c1712"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 180.0,
+                        "y": 119.75
+                    },
+                    "uuid": "919e4e35-3d14-4382-abe8-c3869500bd1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 160.0,
+                        "y": 127.25
+                    },
+                    "uuid": "925268e3-79c6-4b82-a243-cf422026456f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 97.25
+                    },
+                    "uuid": "92e8d9e3-24e3-45fa-985d-0de06e7d1b80"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.25,
+                        "y": 89.8
+                    },
+                    "uuid": "93f71ebc-5b40-4a93-8667-3d55905c2077"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        }
+    ]
+}

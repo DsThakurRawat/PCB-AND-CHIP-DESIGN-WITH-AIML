@@ -1,0 +1,4201 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T20:33:10+0530",
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "esp32_wroom_minimum_system.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [NetJ4_2] of J4 on L1",
+                    "pos": {
+                        "x": 119.4986,
+                        "y": 105.4176
+                    },
+                    "uuid": "7e896db7-255a-4c9e-8e06-a683f8de1ec2"
+                },
+                {
+                    "description": "Pad 1 [NetJ4_2] of R3 on L1",
+                    "pos": {
+                        "x": 166.0382,
+                        "y": 101.854
+                    },
+                    "uuid": "c7bc9cbd-4dfe-4dfc-b604-8fa1e7bee3b3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [NetJ2_10] on L1, length 0.2389 mm",
+                    "pos": {
+                        "x": 156.972,
+                        "y": 98.40987
+                    },
+                    "uuid": "1243852a-8e33-4462-aa96-690bf1c240e7"
+                },
+                {
+                    "description": "Track [NetJ2_10] on L4, length 7.6871 mm",
+                    "pos": {
+                        "x": 155.8544,
+                        "y": 94.9198
+                    },
+                    "uuid": "cc507826-ed1b-487a-ad86-8d68f5ec267a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [NetC7_1] of C7 on L1",
+                    "pos": {
+                        "x": 176.4656,
+                        "y": 108.458
+                    },
+                    "uuid": "6424ce03-136f-4db1-a1a6-7763c21edc86"
+                },
+                {
+                    "description": "Track [NetC7_1] on L1, length 0.9160 mm",
+                    "pos": {
+                        "x": 148.9186,
+                        "y": 102.5922
+                    },
+                    "uuid": "a212e5ad-aab1-402d-83ab-f9641aed097a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Via [NetC3_2] on L1 - L4",
+                    "pos": {
+                        "x": 156.5402,
+                        "y": 106.7689
+                    },
+                    "uuid": "c48e5299-8842-41bc-b087-668729184436"
+                },
+                {
+                    "description": "Track [NetC3_2] on L1, length 2.0336 mm",
+                    "pos": {
+                        "x": 145.3896,
+                        "y": 99.2886
+                    },
+                    "uuid": "ac2d23d1-11b7-4452-903e-facacf1da0d2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on L1, length 0.7574 mm",
+                    "pos": {
+                        "x": 171.42918,
+                        "y": 99.7966
+                    },
+                    "uuid": "571b6a52-a3ea-4b8c-a756-3739943c0804"
+                },
+                {
+                    "description": "Pad 2 [GND] of C8 on L1",
+                    "pos": {
+                        "x": 171.157,
+                        "y": 98.4504
+                    },
+                    "uuid": "aaf1dd11-86e9-4c82-9a95-bc6cc8dbcf69"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [3.3V] of U2 on L1",
+                    "pos": {
+                        "x": 153.5616,
+                        "y": 108.6502
+                    },
+                    "uuid": "5a84503a-409c-4a06-8c2f-6decd38b91b3"
+                },
+                {
+                    "description": "Pad 36 [3.3V] of U2 on L1",
+                    "pos": {
+                        "x": 153.5616,
+                        "y": 100.2902
+                    },
+                    "uuid": "baf79943-a4bd-4f71-a84a-a627772e2583"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 9 [3.3V] of U2 on L1",
+                    "pos": {
+                        "x": 157.5616,
+                        "y": 108.6502
+                    },
+                    "uuid": "a3411bbf-f353-4cc7-8d9a-662d010c51e7"
+                },
+                {
+                    "description": "Pad 1 [3.3V] of U2 on L1",
+                    "pos": {
+                        "x": 153.5616,
+                        "y": 108.6502
+                    },
+                    "uuid": "5a84503a-409c-4a06-8c2f-6decd38b91b3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 9 [3.3V] of U2 on L1",
+                    "pos": {
+                        "x": 157.5616,
+                        "y": 108.6502
+                    },
+                    "uuid": "a3411bbf-f353-4cc7-8d9a-662d010c51e7"
+                },
+                {
+                    "description": "Pad 2 [3.3V] of R9 on L1",
+                    "pos": {
+                        "x": 166.089,
+                        "y": 107.2388
+                    },
+                    "uuid": "a4e094d5-fd07-45d4-98c3-e61ec0e39ecb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [3.3V] of R9 on L1",
+                    "pos": {
+                        "x": 166.089,
+                        "y": 107.2388
+                    },
+                    "uuid": "a4e094d5-fd07-45d4-98c3-e61ec0e39ecb"
+                },
+                {
+                    "description": "Pad 2 [3.3V] of C1 on L1",
+                    "pos": {
+                        "x": 176.4402,
+                        "y": 98.4758
+                    },
+                    "uuid": "1b3ec385-179d-4660-8d92-59900fbed521"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PD1] on L1 - L4",
+                    "pos": {
+                        "x": 156.0322,
+                        "y": 107.3531
+                    },
+                    "uuid": "14918cb2-7523-4f49-b4af-70a0d736e95d"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PD1] on L1 - L4",
+                    "pos": {
+                        "x": 168.6814,
+                        "y": 109.4867
+                    },
+                    "uuid": "fe2aee77-8b09-4197-a870-149697d3b101"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PD0] on L1 - L4",
+                    "pos": {
+                        "x": 155.702,
+                        "y": 109.982
+                    },
+                    "uuid": "26919204-18f1-4f5a-9d2b-183e76666b17"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PD0] on L1 - L4",
+                    "pos": {
+                        "x": 151.7396,
+                        "y": 112.4585
+                    },
+                    "uuid": "50d53894-682e-4125-a4db-c7c2185ee6d8"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PD0] on L1 - L4",
+                    "pos": {
+                        "x": 169.799,
+                        "y": 108.077
+                    },
+                    "uuid": "c2c70d8f-fe0d-4697-a355-8aae3b472079"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 161.798,
+                        "y": 103.5558
+                    },
+                    "uuid": "57562a5e-ddba-41bc-a4f9-32a28f024e8b"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 143.7386,
+                        "y": 95.5421
+                    },
+                    "uuid": "6f8c7aef-793e-4339-94d5-f16ec2657808"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 163.6955,
+                        "y": 103.43683
+                    },
+                    "uuid": "97591de9-fff7-4cf8-9190-56a2422e37b1"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 163.3982,
+                        "y": 98.4758
+                    },
+                    "uuid": "97d1e740-305e-4efd-9b9c-41112855f6b5"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 163.3982,
+                        "y": 96.2025
+                    },
+                    "uuid": "b086d4d4-efd9-419a-9db4-d0cf3ef4a217"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA15] on L1 - L4",
+                    "pos": {
+                        "x": 155.067,
+                        "y": 109.7153
+                    },
+                    "uuid": "4255c2da-cf06-4763-87eb-54b4a31b5562"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA15] on L1 - L4",
+                    "pos": {
+                        "x": 169.7736,
+                        "y": 101.8159
+                    },
+                    "uuid": "627f1e20-602f-4266-81ca-448f7950d941"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA14] on L1 - L4",
+                    "pos": {
+                        "x": 151.4348,
+                        "y": 100.3935
+                    },
+                    "uuid": "3fe617e2-166d-495e-85c7-52fd84ea1cd2"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA14] on L1 - L4",
+                    "pos": {
+                        "x": 171.2214,
+                        "y": 108.1024
+                    },
+                    "uuid": "5a68437d-5a01-42e4-a55c-e10e3dab0178"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA14] on L1 - L4",
+                    "pos": {
+                        "x": 154.5336,
+                        "y": 110.1598
+                    },
+                    "uuid": "76b01ff9-e5ce-46e7-8dc6-2458d96b77ac"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 153.7716,
+                        "y": 98.7044
+                    },
+                    "uuid": "1bc3839b-3fe4-40b5-81ec-1afe644d18b1"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 168.9608,
+                        "y": 113.2205
+                    },
+                    "uuid": "943ff464-620c-4da1-bb66-e5c1e324d55b"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 162.2044,
+                        "y": 109.1692
+                    },
+                    "uuid": "c418f5a0-36e2-4bee-95f3-22b7e0f7507a"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 154.0243,
+                        "y": 109.7166
+                    },
+                    "uuid": "dd1939da-1ee1-416b-a685-bbbc433947b2"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 141.7828,
+                        "y": 107.7214
+                    },
+                    "uuid": "f4cc01bc-2d95-43cc-a7f6-24710437dba9"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA12] on L1 - L4",
+                    "pos": {
+                        "x": 154.5082,
+                        "y": 98.7044
+                    },
+                    "uuid": "f6061b63-c27e-44e8-acb5-9717451ed3b7"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA11] on L1 - L4",
+                    "pos": {
+                        "x": 167.0812,
+                        "y": 104.1654
+                    },
+                    "uuid": "63f1a651-ff52-467f-b942-064e6a952742"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [PA11] on L1 - L4",
+                    "pos": {
+                        "x": 155.2956,
+                        "y": 98.7552
+                    },
+                    "uuid": "cb69624e-9b92-4f44-bda9-3d2e370ff327"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_15] on L1 - L4",
+                    "pos": {
+                        "x": 161.8107,
+                        "y": 104.6861
+                    },
+                    "uuid": "a78ae5be-5d6b-4498-a1cd-c79f7726b193"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_14] on L1 - L4",
+                    "pos": {
+                        "x": 158.7246,
+                        "y": 112.4966
+                    },
+                    "uuid": "2496ff93-fac1-420a-8222-a6ed5366e839"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_14] on L1 - L4",
+                    "pos": {
+                        "x": 161.5694,
+                        "y": 107.7976
+                    },
+                    "uuid": "872ef81c-c109-430a-b64b-4c5bc4776e69"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_14] on L1 - L4",
+                    "pos": {
+                        "x": 170.5356,
+                        "y": 113.0681
+                    },
+                    "uuid": "8ebb7f3a-ac8b-4d3d-b238-84b3167604eb"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_14] on L1 - L4",
+                    "pos": {
+                        "x": 162.052,
+                        "y": 104.1654
+                    },
+                    "uuid": "f57df5f3-a27e-4118-93c9-acb0733de997"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_13] on L1 - L4",
+                    "pos": {
+                        "x": 150.6474,
+                        "y": 101.8667
+                    },
+                    "uuid": "333e0385-e9d2-46a6-a838-55112394630f"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_13] on L1 - L4",
+                    "pos": {
+                        "x": 168.8338,
+                        "y": 116.1542
+                    },
+                    "uuid": "95d2d529-4b94-40bb-9699-261d4fa2e925"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_13] on L1 - L4",
+                    "pos": {
+                        "x": 147.9042,
+                        "y": 113.0681
+                    },
+                    "uuid": "d9e360f3-2ef9-4697-a67f-54157c286caa"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_13] on L1 - L4",
+                    "pos": {
+                        "x": 147.8534,
+                        "y": 115.4684
+                    },
+                    "uuid": "fbded4fc-faf4-4f07-85bc-b5915ef59122"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_12] on L1 - L4",
+                    "pos": {
+                        "x": 168.0972,
+                        "y": 116.0272
+                    },
+                    "uuid": "34de9745-c5fe-4002-8b9b-f010dc31319c"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_12] on L1 - L4",
+                    "pos": {
+                        "x": 150.5458,
+                        "y": 102.5906
+                    },
+                    "uuid": "93ba0197-8875-4d71-acb2-2c9438385f74"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_12] on L1 - L4",
+                    "pos": {
+                        "x": 148.8186,
+                        "y": 112.6236
+                    },
+                    "uuid": "f9bb4bfb-6c1a-4756-a10d-0029f89d54f5"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_11] on L1 - L4",
+                    "pos": {
+                        "x": 167.4368,
+                        "y": 115.5319
+                    },
+                    "uuid": "1bcd6eb7-1900-4db5-96e8-08d25326434a"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_11] on L1 - L4",
+                    "pos": {
+                        "x": 150.26667,
+                        "y": 115.26122
+                    },
+                    "uuid": "2bbd9147-4b9d-42cf-8188-12a2046a2eed"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_11] on L1 - L4",
+                    "pos": {
+                        "x": 149.606,
+                        "y": 112.4585
+                    },
+                    "uuid": "403d3fd0-1ec2-4920-b500-8a04db72b07d"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_11] on L1 - L4",
+                    "pos": {
+                        "x": 150.0886,
+                        "y": 103.1875
+                    },
+                    "uuid": "de4b2201-3379-44f3-a9c0-ff29366de237"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_11] on L1 - L4",
+                    "pos": {
+                        "x": 153.797,
+                        "y": 115.5024
+                    },
+                    "uuid": "f7d64d9a-5d12-4759-a852-f7a0d824ab32"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_10] on L1 - L4",
+                    "pos": {
+                        "x": 167.7163,
+                        "y": 114.86689
+                    },
+                    "uuid": "13e2f0b5-66a7-4832-8d82-21cb45c79c54"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_10] on L1 - L4",
+                    "pos": {
+                        "x": 163.1188,
+                        "y": 111.4298
+                    },
+                    "uuid": "38852a87-bc87-4298-95ee-8a738781ebfc"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_10] on L1 - L4",
+                    "pos": {
+                        "x": 150.1648,
+                        "y": 111.887
+                    },
+                    "uuid": "ad7a3f44-d913-4085-afd7-1b1ef4d95d8f"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_10] on L1 - L4",
+                    "pos": {
+                        "x": 166.1414,
+                        "y": 111.4298
+                    },
+                    "uuid": "c22ba777-6f00-4301-a5cc-03554cbc26be"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_10] on L1 - L4",
+                    "pos": {
+                        "x": 149.987,
+                        "y": 103.8606
+                    },
+                    "uuid": "c308fb0a-5d0a-47b2-a587-0578c0d2e6de"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_09] on L1 - L4",
+                    "pos": {
+                        "x": 150.9014,
+                        "y": 115.5319
+                    },
+                    "uuid": "2d03ed9f-7dee-43d9-95fc-b894077c15ec"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_09] on L1 - L4",
+                    "pos": {
+                        "x": 150.8252,
+                        "y": 113.4364
+                    },
+                    "uuid": "b4568efc-089b-4c03-99a9-4801a62b4c63"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_09] on L1 - L4",
+                    "pos": {
+                        "x": 151.7396,
+                        "y": 117.64278
+                    },
+                    "uuid": "f911f147-f7c7-4470-974f-da892a213cb2"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_09] on L1 - L4",
+                    "pos": {
+                        "x": 150.3426,
+                        "y": 104.6226
+                    },
+                    "uuid": "fc785a34-e1a1-494c-a924-1cd8af8e4162"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 150.7998,
+                        "y": 110.5535
+                    },
+                    "uuid": "2aa9f155-5c16-45af-b983-8d1132f58e79"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 160.6042,
+                        "y": 115.062
+                    },
+                    "uuid": "44830816-f263-4ddb-a858-63671b9163c5"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 157.53616,
+                        "y": 112.56476
+                    },
+                    "uuid": "4d8f816c-8d2b-495b-9d24-783d3d1e6483"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 152.8826,
+                        "y": 112.3061
+                    },
+                    "uuid": "4e11e70e-92c6-4108-b3b3-10db5b15e073"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 150.0632,
+                        "y": 105.7402
+                    },
+                    "uuid": "698dc0a7-b567-4956-9bb1-bfb76959ef04"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 160.6296,
+                        "y": 113.53511
+                    },
+                    "uuid": "d490719b-671c-4c12-be45-29825c922ba0"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_07] on L1 - L4",
+                    "pos": {
+                        "x": 159.9438,
+                        "y": 115.062
+                    },
+                    "uuid": "328499c4-03cc-42e0-bc17-d69e8b3f4676"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_07] on L1 - L4",
+                    "pos": {
+                        "x": 150.6728,
+                        "y": 106.2736
+                    },
+                    "uuid": "37243bd9-464c-445c-afc3-cf30b45d35df"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_07] on L1 - L4",
+                    "pos": {
+                        "x": 159.9184,
+                        "y": 113.54421
+                    },
+                    "uuid": "55026004-4441-4d0b-b6e9-591789175b24"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_06] on L1 - L4",
+                    "pos": {
+                        "x": 166.30621,
+                        "y": 103.24933
+                    },
+                    "uuid": "0c574748-0f51-486f-8857-9a8c6411e05a"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_06] on L1 - L4",
+                    "pos": {
+                        "x": 163.4617,
+                        "y": 102.8192
+                    },
+                    "uuid": "0e1271a8-cb67-4643-b851-fa44ad30ab7d"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_06] on L1 - L4",
+                    "pos": {
+                        "x": 159.2834,
+                        "y": 115.062
+                    },
+                    "uuid": "d6b31359-d2be-402d-a373-e7c124912e66"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_06] on L1 - L4",
+                    "pos": {
+                        "x": 168.2496,
+                        "y": 102.6922
+                    },
+                    "uuid": "fd9d740c-3e7e-42d9-9a5f-4ee395252438"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_05] on L1 - L4",
+                    "pos": {
+                        "x": 166.9542,
+                        "y": 105.7275
+                    },
+                    "uuid": "2c62cad6-23f5-4485-9b88-7a355a739a66"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_05] on L1 - L4",
+                    "pos": {
+                        "x": 158.4706,
+                        "y": 115.0366
+                    },
+                    "uuid": "8b3fedec-4128-4659-b1dc-3312586088e8"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_05] on L1 - L4",
+                    "pos": {
+                        "x": 162.9918,
+                        "y": 101.6508
+                    },
+                    "uuid": "c5a5411c-e771-4f9c-972f-ca2d1e535637"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_04] on L1 - L4",
+                    "pos": {
+                        "x": 149.4028,
+                        "y": 113.2332
+                    },
+                    "uuid": "aa14f9aa-e0e1-48eb-8112-e8a7d30968f3"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_04] on L1 - L4",
+                    "pos": {
+                        "x": 160.147,
+                        "y": 98.425
+                    },
+                    "uuid": "b4cf0844-203a-4ed5-9468-eb8cf059156c"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_04] on L1 - L4",
+                    "pos": {
+                        "x": 149.5806,
+                        "y": 115.3795
+                    },
+                    "uuid": "d422e5da-bab5-449b-abb5-17c59b7810a7"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_03] on L1 - L4",
+                    "pos": {
+                        "x": 147.193,
+                        "y": 113.2332
+                    },
+                    "uuid": "0276ab33-5825-437c-9247-074575327a93"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_03] on L1 - L4",
+                    "pos": {
+                        "x": 159.45189,
+                        "y": 98.35953
+                    },
+                    "uuid": "2eeb6345-230b-48bc-a3d8-64bab23758e9"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_03] on L1 - L4",
+                    "pos": {
+                        "x": 146.7104,
+                        "y": 115.4557
+                    },
+                    "uuid": "a0e4bf24-f682-4c32-92c5-940c36b9e780"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_01] on L1 - L4",
+                    "pos": {
+                        "x": 147.7391,
+                        "y": 112.2426
+                    },
+                    "uuid": "13b41347-0035-4bb3-9d61-15a13324c638"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_01] on L1 - L4",
+                    "pos": {
+                        "x": 144.0942,
+                        "y": 114.9477
+                    },
+                    "uuid": "2041cfc1-033d-4e28-91e1-1cea2b7001ef"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_01] on L1 - L4",
+                    "pos": {
+                        "x": 158.9024,
+                        "y": 97.9932
+                    },
+                    "uuid": "43ff054c-39b9-4e7e-8ab0-179233d96c22"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_08] on L1 - L4",
+                    "pos": {
+                        "x": 162.1028,
+                        "y": 100.1268
+                    },
+                    "uuid": "33fb4e4d-8bd8-4cec-994f-b0a1c41dd717"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_08] on L1 - L4",
+                    "pos": {
+                        "x": 163.0934,
+                        "y": 104.3432
+                    },
+                    "uuid": "cc0545bf-32e4-4aed-a8c4-c5af9777fd8b"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_07] on L1 - L4",
+                    "pos": {
+                        "x": 163.34764,
+                        "y": 105.18116
+                    },
+                    "uuid": "c10a09db-e7ea-4b35-b1d4-e4fbaefcdafa"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_06] on L1 - L4",
+                    "pos": {
+                        "x": 162.3949,
+                        "y": 106.17862
+                    },
+                    "uuid": "a55176f7-736d-457f-9258-27adc94308d7"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_06] on L1 - L4",
+                    "pos": {
+                        "x": 168.43167,
+                        "y": 95.99087
+                    },
+                    "uuid": "c50107c2-f71b-46a7-a024-1e4a13a1009a"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_05] on L1 - L4",
+                    "pos": {
+                        "x": 162.95351,
+                        "y": 106.53088
+                    },
+                    "uuid": "0936a5a3-912a-4cf9-888e-8ed8b5d02f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_04] on L1 - L4",
+                    "pos": {
+                        "x": 162.9918,
+                        "y": 107.2642
+                    },
+                    "uuid": "a21fd375-5ffb-4f4c-9708-6956d7eb777f"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_03] on L1 - L4",
+                    "pos": {
+                        "x": 160.23577,
+                        "y": 108.38432
+                    },
+                    "uuid": "e8fa2ee5-915b-497d-acc6-848dade615ba"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_02] on L1 - L4",
+                    "pos": {
+                        "x": 159.48279,
+                        "y": 109.7534
+                    },
+                    "uuid": "41d796b1-ede1-4e7f-bccd-d2d3e2781270"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_01] on L1 - L4",
+                    "pos": {
+                        "x": 158.0642,
+                        "y": 109.9185
+                    },
+                    "uuid": "77fcd9f0-9e24-43a5-b52f-2e5ad2dd74dc"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetC4_2] on L1 - L4",
+                    "pos": {
+                        "x": 152.49668,
+                        "y": 110.17742
+                    },
+                    "uuid": "1b303166-edd1-48a6-a8fc-d71ebb951571"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetC3_2] on L1 - L4",
+                    "pos": {
+                        "x": 177.76161,
+                        "y": 102.91913
+                    },
+                    "uuid": "64ae2297-8ae5-4e53-b865-bdc7b241775a"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [NetC3_2] on L1 - L4",
+                    "pos": {
+                        "x": 156.5402,
+                        "y": 106.7689
+                    },
+                    "uuid": "c48e5299-8842-41bc-b087-668729184436"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 - L4",
+                    "pos": {
+                        "x": 157.0736,
+                        "y": 107.4039
+                    },
+                    "uuid": "2a5670f4-cf8f-4624-ab81-cb5597a4bfbe"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 - L4",
+                    "pos": {
+                        "x": 162.2298,
+                        "y": 101.473
+                    },
+                    "uuid": "87fbb5e6-ee40-4b3f-8f58-923d6597da80"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [BOOT0] on L1 - L4",
+                    "pos": {
+                        "x": 150.67742,
+                        "y": 105.2411
+                    },
+                    "uuid": "5bbcb6d0-d069-469f-a9ba-4febc5ab3e42"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [5V] on L1 - L4",
+                    "pos": {
+                        "x": 121.06897,
+                        "y": 109.62892
+                    },
+                    "uuid": "34245097-2220-47ec-a4c2-93ac38d31a61"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4064 mm)",
+            "items": [
+                {
+                    "description": "Via [3.3V] on L1 - L4",
+                    "pos": {
+                        "x": 152.3746,
+                        "y": 99.1362
+                    },
+                    "uuid": "3179a0bb-b559-4ef2-8296-600a05f8b39e"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PD1] on L1 - L4",
+                    "pos": {
+                        "x": 156.0322,
+                        "y": 107.3531
+                    },
+                    "uuid": "14918cb2-7523-4f49-b4af-70a0d736e95d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PD1] on L1 - L4",
+                    "pos": {
+                        "x": 168.6814,
+                        "y": 109.4867
+                    },
+                    "uuid": "fe2aee77-8b09-4197-a870-149697d3b101"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PD0] on L1 - L4",
+                    "pos": {
+                        "x": 155.702,
+                        "y": 109.982
+                    },
+                    "uuid": "26919204-18f1-4f5a-9d2b-183e76666b17"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PD0] on L1 - L4",
+                    "pos": {
+                        "x": 151.7396,
+                        "y": 112.4585
+                    },
+                    "uuid": "50d53894-682e-4125-a4db-c7c2185ee6d8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PD0] on L1 - L4",
+                    "pos": {
+                        "x": 169.799,
+                        "y": 108.077
+                    },
+                    "uuid": "c2c70d8f-fe0d-4697-a355-8aae3b472079"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 161.798,
+                        "y": 103.5558
+                    },
+                    "uuid": "57562a5e-ddba-41bc-a4f9-32a28f024e8b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 143.7386,
+                        "y": 95.5421
+                    },
+                    "uuid": "6f8c7aef-793e-4339-94d5-f16ec2657808"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 163.6955,
+                        "y": 103.43683
+                    },
+                    "uuid": "97591de9-fff7-4cf8-9190-56a2422e37b1"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 163.3982,
+                        "y": 98.4758
+                    },
+                    "uuid": "97d1e740-305e-4efd-9b9c-41112855f6b5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 163.3982,
+                        "y": 96.2025
+                    },
+                    "uuid": "b086d4d4-efd9-419a-9db4-d0cf3ef4a217"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA15] on L1 - L4",
+                    "pos": {
+                        "x": 155.067,
+                        "y": 109.7153
+                    },
+                    "uuid": "4255c2da-cf06-4763-87eb-54b4a31b5562"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA15] on L1 - L4",
+                    "pos": {
+                        "x": 169.7736,
+                        "y": 101.8159
+                    },
+                    "uuid": "627f1e20-602f-4266-81ca-448f7950d941"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA14] on L1 - L4",
+                    "pos": {
+                        "x": 151.4348,
+                        "y": 100.3935
+                    },
+                    "uuid": "3fe617e2-166d-495e-85c7-52fd84ea1cd2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA14] on L1 - L4",
+                    "pos": {
+                        "x": 171.2214,
+                        "y": 108.1024
+                    },
+                    "uuid": "5a68437d-5a01-42e4-a55c-e10e3dab0178"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA14] on L1 - L4",
+                    "pos": {
+                        "x": 154.5336,
+                        "y": 110.1598
+                    },
+                    "uuid": "76b01ff9-e5ce-46e7-8dc6-2458d96b77ac"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 153.7716,
+                        "y": 98.7044
+                    },
+                    "uuid": "1bc3839b-3fe4-40b5-81ec-1afe644d18b1"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 168.9608,
+                        "y": 113.2205
+                    },
+                    "uuid": "943ff464-620c-4da1-bb66-e5c1e324d55b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 162.2044,
+                        "y": 109.1692
+                    },
+                    "uuid": "c418f5a0-36e2-4bee-95f3-22b7e0f7507a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 154.0243,
+                        "y": 109.7166
+                    },
+                    "uuid": "dd1939da-1ee1-416b-a685-bbbc433947b2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 141.7828,
+                        "y": 107.7214
+                    },
+                    "uuid": "f4cc01bc-2d95-43cc-a7f6-24710437dba9"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA12] on L1 - L4",
+                    "pos": {
+                        "x": 154.5082,
+                        "y": 98.7044
+                    },
+                    "uuid": "f6061b63-c27e-44e8-acb5-9717451ed3b7"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA11] on L1 - L4",
+                    "pos": {
+                        "x": 167.0812,
+                        "y": 104.1654
+                    },
+                    "uuid": "63f1a651-ff52-467f-b942-064e6a952742"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [PA11] on L1 - L4",
+                    "pos": {
+                        "x": 155.2956,
+                        "y": 98.7552
+                    },
+                    "uuid": "cb69624e-9b92-4f44-bda9-3d2e370ff327"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_15] on L1 - L4",
+                    "pos": {
+                        "x": 161.8107,
+                        "y": 104.6861
+                    },
+                    "uuid": "a78ae5be-5d6b-4498-a1cd-c79f7726b193"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_14] on L1 - L4",
+                    "pos": {
+                        "x": 158.7246,
+                        "y": 112.4966
+                    },
+                    "uuid": "2496ff93-fac1-420a-8222-a6ed5366e839"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_14] on L1 - L4",
+                    "pos": {
+                        "x": 161.5694,
+                        "y": 107.7976
+                    },
+                    "uuid": "872ef81c-c109-430a-b64b-4c5bc4776e69"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_14] on L1 - L4",
+                    "pos": {
+                        "x": 170.5356,
+                        "y": 113.0681
+                    },
+                    "uuid": "8ebb7f3a-ac8b-4d3d-b238-84b3167604eb"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_14] on L1 - L4",
+                    "pos": {
+                        "x": 162.052,
+                        "y": 104.1654
+                    },
+                    "uuid": "f57df5f3-a27e-4118-93c9-acb0733de997"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_13] on L1 - L4",
+                    "pos": {
+                        "x": 150.6474,
+                        "y": 101.8667
+                    },
+                    "uuid": "333e0385-e9d2-46a6-a838-55112394630f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_13] on L1 - L4",
+                    "pos": {
+                        "x": 168.8338,
+                        "y": 116.1542
+                    },
+                    "uuid": "95d2d529-4b94-40bb-9699-261d4fa2e925"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_13] on L1 - L4",
+                    "pos": {
+                        "x": 147.9042,
+                        "y": 113.0681
+                    },
+                    "uuid": "d9e360f3-2ef9-4697-a67f-54157c286caa"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_13] on L1 - L4",
+                    "pos": {
+                        "x": 147.8534,
+                        "y": 115.4684
+                    },
+                    "uuid": "fbded4fc-faf4-4f07-85bc-b5915ef59122"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_12] on L1 - L4",
+                    "pos": {
+                        "x": 168.0972,
+                        "y": 116.0272
+                    },
+                    "uuid": "34de9745-c5fe-4002-8b9b-f010dc31319c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_12] on L1 - L4",
+                    "pos": {
+                        "x": 150.5458,
+                        "y": 102.5906
+                    },
+                    "uuid": "93ba0197-8875-4d71-acb2-2c9438385f74"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_12] on L1 - L4",
+                    "pos": {
+                        "x": 148.8186,
+                        "y": 112.6236
+                    },
+                    "uuid": "f9bb4bfb-6c1a-4756-a10d-0029f89d54f5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_11] on L1 - L4",
+                    "pos": {
+                        "x": 167.4368,
+                        "y": 115.5319
+                    },
+                    "uuid": "1bcd6eb7-1900-4db5-96e8-08d25326434a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_11] on L1 - L4",
+                    "pos": {
+                        "x": 150.26667,
+                        "y": 115.26122
+                    },
+                    "uuid": "2bbd9147-4b9d-42cf-8188-12a2046a2eed"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_11] on L1 - L4",
+                    "pos": {
+                        "x": 149.606,
+                        "y": 112.4585
+                    },
+                    "uuid": "403d3fd0-1ec2-4920-b500-8a04db72b07d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_11] on L1 - L4",
+                    "pos": {
+                        "x": 150.0886,
+                        "y": 103.1875
+                    },
+                    "uuid": "de4b2201-3379-44f3-a9c0-ff29366de237"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_11] on L1 - L4",
+                    "pos": {
+                        "x": 153.797,
+                        "y": 115.5024
+                    },
+                    "uuid": "f7d64d9a-5d12-4759-a852-f7a0d824ab32"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_10] on L1 - L4",
+                    "pos": {
+                        "x": 167.7163,
+                        "y": 114.86689
+                    },
+                    "uuid": "13e2f0b5-66a7-4832-8d82-21cb45c79c54"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_10] on L1 - L4",
+                    "pos": {
+                        "x": 163.1188,
+                        "y": 111.4298
+                    },
+                    "uuid": "38852a87-bc87-4298-95ee-8a738781ebfc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_10] on L1 - L4",
+                    "pos": {
+                        "x": 150.1648,
+                        "y": 111.887
+                    },
+                    "uuid": "ad7a3f44-d913-4085-afd7-1b1ef4d95d8f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_10] on L1 - L4",
+                    "pos": {
+                        "x": 166.1414,
+                        "y": 111.4298
+                    },
+                    "uuid": "c22ba777-6f00-4301-a5cc-03554cbc26be"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_10] on L1 - L4",
+                    "pos": {
+                        "x": 149.987,
+                        "y": 103.8606
+                    },
+                    "uuid": "c308fb0a-5d0a-47b2-a587-0578c0d2e6de"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_09] on L1 - L4",
+                    "pos": {
+                        "x": 150.9014,
+                        "y": 115.5319
+                    },
+                    "uuid": "2d03ed9f-7dee-43d9-95fc-b894077c15ec"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_09] on L1 - L4",
+                    "pos": {
+                        "x": 150.8252,
+                        "y": 113.4364
+                    },
+                    "uuid": "b4568efc-089b-4c03-99a9-4801a62b4c63"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_09] on L1 - L4",
+                    "pos": {
+                        "x": 151.7396,
+                        "y": 117.64278
+                    },
+                    "uuid": "f911f147-f7c7-4470-974f-da892a213cb2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_09] on L1 - L4",
+                    "pos": {
+                        "x": 150.3426,
+                        "y": 104.6226
+                    },
+                    "uuid": "fc785a34-e1a1-494c-a924-1cd8af8e4162"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 150.7998,
+                        "y": 110.5535
+                    },
+                    "uuid": "2aa9f155-5c16-45af-b983-8d1132f58e79"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 160.6042,
+                        "y": 115.062
+                    },
+                    "uuid": "44830816-f263-4ddb-a858-63671b9163c5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 157.53616,
+                        "y": 112.56476
+                    },
+                    "uuid": "4d8f816c-8d2b-495b-9d24-783d3d1e6483"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 152.8826,
+                        "y": 112.3061
+                    },
+                    "uuid": "4e11e70e-92c6-4108-b3b3-10db5b15e073"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 150.0632,
+                        "y": 105.7402
+                    },
+                    "uuid": "698dc0a7-b567-4956-9bb1-bfb76959ef04"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 160.6296,
+                        "y": 113.53511
+                    },
+                    "uuid": "d490719b-671c-4c12-be45-29825c922ba0"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_07] on L1 - L4",
+                    "pos": {
+                        "x": 159.9438,
+                        "y": 115.062
+                    },
+                    "uuid": "328499c4-03cc-42e0-bc17-d69e8b3f4676"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_07] on L1 - L4",
+                    "pos": {
+                        "x": 150.6728,
+                        "y": 106.2736
+                    },
+                    "uuid": "37243bd9-464c-445c-afc3-cf30b45d35df"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_07] on L1 - L4",
+                    "pos": {
+                        "x": 159.9184,
+                        "y": 113.54421
+                    },
+                    "uuid": "55026004-4441-4d0b-b6e9-591789175b24"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_06] on L1 - L4",
+                    "pos": {
+                        "x": 166.30621,
+                        "y": 103.24933
+                    },
+                    "uuid": "0c574748-0f51-486f-8857-9a8c6411e05a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_06] on L1 - L4",
+                    "pos": {
+                        "x": 163.4617,
+                        "y": 102.8192
+                    },
+                    "uuid": "0e1271a8-cb67-4643-b851-fa44ad30ab7d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_06] on L1 - L4",
+                    "pos": {
+                        "x": 159.2834,
+                        "y": 115.062
+                    },
+                    "uuid": "d6b31359-d2be-402d-a373-e7c124912e66"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_06] on L1 - L4",
+                    "pos": {
+                        "x": 168.2496,
+                        "y": 102.6922
+                    },
+                    "uuid": "fd9d740c-3e7e-42d9-9a5f-4ee395252438"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_05] on L1 - L4",
+                    "pos": {
+                        "x": 166.9542,
+                        "y": 105.7275
+                    },
+                    "uuid": "2c62cad6-23f5-4485-9b88-7a355a739a66"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_05] on L1 - L4",
+                    "pos": {
+                        "x": 158.4706,
+                        "y": 115.0366
+                    },
+                    "uuid": "8b3fedec-4128-4659-b1dc-3312586088e8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_05] on L1 - L4",
+                    "pos": {
+                        "x": 162.9918,
+                        "y": 101.6508
+                    },
+                    "uuid": "c5a5411c-e771-4f9c-972f-ca2d1e535637"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_04] on L1 - L4",
+                    "pos": {
+                        "x": 149.4028,
+                        "y": 113.2332
+                    },
+                    "uuid": "aa14f9aa-e0e1-48eb-8112-e8a7d30968f3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_04] on L1 - L4",
+                    "pos": {
+                        "x": 160.147,
+                        "y": 98.425
+                    },
+                    "uuid": "b4cf0844-203a-4ed5-9468-eb8cf059156c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_04] on L1 - L4",
+                    "pos": {
+                        "x": 149.5806,
+                        "y": 115.3795
+                    },
+                    "uuid": "d422e5da-bab5-449b-abb5-17c59b7810a7"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_03] on L1 - L4",
+                    "pos": {
+                        "x": 147.193,
+                        "y": 113.2332
+                    },
+                    "uuid": "0276ab33-5825-437c-9247-074575327a93"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_03] on L1 - L4",
+                    "pos": {
+                        "x": 159.45189,
+                        "y": 98.35953
+                    },
+                    "uuid": "2eeb6345-230b-48bc-a3d8-64bab23758e9"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_03] on L1 - L4",
+                    "pos": {
+                        "x": 146.7104,
+                        "y": 115.4557
+                    },
+                    "uuid": "a0e4bf24-f682-4c32-92c5-940c36b9e780"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_01] on L1 - L4",
+                    "pos": {
+                        "x": 147.7391,
+                        "y": 112.2426
+                    },
+                    "uuid": "13b41347-0035-4bb3-9d61-15a13324c638"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_01] on L1 - L4",
+                    "pos": {
+                        "x": 144.0942,
+                        "y": 114.9477
+                    },
+                    "uuid": "2041cfc1-033d-4e28-91e1-1cea2b7001ef"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_01] on L1 - L4",
+                    "pos": {
+                        "x": 158.9024,
+                        "y": 97.9932
+                    },
+                    "uuid": "43ff054c-39b9-4e7e-8ab0-179233d96c22"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_08] on L1 - L4",
+                    "pos": {
+                        "x": 162.1028,
+                        "y": 100.1268
+                    },
+                    "uuid": "33fb4e4d-8bd8-4cec-994f-b0a1c41dd717"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_08] on L1 - L4",
+                    "pos": {
+                        "x": 163.0934,
+                        "y": 104.3432
+                    },
+                    "uuid": "cc0545bf-32e4-4aed-a8c4-c5af9777fd8b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_07] on L1 - L4",
+                    "pos": {
+                        "x": 163.34764,
+                        "y": 105.18116
+                    },
+                    "uuid": "c10a09db-e7ea-4b35-b1d4-e4fbaefcdafa"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_06] on L1 - L4",
+                    "pos": {
+                        "x": 162.3949,
+                        "y": 106.17862
+                    },
+                    "uuid": "a55176f7-736d-457f-9258-27adc94308d7"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_06] on L1 - L4",
+                    "pos": {
+                        "x": 168.43167,
+                        "y": 95.99087
+                    },
+                    "uuid": "c50107c2-f71b-46a7-a024-1e4a13a1009a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_05] on L1 - L4",
+                    "pos": {
+                        "x": 162.95351,
+                        "y": 106.53088
+                    },
+                    "uuid": "0936a5a3-912a-4cf9-888e-8ed8b5d02f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_04] on L1 - L4",
+                    "pos": {
+                        "x": 162.9918,
+                        "y": 107.2642
+                    },
+                    "uuid": "a21fd375-5ffb-4f4c-9708-6956d7eb777f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_03] on L1 - L4",
+                    "pos": {
+                        "x": 160.23577,
+                        "y": 108.38432
+                    },
+                    "uuid": "e8fa2ee5-915b-497d-acc6-848dade615ba"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_02] on L1 - L4",
+                    "pos": {
+                        "x": 159.48279,
+                        "y": 109.7534
+                    },
+                    "uuid": "41d796b1-ede1-4e7f-bccd-d2d3e2781270"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ2_01] on L1 - L4",
+                    "pos": {
+                        "x": 158.0642,
+                        "y": 109.9185
+                    },
+                    "uuid": "77fcd9f0-9e24-43a5-b52f-2e5ad2dd74dc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetC4_2] on L1 - L4",
+                    "pos": {
+                        "x": 152.49668,
+                        "y": 110.17742
+                    },
+                    "uuid": "1b303166-edd1-48a6-a8fc-d71ebb951571"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetC3_2] on L1 - L4",
+                    "pos": {
+                        "x": 177.76161,
+                        "y": 102.91913
+                    },
+                    "uuid": "64ae2297-8ae5-4e53-b865-bdc7b241775a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [NetC3_2] on L1 - L4",
+                    "pos": {
+                        "x": 156.5402,
+                        "y": 106.7689
+                    },
+                    "uuid": "c48e5299-8842-41bc-b087-668729184436"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 - L4",
+                    "pos": {
+                        "x": 157.0736,
+                        "y": 107.4039
+                    },
+                    "uuid": "2a5670f4-cf8f-4624-ab81-cb5597a4bfbe"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on L1 - L4",
+                    "pos": {
+                        "x": 162.2298,
+                        "y": 101.473
+                    },
+                    "uuid": "87fbb5e6-ee40-4b3f-8f58-923d6597da80"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [BOOT0] on L1 - L4",
+                    "pos": {
+                        "x": 150.67742,
+                        "y": 105.2411
+                    },
+                    "uuid": "5bbcb6d0-d069-469f-a9ba-4febc5ab3e42"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [5V] on L1 - L4",
+                    "pos": {
+                        "x": 121.06897,
+                        "y": 109.62892
+                    },
+                    "uuid": "34245097-2220-47ec-a4c2-93ac38d31a61"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2032 mm)",
+            "items": [
+                {
+                    "description": "Via [3.3V] on L1 - L4",
+                    "pos": {
+                        "x": 152.3746,
+                        "y": 99.1362
+                    },
+                    "uuid": "3179a0bb-b559-4ef2-8296-600a05f8b39e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2794 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 178.5366,
+                        "y": 120.3706
+                    },
+                    "uuid": "51ab7fb3-6533-475e-a746-2ed04cbb8c4e"
+                },
+                {
+                    "description": "Track [NetJ2_01] on L4, length 1.5805 mm",
+                    "pos": {
+                        "x": 177.0126,
+                        "y": 94.8813
+                    },
+                    "uuid": "05be3dda-c739-4254-a900-338bb1741179"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2794 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 178.5366,
+                        "y": 120.3706
+                    },
+                    "uuid": "51ab7fb3-6533-475e-a746-2ed04cbb8c4e"
+                },
+                {
+                    "description": "Track [NetJ2_01] on L4, length 4.0480 mm",
+                    "pos": {
+                        "x": 178.1302,
+                        "y": 100.04686
+                    },
+                    "uuid": "24f683f6-78c3-44c5-80f9-61e2a91a1c47"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2794 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 178.5366,
+                        "y": 120.3706
+                    },
+                    "uuid": "51ab7fb3-6533-475e-a746-2ed04cbb8c4e"
+                },
+                {
+                    "description": "Track [NetJ2_01] on L4, length 5.0702 mm",
+                    "pos": {
+                        "x": 174.54506,
+                        "y": 103.632
+                    },
+                    "uuid": "462731ca-e2bf-42c9-a015-b064a470826a"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3209 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Track [GND] on L1, length 0.2420 mm",
+                    "pos": {
+                        "x": 118.9015,
+                        "y": 101.75161
+                    },
+                    "uuid": "1e0f60d3-9556-4773-bdfb-7668f80214cc"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4913 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Track [GND] on L1, length 1.1297 mm",
+                    "pos": {
+                        "x": 119.07261,
+                        "y": 101.5805
+                    },
+                    "uuid": "508e7444-9901-4a28-aa66-fb5d0a1f9b8c"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3273 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Track [GND] on L1, length 0.2290 mm",
+                    "pos": {
+                        "x": 118.9015,
+                        "y": 103.3057
+                    },
+                    "uuid": "adac3949-519d-419c-abca-48ee194b49a6"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3209 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Track [GND] on L1, length 1.5541 mm",
+                    "pos": {
+                        "x": 118.9015,
+                        "y": 103.3057
+                    },
+                    "uuid": "e212f2ae-f3da-413e-b3cb-d2e8a0115ec5"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4898 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Track [GND] on L1, length 0.4352 mm",
+                    "pos": {
+                        "x": 119.0634,
+                        "y": 103.4676
+                    },
+                    "uuid": "e2e416c1-aa69-47bd-b6d5-fa0aa284cb09"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3394 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Track [5V] on L1, length 1.5541 mm",
+                    "pos": {
+                        "x": 118.9015,
+                        "y": 107.78359
+                    },
+                    "uuid": "1d384d52-5391-4813-ad74-47c3c03b7e23"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3394 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Track [5V] on L1, length 0.2290 mm",
+                    "pos": {
+                        "x": 118.9015,
+                        "y": 106.2295
+                    },
+                    "uuid": "62cdf8b8-1369-4697-81d2-fd04aa9b6632"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3458 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Track [5V] on L1, length 2.6061 mm",
+                    "pos": {
+                        "x": 118.9015,
+                        "y": 107.78359
+                    },
+                    "uuid": "fda5296e-8686-4937-a7a3-b41ed9164db7"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2731 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Pad 1 [5V] of J4 on L1",
+                    "pos": {
+                        "x": 119.4986,
+                        "y": 106.0676
+                    },
+                    "uuid": "fca91a43-f729-4d40-8f36-aed2aafffc1b"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2704 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Pad 2 [NetJ4_2] of J4 on L1",
+                    "pos": {
+                        "x": 119.4986,
+                        "y": 105.4176
+                    },
+                    "uuid": "7e896db7-255a-4c9e-8e06-a683f8de1ec2"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2677 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Pad 3 [<no net>] of J4 on L1",
+                    "pos": {
+                        "x": 119.4986,
+                        "y": 104.7676
+                    },
+                    "uuid": "0aa69901-e4b0-4b9e-a66a-41dab973a42b"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2650 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Pad 4 [<no net>] of J4 on L1",
+                    "pos": {
+                        "x": 119.4986,
+                        "y": 104.1176
+                    },
+                    "uuid": "7e751815-99b7-4654-b874-1a84bf255378"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.2623 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Pad 5 [GND] of J4 on L1",
+                    "pos": {
+                        "x": 119.4986,
+                        "y": 103.4676
+                    },
+                    "uuid": "c33fa5de-0881-4aed-a260-5f10f315be9a"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1675 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_15] on L1 - L4",
+                    "pos": {
+                        "x": 161.8107,
+                        "y": 104.6861
+                    },
+                    "uuid": "a78ae5be-5d6b-4498-a1cd-c79f7726b193"
+                },
+                {
+                    "description": "Via [NetJ3_14] on L1 - L4",
+                    "pos": {
+                        "x": 162.052,
+                        "y": 104.1654
+                    },
+                    "uuid": "f57df5f3-a27e-4118-93c9-acb0733de997"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.0868 mm)",
+            "items": [
+                {
+                    "description": "Track [NetJ3_14] on L4, length 0.5577 mm",
+                    "pos": {
+                        "x": 161.417,
+                        "y": 104.61574
+                    },
+                    "uuid": "6c6901d6-26ee-4ce7-90fc-07b86c0292c3"
+                },
+                {
+                    "description": "Via [NetJ3_15] on L1 - L4",
+                    "pos": {
+                        "x": 161.8107,
+                        "y": 104.6861
+                    },
+                    "uuid": "a78ae5be-5d6b-4498-a1cd-c79f7726b193"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1524 mm)",
+            "items": [
+                {
+                    "description": "Via [NetJ3_15] on L1 - L4",
+                    "pos": {
+                        "x": 161.8107,
+                        "y": 104.6861
+                    },
+                    "uuid": "a78ae5be-5d6b-4498-a1cd-c79f7726b193"
+                },
+                {
+                    "description": "Track [NetJ3_14] on L4, length 2.9721 mm",
+                    "pos": {
+                        "x": 161.417,
+                        "y": 107.58786
+                    },
+                    "uuid": "bcab1c84-2ed6-4463-ac69-92dda23f99b5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C6 (C6)",
+                    "pos": {
+                        "x": 128.4605,
+                        "y": 114.582575
+                    },
+                    "uuid": "a3a4250b-dd44-4f5b-81a3-627714e998b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "Footprint text of C5 (C5)",
+                    "pos": {
+                        "x": 130.8227,
+                        "y": 112.950625
+                    },
+                    "uuid": "b2f30edf-9090-4a43-b6f5-3bc900956b48"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Footprint text of C5 (C5)",
+                    "pos": {
+                        "x": 130.8227,
+                        "y": 112.950625
+                    },
+                    "uuid": "3f5da023-124e-4d5c-aa37-45f4e322b1c2"
+                },
+                {
+                    "description": "Footprint text of C6 (C6)",
+                    "pos": {
+                        "x": 128.4605,
+                        "y": 114.582575
+                    },
+                    "uuid": "e5a480ec-74f4-4a37-9b09-068ee59dc8d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Footprint text of C6 (C6)",
+                    "pos": {
+                        "x": 128.4605,
+                        "y": 114.582575
+                    },
+                    "uuid": "e5a480ec-74f4-4a37-9b09-068ee59dc8d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Footprint text of C5 (C5)",
+                    "pos": {
+                        "x": 130.8227,
+                        "y": 112.950625
+                    },
+                    "uuid": "3f5da023-124e-4d5c-aa37-45f4e322b1c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0762 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of C6 (C6)",
+                    "pos": {
+                        "x": 128.4605,
+                        "y": 114.582575
+                    },
+                    "uuid": "e5a480ec-74f4-4a37-9b09-068ee59dc8d4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0762 mm)",
+            "items": [
+                {
+                    "description": "Footprint text of C5 (C5)",
+                    "pos": {
+                        "x": 130.8227,
+                        "y": 112.950625
+                    },
+                    "uuid": "3f5da023-124e-4d5c-aa37-45f4e322b1c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 127.8636,
+                        "y": 91.1606
+                    },
+                    "uuid": "09b5712c-a59c-41ce-b119-3d977047e02d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 148.209,
+                        "y": 104.2162
+                    },
+                    "uuid": "0dfcb84d-deb6-4b35-b5fc-a333c39e82ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 131.953,
+                        "y": 113.792
+                    },
+                    "uuid": "1164951d-899e-4f0f-9870-b837649519d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 129.1336,
+                        "y": 118.7196
+                    },
+                    "uuid": "1257fde3-0f48-47cd-8121-244e5de4aa06"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 148.1836,
+                        "y": 101.6762
+                    },
+                    "uuid": "27aeb7f3-39e2-4549-bc63-f4ae3bbda146"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 134.0866,
+                        "y": 104.8766
+                    },
+                    "uuid": "2e8529fd-07e1-417a-b5f9-5e623fd92e75"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 165.354,
+                        "y": 107.2388
+                    },
+                    "uuid": "3014058f-9168-411e-98ee-a05751c661f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 142.2146,
+                        "y": 91.1606
+                    },
+                    "uuid": "3ad1c98a-e926-47d4-9a70-c3c28c4a53ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 148.2852,
+                        "y": 106.7562
+                    },
+                    "uuid": "475d3f85-51ba-4370-a55c-b36ce1648328"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 170.2562,
+                        "y": 103.378
+                    },
+                    "uuid": "4b7563fa-3845-426c-a6c9-7ff011046c87"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 165.3032,
+                        "y": 99.2886
+                    },
+                    "uuid": "4bf4d46c-c481-48a6-937f-868d35dd18f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 165.3032,
+                        "y": 101.854
+                    },
+                    "uuid": "4db3dee9-8bbc-4a71-8446-1fb962674596"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 148.2344,
+                        "y": 109.3216
+                    },
+                    "uuid": "4e3b0ca3-be4e-4733-a767-8c957c18d7fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 170.307,
+                        "y": 98.4504
+                    },
+                    "uuid": "622cc97e-8c3f-49bb-a97b-067fa12854b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 170.2816,
+                        "y": 105.8926
+                    },
+                    "uuid": "63680b31-acd9-4e44-ae20-4621aab05c32"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 148.1582,
+                        "y": 99.2886
+                    },
+                    "uuid": "65181690-285b-4c40-ab3c-67c2fd40bde5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint Y2",
+                    "pos": {
+                        "x": 159.2326,
+                        "y": 113.9952
+                    },
+                    "uuid": "691692f5-6754-47b3-846b-5ed80cb1bcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 159.2326,
+                        "y": 118.8466
+                    },
+                    "uuid": "6d9620f4-768d-4f66-ae70-abfbd2f879ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 127.3302,
+                        "y": 113.7412
+                    },
+                    "uuid": "7c8f9183-3143-481e-bdc2-09976c2338d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 119.4986,
+                        "y": 106.0676
+                    },
+                    "uuid": "807efc5d-48a3-4ff6-a6af-7c1f8d33cf33"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 156.3116,
+                        "y": 104.4702
+                    },
+                    "uuid": "877ef576-cca7-4c57-a3f2-2f6f412519df"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 124.0536,
+                        "y": 113.6396
+                    },
+                    "uuid": "881bbeb0-657d-47e4-920b-63f5f624b408"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 175.5902,
+                        "y": 103.4034
+                    },
+                    "uuid": "95807b6e-842a-4978-9942-26bb2a0a6b24"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 165.354,
+                        "y": 104.4448
+                    },
+                    "uuid": "a8b34c1e-8465-444e-84ec-e838e957933a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 175.5902,
+                        "y": 100.9904
+                    },
+                    "uuid": "ab99a1f9-c407-42ef-a8b5-de858547633f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 175.5902,
+                        "y": 98.4758
+                    },
+                    "uuid": "b6c2b88b-3358-434e-a20a-0f289c83d072"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 175.5902,
+                        "y": 105.918
+                    },
+                    "uuid": "be6e17d5-f886-4a6e-9da6-721e664135e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 177.0126,
+                        "y": 91.1606
+                    },
+                    "uuid": "cfe49feb-fde1-44d1-9a59-ca46d31eb8d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 120.4976,
+                        "y": 95.7326
+                    },
+                    "uuid": "e1f5aa9f-4b26-4dd7-af55-6872c2445a72"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 170.2816,
+                        "y": 100.965
+                    },
+                    "uuid": "e64aff9b-172a-41c3-b05b-36be31c16c6c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 175.6156,
+                        "y": 108.458
+                    },
+                    "uuid": "f16f1c77-1485-4e95-9804-da638c253fd4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 122.1486,
+                        "y": 113.6396
+                    },
+                    "uuid": "fd058422-c11b-4ca4-8b54-3f450ff38237"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'PcbLib1'.",
+            "items": [
+                {
+                    "description": "Footprint Y1",
+                    "pos": {
+                        "x": 170.4898,
+                        "y": 114.6048
+                    },
+                    "uuid": "fe9c042b-f616-4885-b80d-ccddef922589"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 118.5926,
+                        "y": 89.6366
+                    },
+                    "uuid": "1c5e9585-341c-483d-bbac-3ef354db492a"
+                },
+                {
+                    "description": "Circle of J4 on Top Overlay",
+                    "pos": {
+                        "x": 118.3486,
+                        "y": 106.0676
+                    },
+                    "uuid": "b92b9428-5780-40d9-aec4-156e49df8c9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [PB2] on L1 - L4",
+                    "pos": {
+                        "x": 161.798,
+                        "y": 103.5558
+                    },
+                    "uuid": "57562a5e-ddba-41bc-a4f9-32a28f024e8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [PA13] on L1 - L4",
+                    "pos": {
+                        "x": 141.7828,
+                        "y": 107.7214
+                    },
+                    "uuid": "f4cc01bc-2d95-43cc-a7f6-24710437dba9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [NetJ3_13] on L1 - L4",
+                    "pos": {
+                        "x": 147.8534,
+                        "y": 115.4684
+                    },
+                    "uuid": "fbded4fc-faf4-4f07-85bc-b5915ef59122"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [NetJ3_12] on L1, length 0.0000 mm",
+                    "pos": {
+                        "x": 148.7678,
+                        "y": 115.7986
+                    },
+                    "uuid": "527966eb-866d-4b39-bc11-dd9ce440aee3"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [NetJ3_08] on L1 - L4",
+                    "pos": {
+                        "x": 150.0632,
+                        "y": 105.7402
+                    },
+                    "uuid": "698dc0a7-b567-4956-9bb1-bfb76959ef04"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [NetJ3_06] on L1 - L4",
+                    "pos": {
+                        "x": 163.4617,
+                        "y": 102.8192
+                    },
+                    "uuid": "0e1271a8-cb67-4643-b851-fa44ad30ab7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [NetJ2_10] on L1 - L4",
+                    "pos": {
+                        "x": 156.972,
+                        "y": 98.171
+                    },
+                    "uuid": "518f63c9-0502-4a8f-8b9b-07343e53308d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [NetJ2_06] on L1, length 0.0000 mm",
+                    "pos": {
+                        "x": 166.72999,
+                        "y": 105.2469
+                    },
+                    "uuid": "5f490905-b57c-4ca9-8926-7225c2cd4610"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [NetJ2_06] on L1 - L4",
+                    "pos": {
+                        "x": 162.3949,
+                        "y": 106.17862
+                    },
+                    "uuid": "a55176f7-736d-457f-9258-27adc94308d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [BOOT0] on L1 - L4",
+                    "pos": {
+                        "x": 150.67742,
+                        "y": 105.2411
+                    },
+                    "uuid": "5bbcb6d0-d069-469f-a9ba-4febc5ab3e42"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        }
+    ]
+}
