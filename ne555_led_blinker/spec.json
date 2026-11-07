@@ -1,0 +1,118 @@
+{
+  "project_name": "ne555_led_blinker",
+  "title": "NE555 Astable 1Hz LED Blinker",
+  "revision": "v1.0",
+  "company": "PCB-AI Autonomous Electronics",
+  "comment": "Single-layer through-hole LED blinker at ~1Hz using NE555 timer in astable mode",
+  "components": [
+    {
+      "ref": "J1",
+      "lib_id": "Connector:Conn_01x02_Pin",
+      "value": "5V_GND",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+      "pos": [30.0, 45.0],
+      "description": "5V DC Power Input (Pin 1: +5V, Pin 2: GND)"
+    },
+    {
+      "ref": "U1",
+      "lib_id": "Timer:NE555P",
+      "value": "NE555P",
+      "footprint": "Package_DIP:DIP-8_W7.62mm",
+      "pos": [110.0, 70.0],
+      "description": "NE555 General Purpose Precision Timer (DIP-8)"
+    },
+    {
+      "ref": "R1",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "pos": [70.0, 50.0],
+      "description": "Timing resistor R1 (Charge timing, VCC to DISCH)"
+    },
+    {
+      "ref": "R2",
+      "lib_id": "Device:R",
+      "value": "100k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "pos": [70.0, 75.0],
+      "description": "Timing resistor R2 (Charge/discharge, DISCH to THRES/TRIG)"
+    },
+    {
+      "ref": "C1",
+      "lib_id": "Device:C_Polarized",
+      "value": "10uF",
+      "footprint": "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm",
+      "pos": [70.0, 100.0],
+      "description": "Timing capacitor C1 (Electrolytic 10uF, THRES/TRIG to GND)"
+    },
+    {
+      "ref": "C2",
+      "lib_id": "Device:C",
+      "value": "10nF",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+      "pos": [110.0, 110.0],
+      "description": "Control voltage bypass capacitor (Pin 5 CONT to GND)"
+    },
+    {
+      "ref": "C3",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+      "pos": [45.0, 45.0],
+      "description": "Power supply decoupling capacitor (5V to GND)"
+    },
+    {
+      "ref": "R3",
+      "lib_id": "Device:R",
+      "value": "1k",
+      "footprint": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "pos": [145.0, 70.0],
+      "description": "LED Current Limiting Resistor (OUT to Anode)"
+    },
+    {
+      "ref": "D1",
+      "lib_id": "Device:LED",
+      "value": "LED_RED",
+      "footprint": "LED_THT:LED_D5.0mm",
+      "pos": [165.0, 70.0],
+      "description": "Blinking Indicator LED (5mm THT)"
+    }
+  ],
+  "nets": [
+    {
+      "name": "+5V",
+      "is_power": true,
+      "nodes": [["J1", "1"], ["C3", "1"], ["U1", "8"], ["U1", "4"], ["R1", "1"]]
+    },
+    {
+      "name": "GND",
+      "is_power": true,
+      "nodes": [["J1", "2"], ["C3", "2"], ["U1", "1"], ["C1", "2"], ["C2", "2"], ["D1", "1"]]
+    },
+    {
+      "name": "DISCH",
+      "is_power": false,
+      "nodes": [["U1", "7"], ["R1", "2"], ["R2", "1"]]
+    },
+    {
+      "name": "TIMING",
+      "is_power": false,
+      "nodes": [["U1", "2"], ["U1", "6"], ["R2", "2"], ["C1", "1"]]
+    },
+    {
+      "name": "CONT",
+      "is_power": false,
+      "nodes": [["U1", "5"], ["C2", "1"]]
+    },
+    {
+      "name": "OUT",
+      "is_power": false,
+      "nodes": [["U1", "3"], ["R3", "1"]]
+    },
+    {
+      "name": "LED_A",
+      "is_power": false,
+      "nodes": [["R3", "2"], ["D1", "2"]]
+    }
+  ]
+}

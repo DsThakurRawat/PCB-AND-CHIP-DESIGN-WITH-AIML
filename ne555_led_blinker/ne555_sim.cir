@@ -1,0 +1,61 @@
+* NE555 Astable 1Hz LED Blinker Simulation
+.title NE555 1Hz Blinker Transient
+
+* Power supply
+VCC vcc 0 DC 5V
+
+* Decoupling capacitor
+C3 vcc 0 100nF
+
+* Timing resistors and capacitor
+R1 vcc disch 10k
+R2 disch timing 100k
+C1 timing 0 10uF IC=0V
+
+* Control voltage bypass
+C2 cont 0 10nF
+
+* Output load (1k resistor + LED model)
+R3 out led_a 1k
+D1 led_a 0 DLED
+.model DLED D(IS=1e-18 N=1.8 RS=5 BV=5 IBV=10u)
+
+* Macromodel for 555 timer:
+* Internal voltage divider: 3 x 5k resistors between VCC and GND
+Rdiv1 vcc cont 5k
+Rdiv2 cont thresh_ref 5k
+Rdiv3 thresh_ref 0 5k
+
+* Comparators and RS flip-flop behavioral model
+* Upper comparator: Compares timing (pin 6) with cont (2/3 VCC)
+* Lower comparator: Compares timing (pin 2) with thresh_ref (1/3 VCC)
+* Output high = 5V, low = 0V
+* Discharge switch: NPN or switch pulling DISCH to GND when output is low
+Bcomp_u r_int 0 V = V(timing) > V(cont) ? 5 : 0
+Bcomp_l s_int 0 V = V(timing) < V(thresh_ref) ? 5 : 0
+
+* Behavioral SR Latch for Q and Q_bar
+* State integration
+C_state state 0 1nF IC=0
+R_leak state 0 100MEG
+B_state_drv state 0 I = (V(s_int) > 2.5 ? 0.01 : 0) - (V(r_int) > 2.5 ? 0.01 : 0)
+* Limit state voltage between 0 and 5V
+D_lo 0 state DCL
+D_hi state vcc DCL
+.model DCL D(IS=1e-12 N=0.1)
+
+* Output stage and discharge transistor
+B_out out 0 V = V(state) > 2.5 ? 4.8 : 0.1
+* Discharge switch: voltage-controlled switch
+S_disch disch 0 state 0 SMOD
+.model SMOD SW(RON=10 ROFF=1e8 VT=2.0 VH=0.2)
+
+* Transient analysis: 4 seconds with 1ms step
+.tran 1m 3.5s 0s 1m UIC
+
+.control
+run
+wrdata sim_data.txt v(out) v(timing) v(led_a)
+quit
+.endc
+.end

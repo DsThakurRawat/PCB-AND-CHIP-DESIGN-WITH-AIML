@@ -1,0 +1,407 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-29T21:20:49+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "ne555_led_blinker_routed.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [+5V] on F.Cu, length 5.0000 mm",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 112.5
+                    },
+                    "uuid": "7275f35d-c4bc-4dfd-b227-0a222d483dad"
+                },
+                {
+                    "description": "PTH pad 2 [GND] of C3",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 115.0
+                    },
+                    "uuid": "af931f36-0cbe-409e-b2c9-641cc55b2f4d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 8.5000 mm",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 125.5
+                    },
+                    "uuid": "352b179f-0e5b-4357-8c08-3e7d5baf91bc"
+                },
+                {
+                    "description": "PTH pad 1 [TIMING] of C1",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 128.0
+                    },
+                    "uuid": "d5be485b-1a11-463e-83b5-b60ebcc09db5"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 10.5000 mm",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 115.0
+                    },
+                    "uuid": "722c0374-645e-42b0-8aae-005d88b2cdb0"
+                },
+                {
+                    "description": "PTH pad 1 [+5V] of C3",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 120.0
+                    },
+                    "uuid": "bc73631a-d74e-4f08-bcd5-74267c231cd5"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [DISCH] on F.Cu, length 13.0000 mm",
+                    "pos": {
+                        "x": 132.62,
+                        "y": 109.0
+                    },
+                    "uuid": "c7ed5bb2-5176-4515-9f65-28d3dd950465"
+                },
+                {
+                    "description": "PTH pad 1 [+5V] of R1",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 109.0
+                    },
+                    "uuid": "03a6e2c3-346b-4dcf-97a7-aa522fa1d581"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [TIMING] on F.Cu, length 16.0000 mm",
+                    "pos": {
+                        "x": 129.62,
+                        "y": 122.08
+                    },
+                    "uuid": "de99f8cd-4939-4114-bb81-c33f1dc4219a"
+                },
+                {
+                    "description": "PTH pad 2 [GND] of C2",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 123.0
+                    },
+                    "uuid": "e96e1b3a-67dc-4047-9f3a-0dd0be34a649"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [TIMING] on F.Cu, length 16.0000 mm",
+                    "pos": {
+                        "x": 129.62,
+                        "y": 122.08
+                    },
+                    "uuid": "de99f8cd-4939-4114-bb81-c33f1dc4219a"
+                },
+                {
+                    "description": "PTH pad 1 [CONT] of C2",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 123.0
+                    },
+                    "uuid": "53dfffec-f790-4459-9d1b-ff5200f58bc1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [LED_A] on F.Cu, length 10.9200 mm",
+                    "pos": {
+                        "x": 129.62,
+                        "y": 131.0
+                    },
+                    "uuid": "1cb558b9-44f9-4326-9505-9de0b82f7193"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of D1",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 131.0
+                    },
+                    "uuid": "efdc0d48-c3cf-4faa-a1b4-3605377d2397"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [+5V] on F.Cu, length 2.5000 mm",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 106.5
+                    },
+                    "uuid": "347e840d-3c6a-44a9-9032-3cbd3d968125"
+                },
+                {
+                    "description": "Track [DISCH] on F.Cu, length 13.0000 mm",
+                    "pos": {
+                        "x": 132.62,
+                        "y": 109.0
+                    },
+                    "uuid": "c7ed5bb2-5176-4515-9f65-28d3dd950465"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 5.6082 mm",
+                    "pos": {
+                        "x": 108.54,
+                        "y": 110.0
+                    },
+                    "uuid": "601aa7d1-17f9-4fdd-9967-191c4f487ebd"
+                },
+                {
+                    "description": "Track [+5V] on F.Cu, length 5.0000 mm",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 112.5
+                    },
+                    "uuid": "7275f35d-c4bc-4dfd-b227-0a222d483dad"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and +5V)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 10.5000 mm",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 115.0
+                    },
+                    "uuid": "722c0374-645e-42b0-8aae-005d88b2cdb0"
+                },
+                {
+                    "description": "Track [+5V] on F.Cu, length 2.5000 mm",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 117.5
+                    },
+                    "uuid": "c57b412a-3696-4f44-98ec-0e019c9a4ebe"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [+5V] on F.Cu, length 7.6200 mm",
+                    "pos": {
+                        "x": 125.81,
+                        "y": 117.0
+                    },
+                    "uuid": "81cd3f0a-0987-42ba-93a8-e16434ea3d0e"
+                },
+                {
+                    "description": "Track [TIMING] on F.Cu, length 5.0100 mm",
+                    "pos": {
+                        "x": 127.01,
+                        "y": 119.54
+                    },
+                    "uuid": "b57ebf50-36b5-40e5-852b-a43bee417e97"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [TIMING] on F.Cu, length 12.5000 mm",
+                    "pos": {
+                        "x": 118.5,
+                        "y": 128.0
+                    },
+                    "uuid": "26fefb0e-3e63-4553-a104-514854e65966"
+                },
+                {
+                    "description": "Track [GND] on F.Cu, length 8.5000 mm",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 125.5
+                    },
+                    "uuid": "352b179f-0e5b-4357-8c08-3e7d5baf91bc"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [LED_A] on F.Cu, length 10.9200 mm",
+                    "pos": {
+                        "x": 129.62,
+                        "y": 131.0
+                    },
+                    "uuid": "1cb558b9-44f9-4326-9505-9de0b82f7193"
+                },
+                {
+                    "description": "Track [GND] on F.Cu, length 3.0000 mm",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 134.0
+                    },
+                    "uuid": "fd950ff2-3694-4be5-9522-aeb64fbb741a"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Items shorting two nets (nets CONT and TIMING)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [CONT] of C2",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 123.0
+                    },
+                    "uuid": "53dfffec-f790-4459-9d1b-ff5200f58bc1"
+                },
+                {
+                    "description": "Track [TIMING] on F.Cu, length 16.0000 mm",
+                    "pos": {
+                        "x": 129.62,
+                        "y": 122.08
+                    },
+                    "uuid": "de99f8cd-4939-4114-bb81-c33f1dc4219a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets +5V and DISCH)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [+5V] of R1",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 109.0
+                    },
+                    "uuid": "03a6e2c3-346b-4dcf-97a7-aa522fa1d581"
+                },
+                {
+                    "description": "Track [DISCH] on F.Cu, length 13.0000 mm",
+                    "pos": {
+                        "x": 132.62,
+                        "y": 109.0
+                    },
+                    "uuid": "c7ed5bb2-5176-4515-9f65-28d3dd950465"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and +5V)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 10.5000 mm",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 115.0
+                    },
+                    "uuid": "722c0374-645e-42b0-8aae-005d88b2cdb0"
+                },
+                {
+                    "description": "Track [+5V] on F.Cu, length 5.0000 mm",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 112.5
+                    },
+                    "uuid": "7275f35d-c4bc-4dfd-b227-0a222d483dad"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets LED_A and GND)",
+            "items": [
+                {
+                    "description": "Track [LED_A] on F.Cu, length 10.9200 mm",
+                    "pos": {
+                        "x": 129.62,
+                        "y": 131.0
+                    },
+                    "uuid": "1cb558b9-44f9-4326-9505-9de0b82f7193"
+                },
+                {
+                    "description": "PTH pad 1 [GND] of D1",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 131.0
+                    },
+                    "uuid": "efdc0d48-c3cf-4faa-a1b4-3605377d2397"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        }
+    ]
+}
