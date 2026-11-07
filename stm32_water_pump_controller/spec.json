@@ -1,0 +1,890 @@
+{
+  "project_name": "stm32_water_pump_controller",
+  "title": "STM32 Smart Water Pump Controller",
+  "revision": "v1.0",
+  "company": "DeepMind AGY Hardware Engineering",
+  "comment": "Automated Plant Irrigation & Pump Control with Moisture & Time Scheduling",
+  "components": [
+    {
+      "ref": "U1",
+      "lib_id": "MCU_ST_STM32F1:STM32F103C8Tx",
+      "value": "STM32F103C8T6",
+      "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+      "description": "ARM Cortex-M3 72MHz 64KB Flash 20KB SRAM MCU"
+    },
+    {
+      "ref": "U2",
+      "lib_id": "Regulator_Linear:AMS1117-3.3",
+      "value": "AMS1117-3.3",
+      "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "description": "800mA Low Dropout Voltage Regulator 3.3V"
+    },
+    {
+      "ref": "Q1",
+      "lib_id": "Transistor_FET:AO3400A",
+      "value": "AO3400A",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "description": "30V 5.7A N-Channel Logic-Level Power MOSFET"
+    },
+    {
+      "ref": "D1",
+      "lib_id": "Device:D_Schottky",
+      "value": "SS34",
+      "footprint": "Diode_SMD:D_SMA",
+      "description": "12V Input Reverse Polarity Protection Diode"
+    },
+    {
+      "ref": "D2",
+      "lib_id": "Device:D_Schottky",
+      "value": "SS34",
+      "footprint": "Diode_SMD:D_SMA",
+      "description": "Inductive Flyback Diode across Water Pump"
+    },
+    {
+      "ref": "D3",
+      "lib_id": "Device:LED",
+      "value": "LED_PWR",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "description": "3.3V Power Indicator LED (Green)"
+    },
+    {
+      "ref": "D4",
+      "lib_id": "Device:LED",
+      "value": "LED_PUMP",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "description": "Pump Active Indicator LED (Blue)"
+    },
+    {
+      "ref": "D5",
+      "lib_id": "Device:LED",
+      "value": "LED_WARN",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "description": "Low Soil Moisture Alert LED (Red)"
+    },
+    {
+      "ref": "D6",
+      "lib_id": "Device:LED",
+      "value": "LED_STATUS",
+      "footprint": "LED_SMD:LED_0805_2012Metric",
+      "description": "Heartbeat / System Status LED (Green)"
+    },
+    {
+      "ref": "Y1",
+      "lib_id": "Device:Crystal",
+      "value": "8MHz",
+      "footprint": "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm",
+      "description": "Main HSE High-Speed Crystal 8MHz"
+    },
+    {
+      "ref": "Y2",
+      "lib_id": "Device:Crystal",
+      "value": "32.768kHz",
+      "footprint": "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm",
+      "description": "LSE RTC Real-Time Clock Crystal 32.768kHz"
+    },
+    {
+      "ref": "SW1",
+      "lib_id": "Switch:SW_Push",
+      "value": "SW_RESET",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "description": "Hardware Reset Pushbutton"
+    },
+    {
+      "ref": "SW2",
+      "lib_id": "Switch:SW_Push",
+      "value": "SW_OVERRIDE",
+      "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "description": "Manual Pump Override / Test Pushbutton"
+    },
+    {
+      "ref": "J1",
+      "lib_id": "Connector:Screw_Terminal_01x02",
+      "value": "12V_DC_IN",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "description": "12V Main DC Power Input Screw Terminal"
+    },
+    {
+      "ref": "J2",
+      "lib_id": "Connector_Generic:Conn_01x03",
+      "value": "SOIL_SENSOR",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "description": "Soil Moisture Sensor Interface Header (VCC, SIG, GND)"
+    },
+    {
+      "ref": "J3",
+      "lib_id": "Connector:Screw_Terminal_01x02",
+      "value": "PUMP_TERMINAL",
+      "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+      "description": "Submersible / Diaphragm Water Pump 12V Screw Terminal"
+    },
+    {
+      "ref": "J4",
+      "lib_id": "Connector_Generic:Conn_01x04",
+      "value": "SWD_PROG",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+      "description": "ARM Serial Wire Debug (SWD) Programming Header"
+    },
+    {
+      "ref": "R1",
+      "lib_id": "Device:R",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "LED_PWR Current Limiting Resistor"
+    },
+    {
+      "ref": "R2",
+      "lib_id": "Device:R",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "LED_PUMP Current Limiting Resistor"
+    },
+    {
+      "ref": "R3",
+      "lib_id": "Device:R",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "LED_WARN Current Limiting Resistor"
+    },
+    {
+      "ref": "R4",
+      "lib_id": "Device:R",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "LED_STATUS Current Limiting Resistor"
+    },
+    {
+      "ref": "R5",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "NRST Pull-up Resistor to 3.3V"
+    },
+    {
+      "ref": "R6",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "BOOT0 Pull-down Resistor to GND"
+    },
+    {
+      "ref": "R7",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "BOOT1 Pull-down Resistor to GND"
+    },
+    {
+      "ref": "R8",
+      "lib_id": "Device:R",
+      "value": "100R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "MOSFET Gate Damping Resistor"
+    },
+    {
+      "ref": "R9",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "MOSFET Gate-Source Bleeder Pull-down Resistor"
+    },
+    {
+      "ref": "R10",
+      "lib_id": "Device:R",
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "Analog Moisture Signal Input Filter Resistor"
+    },
+    {
+      "ref": "R11",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "description": "Manual Override Switch Pull-up Resistor"
+    },
+    {
+      "ref": "C1",
+      "lib_id": "Device:C_Polarized",
+      "value": "100uF",
+      "footprint": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+      "description": "12V Input Electrolytic Bulk Filter Capacitor"
+    },
+    {
+      "ref": "C2",
+      "lib_id": "Device:C",
+      "value": "10uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "AMS1117-3.3 Input Ceramic Filter Capacitor"
+    },
+    {
+      "ref": "C3",
+      "lib_id": "Device:C",
+      "value": "22uF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "AMS1117-3.3 Output Stability Ceramic Capacitor"
+    },
+    {
+      "ref": "C4",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "MCU VDD Decoupling Capacitor (Pin 24)"
+    },
+    {
+      "ref": "C5",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "MCU VDD Decoupling Capacitor (Pin 36)"
+    },
+    {
+      "ref": "C6",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "MCU VDD Decoupling Capacitor (Pin 48)"
+    },
+    {
+      "ref": "C7",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "MCU VDDA Analog Supply Filter Capacitor (Pin 9)"
+    },
+    {
+      "ref": "C8",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "NRST Debouncing / Noise Filter Capacitor"
+    },
+    {
+      "ref": "C9",
+      "lib_id": "Device:C",
+      "value": "20pF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "8MHz Crystal Load Capacitor 1"
+    },
+    {
+      "ref": "C10",
+      "lib_id": "Device:C",
+      "value": "20pF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "8MHz Crystal Load Capacitor 2"
+    },
+    {
+      "ref": "C11",
+      "lib_id": "Device:C",
+      "value": "12pF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "32.768kHz Crystal Load Capacitor 1"
+    },
+    {
+      "ref": "C12",
+      "lib_id": "Device:C",
+      "value": "12pF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "32.768kHz Crystal Load Capacitor 2"
+    },
+    {
+      "ref": "C13",
+      "lib_id": "Device:C",
+      "value": "100nF",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "description": "Analog Moisture Signal Low-Pass Filter Capacitor"
+    }
+  ],
+  "nets": [
+    {
+      "name": "+12V_RAW",
+      "is_power": true,
+      "nodes": [
+        [
+          "J1",
+          "1"
+        ],
+        [
+          "D1",
+          "2"
+        ],
+        [
+          "C1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "GND",
+      "is_power": true,
+      "nodes": [
+        [
+          "J1",
+          "2"
+        ],
+        [
+          "C1",
+          "2"
+        ],
+        [
+          "U2",
+          "1"
+        ],
+        [
+          "C2",
+          "2"
+        ],
+        [
+          "C3",
+          "2"
+        ],
+        [
+          "U1",
+          "8"
+        ],
+        [
+          "U1",
+          "23"
+        ],
+        [
+          "U1",
+          "35"
+        ],
+        [
+          "U1",
+          "47"
+        ],
+        [
+          "C4",
+          "2"
+        ],
+        [
+          "C5",
+          "2"
+        ],
+        [
+          "C6",
+          "2"
+        ],
+        [
+          "C7",
+          "2"
+        ],
+        [
+          "C8",
+          "2"
+        ],
+        [
+          "C9",
+          "2"
+        ],
+        [
+          "C10",
+          "2"
+        ],
+        [
+          "C11",
+          "2"
+        ],
+        [
+          "C12",
+          "2"
+        ],
+        [
+          "C13",
+          "2"
+        ],
+        [
+          "D3",
+          "1"
+        ],
+        [
+          "D4",
+          "1"
+        ],
+        [
+          "D5",
+          "1"
+        ],
+        [
+          "D6",
+          "1"
+        ],
+        [
+          "Q1",
+          "2"
+        ],
+        [
+          "R6",
+          "2"
+        ],
+        [
+          "R7",
+          "2"
+        ],
+        [
+          "R9",
+          "2"
+        ],
+        [
+          "SW1",
+          "2"
+        ],
+        [
+          "SW2",
+          "2"
+        ],
+        [
+          "J2",
+          "3"
+        ],
+        [
+          "J4",
+          "4"
+        ]
+      ]
+    },
+    {
+      "name": "+12V",
+      "is_power": true,
+      "nodes": [
+        [
+          "D1",
+          "1"
+        ],
+        [
+          "U2",
+          "3"
+        ],
+        [
+          "C2",
+          "1"
+        ],
+        [
+          "J3",
+          "1"
+        ],
+        [
+          "D2",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "+3V3",
+      "is_power": false,
+      "nodes": [
+        [
+          "U2",
+          "2"
+        ],
+        [
+          "C3",
+          "1"
+        ],
+        [
+          "U1",
+          "1"
+        ],
+        [
+          "U1",
+          "9"
+        ],
+        [
+          "U1",
+          "24"
+        ],
+        [
+          "U1",
+          "36"
+        ],
+        [
+          "U1",
+          "48"
+        ],
+        [
+          "C4",
+          "1"
+        ],
+        [
+          "C5",
+          "1"
+        ],
+        [
+          "C6",
+          "1"
+        ],
+        [
+          "C7",
+          "1"
+        ],
+        [
+          "R1",
+          "1"
+        ],
+        [
+          "R5",
+          "1"
+        ],
+        [
+          "R11",
+          "1"
+        ],
+        [
+          "J2",
+          "1"
+        ],
+        [
+          "J4",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "NRST",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "7"
+        ],
+        [
+          "R5",
+          "2"
+        ],
+        [
+          "C8",
+          "1"
+        ],
+        [
+          "SW1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "BOOT0",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "44"
+        ],
+        [
+          "R6",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "BOOT1",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "20"
+        ],
+        [
+          "R7",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "OSC_IN",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "5"
+        ],
+        [
+          "Y1",
+          "1"
+        ],
+        [
+          "C9",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "OSC_OUT",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "6"
+        ],
+        [
+          "Y1",
+          "2"
+        ],
+        [
+          "C10",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "OSC32_IN",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "3"
+        ],
+        [
+          "Y2",
+          "1"
+        ],
+        [
+          "C11",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "OSC32_OUT",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "4"
+        ],
+        [
+          "Y2",
+          "2"
+        ],
+        [
+          "C12",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "SWDIO",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "34"
+        ],
+        [
+          "J4",
+          "2"
+        ]
+      ]
+    },
+    {
+      "name": "SWCLK",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "37"
+        ],
+        [
+          "J4",
+          "3"
+        ]
+      ]
+    },
+    {
+      "name": "MOISTURE_IN",
+      "is_power": false,
+      "nodes": [
+        [
+          "J2",
+          "2"
+        ],
+        [
+          "R10",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "MOISTURE_ADC",
+      "is_power": false,
+      "nodes": [
+        [
+          "R10",
+          "2"
+        ],
+        [
+          "C13",
+          "1"
+        ],
+        [
+          "U1",
+          "10"
+        ]
+      ]
+    },
+    {
+      "name": "PUMP_GATE_CTRL",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "18"
+        ],
+        [
+          "R8",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "GATE",
+      "is_power": false,
+      "nodes": [
+        [
+          "R8",
+          "2"
+        ],
+        [
+          "R9",
+          "1"
+        ],
+        [
+          "Q1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "PUMP_DRAIN",
+      "is_power": false,
+      "nodes": [
+        [
+          "Q1",
+          "3"
+        ],
+        [
+          "J3",
+          "2"
+        ],
+        [
+          "D2",
+          "2"
+        ]
+      ]
+    },
+    {
+      "name": "NET_PWR_LED",
+      "is_power": false,
+      "nodes": [
+        [
+          "R1",
+          "2"
+        ],
+        [
+          "D3",
+          "2"
+        ]
+      ]
+    },
+    {
+      "name": "LED_PUMP_NODE",
+      "is_power": false,
+      "nodes": [
+        [
+          "R2",
+          "2"
+        ],
+        [
+          "D4",
+          "2"
+        ]
+      ]
+    },
+    {
+      "name": "LED_PUMP_CTRL",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "25"
+        ],
+        [
+          "R2",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "LED_WARN_NODE",
+      "is_power": false,
+      "nodes": [
+        [
+          "R3",
+          "2"
+        ],
+        [
+          "D5",
+          "2"
+        ]
+      ]
+    },
+    {
+      "name": "LED_WARN_CTRL",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "26"
+        ],
+        [
+          "R3",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "LED_STATUS_NODE",
+      "is_power": false,
+      "nodes": [
+        [
+          "R4",
+          "2"
+        ],
+        [
+          "D6",
+          "2"
+        ]
+      ]
+    },
+    {
+      "name": "LED_STATUS_CTRL",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "2"
+        ],
+        [
+          "R4",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "SW_MANUAL_OVERRIDE",
+      "is_power": false,
+      "nodes": [
+        [
+          "U1",
+          "29"
+        ],
+        [
+          "R11",
+          "2"
+        ],
+        [
+          "SW2",
+          "1"
+        ]
+      ]
+    }
+  ]
+}

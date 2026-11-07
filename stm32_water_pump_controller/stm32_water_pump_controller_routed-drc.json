@@ -1,0 +1,1021 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-05T01:56:06+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [],
+    "source": "stm32_water_pump_controller_routed.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.25,
+                        "y": 136.0743
+                    },
+                    "uuid": "46798200-ad10-43ec-a4c6-87caa6df2554"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 144.75,
+                        "y": 146.9064
+                    },
+                    "uuid": "513f319d-cdbd-499f-8af2-c3c491f87e69"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 151.1813,
+                        "y": 119.1188
+                    },
+                    "uuid": "52e25257-d751-48e9-9195-cbe3b00aa0b3"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 113.1815,
+                        "y": 147.8998
+                    },
+                    "uuid": "53ce7e4b-40a0-4022-affb-e3bc42362ad7"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 144.75,
+                        "y": 139.3656
+                    },
+                    "uuid": "754a187c-8c71-465f-98e9-43929b02922f"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 151.1813,
+                        "y": 125.09
+                    },
+                    "uuid": "a0bd1ce7-fcd6-48ba-a418-f4679082adcc"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.4502,
+                        "y": 154.7895
+                    },
+                    "uuid": "bf7e2a54-3cb1-4625-a5d6-064f5949debd"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 159.5621,
+                        "y": 130.4504
+                    },
+                    "uuid": "c294de8e-3718-44a5-b083-e1364eb7d87e"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 155.3505,
+                        "y": 142.4005
+                    },
+                    "uuid": "d49b23a3-425c-44ec-ad97-767a8af98986"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 132.7099,
+                        "y": 127.0766
+                    },
+                    "uuid": "f3f62813-fa99-42f7-8b6f-03cbbfe9b2a5"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 128.9631,
+                        "y": 142.4131
+                    },
+                    "uuid": "14300670-920e-4758-8828-f9f467ca9eaf"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 135.948,
+                        "y": 153.898
+                    },
+                    "uuid": "1ef1ef8d-980a-418e-b0e3-0aed8b6f9e62"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.0235,
+                        "y": 125.8526
+                    },
+                    "uuid": "731f9e34-4c3e-4cb0-83b3-e4566657abdf"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 135.8293,
+                        "y": 142.8639
+                    },
+                    "uuid": "766c323d-4e5c-4fea-87ab-ab2eae92e471"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 110.0025,
+                        "y": 141.085
+                    },
+                    "uuid": "cfb8ac40-598b-4dd3-bc07-418ffdeed75d"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.501,
+                        "y": 120.0
+                    },
+                    "uuid": "f6285a2e-eba7-44cd-a00c-218fed16b5c1"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [NRST] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 134.2346,
+                        "y": 141.8161
+                    },
+                    "uuid": "c068f29b-9f63-4d85-ad11-1a4bdd4547ca"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [NRST] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 109.2759,
+                        "y": 143.5775
+                    },
+                    "uuid": "c4df146c-1eea-4473-8d04-5c553c226b4b"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [BOOT0] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.75,
+                        "y": 136.062
+                    },
+                    "uuid": "28306b39-34e4-4b95-b5fa-5836bb15ba2a"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [BOOT0] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 132.0336,
+                        "y": 133.9075
+                    },
+                    "uuid": "ca104ff1-1294-4647-a9a1-eddd5743a0b4"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [OSC_IN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 132.6135,
+                        "y": 140.8027
+                    },
+                    "uuid": "0eac071d-d5a5-4e06-99cc-1f805fa83b9d"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [OSC_IN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 123.5808,
+                        "y": 135.2733
+                    },
+                    "uuid": "f12a9669-a463-4fb4-a592-e2402fa3f951"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [OSC_OUT] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 120.1816,
+                        "y": 138.9025
+                    },
+                    "uuid": "38f20e7d-6857-4147-b058-4e49d7b926ff"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [OSC_OUT] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.454,
+                        "y": 138.4646
+                    },
+                    "uuid": "72ae2ded-c4a1-404a-9b72-dbe5cb66c9b5"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [OSC_OUT] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 131.7786,
+                        "y": 141.4044
+                    },
+                    "uuid": "99d6faea-d6bf-4c6c-93fa-b9ff14e86573"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [OSC32_IN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 118.9589,
+                        "y": 145.9089
+                    },
+                    "uuid": "67e22989-1119-4343-8dcb-55ba78fd089f"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [OSC32_IN] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 126.5578,
+                        "y": 144.5932
+                    },
+                    "uuid": "f3233367-3d4a-4344-b2fe-c694f2223d10"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [SWCLK] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.9044,
+                        "y": 136.9448
+                    },
+                    "uuid": "0cf62aff-5cff-419f-ad5f-a97603d71b2d"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [SWCLK] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 152.2996,
+                        "y": 143.34
+                    },
+                    "uuid": "9f62e38e-9be3-4373-8fa0-761b2b013eea"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [PUMP_GATE_CTRL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.25,
+                        "y": 144.3928
+                    },
+                    "uuid": "4392740e-84c0-4050-9402-bb492b054d86"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [PUMP_GATE_CTRL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 152.3362,
+                        "y": 127.0325
+                    },
+                    "uuid": "fce28271-f041-4dfe-9b2f-55cdf2ffcefc"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [LED_PUMP_CTRL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 152.1872,
+                        "y": 149.0997
+                    },
+                    "uuid": "f46711a6-67c8-440b-a40e-14d2c7e8435b"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [LED_PUMP_CTRL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.9123,
+                        "y": 144.2005
+                    },
+                    "uuid": "f6fea348-c887-4f14-bd41-bcabd493cedc"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [LED_WARN_CTRL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.4213,
+                        "y": 143.7184
+                    },
+                    "uuid": "7d8a4d12-814f-42ea-aa9e-8aa651c414b4"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [LED_WARN_CTRL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.9948,
+                        "y": 149.0927
+                    },
+                    "uuid": "d47c4474-3779-408f-8d04-3539e4f8f847"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [LED_STATUS_CTRL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.5802,
+                        "y": 139.2995
+                    },
+                    "uuid": "d245bd42-4e49-4a99-ad4f-8b9854fee0ae"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "Via [LED_STATUS_CTRL] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 137.9855,
+                        "y": 149.102
+                    },
+                    "uuid": "effa025a-7b39-4711-b685-f07771778979"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 0.8508 mm",
+                    "pos": {
+                        "x": 139.2378,
+                        "y": 142.7005
+                    },
+                    "uuid": "30f461a6-779d-4fc1-b7e9-7899b9f359c5"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 0.0700 mm",
+                    "pos": {
+                        "x": 138.288,
+                        "y": 142.7995
+                    },
+                    "uuid": "31837c94-cbad-4b72-b3b9-b46271b12f7f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 0.0700 mm",
+                    "pos": {
+                        "x": 138.387,
+                        "y": 142.7005
+                    },
+                    "uuid": "5557bcaa-8916-4737-88a9-bf84f0a169a6"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 1.2536 mm",
+                    "pos": {
+                        "x": 145.0564,
+                        "y": 144.7005
+                    },
+                    "uuid": "723bd0a1-46a6-4511-8953-915f476eb658"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1200 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 0.1684 mm",
+                    "pos": {
+                        "x": 144.8975,
+                        "y": 144.5814
+                    },
+                    "uuid": "860512b3-ea71-4a2b-8d77-8f10bcc6ddd3"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 2.3943 mm",
+                    "pos": {
+                        "x": 135.8937,
+                        "y": 142.7995
+                    },
+                    "uuid": "9707eff0-50a4-4076-a123-cbf6eb49ad49"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 0.0320 mm",
+                    "pos": {
+                        "x": 146.31,
+                        "y": 144.7005
+                    },
+                    "uuid": "9c56c437-88b6-4256-8c9f-8d56127cf8e5"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1200 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 0.0398 mm",
+                    "pos": {
+                        "x": 145.0166,
+                        "y": 144.7005
+                    },
+                    "uuid": "bc0e279e-ac2c-41a7-b867-a66e4f462597"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 0.1659 mm",
+                    "pos": {
+                        "x": 140.7855,
+                        "y": 138.4584
+                    },
+                    "uuid": "bf4fc8c6-95f5-416c-9f84-687bebe70d34"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [+3V3] on F.Cu, length 0.2831 mm",
+                    "pos": {
+                        "x": 140.5024,
+                        "y": 138.4584
+                    },
+                    "uuid": "c20a89fb-28aa-4886-83b0-240ac0092c4f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [NRST] on F.Cu, length 0.0700 mm",
+                    "pos": {
+                        "x": 138.288,
+                        "y": 141.7995
+                    },
+                    "uuid": "cdc68004-d01f-43a1-b882-07b937717667"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [NRST] on F.Cu, length 2.2737 mm",
+                    "pos": {
+                        "x": 136.0143,
+                        "y": 141.7995
+                    },
+                    "uuid": "e2311440-470c-4255-ae27-ee7d7eb70a16"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [OSC_OUT] on F.Cu, length 2.3396 mm",
+                    "pos": {
+                        "x": 135.9484,
+                        "y": 141.2995
+                    },
+                    "uuid": "31abd632-52c6-436b-bca8-e66edf1aea33"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [OSC_OUT] on F.Cu, length 0.0700 mm",
+                    "pos": {
+                        "x": 138.288,
+                        "y": 141.2995
+                    },
+                    "uuid": "c7a7341f-64df-49fa-9590-5c2e05d0c88f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [OSC32_OUT] on F.Cu, length 1.4681 mm",
+                    "pos": {
+                        "x": 127.2488,
+                        "y": 142.8389
+                    },
+                    "uuid": "9298d8d2-f901-44a4-9a98-08cc4dda2e4d"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [OSC32_OUT] on F.Cu, length 0.2056 mm",
+                    "pos": {
+                        "x": 127.2488,
+                        "y": 141.3708
+                    },
+                    "uuid": "ac1d4526-7486-4d50-9f7a-48db3a754958"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SWDIO] on F.Cu, length 0.0700 mm",
+                    "pos": {
+                        "x": 147.1478,
+                        "y": 139.75
+                    },
+                    "uuid": "07663474-1278-400b-b8fa-478f1c8b4644"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SWDIO] on F.Cu, length 0.3935 mm",
+                    "pos": {
+                        "x": 147.1973,
+                        "y": 139.7995
+                    },
+                    "uuid": "221be4e5-1233-49b2-bcd2-8f914ca87ea2"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [MOISTURE_ADC] on F.Cu, length 0.0700 mm",
+                    "pos": {
+                        "x": 138.288,
+                        "y": 143.2995
+                    },
+                    "uuid": "81e325fa-91de-4f53-ae19-fd9b02a928cd"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [MOISTURE_ADC] on F.Cu, length 1.2074 mm",
+                    "pos": {
+                        "x": 137.0806,
+                        "y": 143.2995
+                    },
+                    "uuid": "c544a110-2db2-46a9-a9dc-7772c6068377"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LED_PUMP_CTRL] on F.Cu, length 1.2003 mm",
+                    "pos": {
+                        "x": 147.9123,
+                        "y": 144.2005
+                    },
+                    "uuid": "220bdf3a-1b3a-4968-9c81-be7a183f6a16"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LED_PUMP_CTRL] on F.Cu, length 0.0700 mm",
+                    "pos": {
+                        "x": 146.712,
+                        "y": 144.2005
+                    },
+                    "uuid": "bf1a4381-1e5f-4ac6-9b2c-28ff0f467e08"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LED_WARN_CTRL] on F.Cu, length 0.0447 mm",
+                    "pos": {
+                        "x": 146.6625,
+                        "y": 143.75
+                    },
+                    "uuid": "73569757-f650-4fdb-87ce-995414f02b30"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LED_WARN_CTRL] on F.Cu, length 1.2096 mm",
+                    "pos": {
+                        "x": 146.6309,
+                        "y": 143.7184
+                    },
+                    "uuid": "c39845ac-bfd9-48bf-b7e6-5edb55b38d2c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LED_STATUS_CTRL] on F.Cu, length 0.0700 mm",
+                    "pos": {
+                        "x": 138.387,
+                        "y": 139.2995
+                    },
+                    "uuid": "7209fe59-e2fc-400b-a9ff-5016826317c6"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [LED_STATUS_CTRL] on F.Cu, length 1.1932 mm",
+                    "pos": {
+                        "x": 139.5802,
+                        "y": 139.2995
+                    },
+                    "uuid": "caf55a04-36f6-4620-b7bc-c44f752cc2c0"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SW_MANUAL_OVERRIDE] on F.Cu, length 0.8549 mm",
+                    "pos": {
+                        "x": 152.1532,
+                        "y": 142.5502
+                    },
+                    "uuid": "471556a4-e101-4a7f-a4d4-ce1ac123b436"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SW_MANUAL_OVERRIDE] on F.Cu, length 0.3707 mm",
+                    "pos": {
+                        "x": 152.5239,
+                        "y": 142.5502
+                    },
+                    "uuid": "b2492eb6-a47c-424b-85e7-34a5f6b35c63"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J1",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 118.5
+                    },
+                    "uuid": "74689a05-2f24-411d-b130-a4c54fa435b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J3",
+                    "pos": {
+                        "x": 171.0,
+                        "y": 118.5
+                    },
+                    "uuid": "ca431ea8-3e73-4d11-b39f-3959142e9229"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}
