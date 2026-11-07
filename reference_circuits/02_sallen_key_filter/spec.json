@@ -47,11 +47,11 @@
     },
     {
       "ref": "U1",
-      "lib_id": "Amplifier_Operational:TL072",
-      "value": "TL072",
+      "lib_id": "Amplifier_Operational:TL071",
+      "value": "TL071",
       "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
       "pos": [125.0, 50.0],
-      "description": "Dual Low-Noise JFET Op-Amp"
+      "description": "Low-Noise JFET Op-Amp"
     },
     {
       "ref": "J2",
@@ -101,7 +101,7 @@
     },
     {
       "name": "VOUT",
-      "nodes": [["U1", "1"], ["U1", "2"], ["C1", "2"], ["J3", "1"]]
+      "nodes": [["U1", "6"], ["U1", "2"], ["C1", "2"], ["J3", "1"]]
     },
     {
       "name": "GND",
@@ -111,7 +111,7 @@
     {
       "name": "+12V",
       "is_power": true,
-      "nodes": [["J2", "1"], ["U1", "8"], ["C3", "1"]]
+      "nodes": [["J2", "1"], ["U1", "7"], ["C3", "1"]]
     },
     {
       "name": "-12V",

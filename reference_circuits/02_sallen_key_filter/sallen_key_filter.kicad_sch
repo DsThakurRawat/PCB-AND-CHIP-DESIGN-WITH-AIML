@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "55bee81c-e973-4e0a-b7c8-fec25e53008a")
+	(uuid "74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a")
 	(paper "A4")
 	(title_block
 		(title "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)")
@@ -461,9 +461,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:TL072"
+		(symbol "Amplifier_Operational:TL071"
 			(property "Reference" "U"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -471,8 +471,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TL072"
-				(at 0 -5.08 0)
+			(property "Value" "TL071"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -481,7 +481,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 1.27 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -490,6 +490,15 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -498,7 +507,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
+			(property "ki_keywords" "singel opamp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -507,16 +516,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -531,7 +531,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(symbol "TL072_1_1"
+			(symbol "TL071_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -544,6 +544,8 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "TL071_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -580,94 +582,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TL072_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -678,7 +592,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -697,6 +611,79 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 2.54 270)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "NULL"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 6.35)
+					(name "NULL"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1061,7 +1048,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "ccfa2ea0-235f-4ca7-bd6c-0a02a6d76a4f")
+		(uuid "13b93521-5522-4d92-843b-b79b06797891")
 		(property "Reference" "J1"
 			(at 39.37 52.07 0.0000)
 			(effects
@@ -1090,14 +1077,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "11fa54a5-83a6-4ea7-b985-7848f56e3a03")
+			(uuid "72571006-2dd9-4294-bd9e-b2b220eb926b")
 		)
 		(pin "2"
-			(uuid "f5a04737-bbd1-46a3-ac86-bcd87c273c6e")
+			(uuid "1a4f5dfa-0d44-4056-a49b-b1e88631941e")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "J1")
 					(unit 1)
 				)
@@ -1113,7 +1100,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "80855d43-741d-44e6-be81-ff89a5849304")
+		(uuid "5ed75f13-61b4-499d-a744-a38330434d8f")
 		(property "Reference" "R1"
 			(at 66.802 49.53 90)
 			(effects
@@ -1142,14 +1129,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "560a277b-787c-4d11-abc9-e2f244c2308e")
+			(uuid "db11e887-d25e-4a6d-8d89-fa897d500ba5")
 		)
 		(pin "2"
-			(uuid "b9da2804-24d1-4f36-8670-501600e40d3e")
+			(uuid "91294568-6352-4940-a242-2d55a61932fb")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "R1")
 					(unit 1)
 				)
@@ -1165,7 +1152,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "83d7c939-a3cc-4656-8d1f-bcdea9392608")
+		(uuid "3d52bb09-cfe8-453b-889a-561705f59f18")
 		(property "Reference" "R2"
 			(at 87.122 49.53 90)
 			(effects
@@ -1194,14 +1181,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d20b36b3-a8c9-486f-aeb4-233a76bea8fe")
+			(uuid "2155eefa-4021-4b67-af76-d8b2f3e48e23")
 		)
 		(pin "2"
-			(uuid "2293b46f-d7d6-4b3a-8cad-8edc60200176")
+			(uuid "77441eec-c178-4311-8184-2fc18963d410")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "R2")
 					(unit 1)
 				)
@@ -1217,7 +1204,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "f93fe937-1f0d-4bc4-8123-cb469f610df9")
+		(uuid "48efd5f6-8af2-413f-855e-573a56dc7bc9")
 		(property "Reference" "C1"
 			(at 85.725 38.1 0.0000)
 			(effects
@@ -1246,14 +1233,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "321cf0c5-0ad8-4ef0-903f-28d1c216b5bd")
+			(uuid "5164442d-25b0-4499-98b3-e8920bfe4308")
 		)
 		(pin "2"
-			(uuid "127f00b3-82ec-4f24-b2b6-3eb104885b0d")
+			(uuid "105db25a-0d54-480a-b158-b59b958ecc1a")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "C1")
 					(unit 1)
 				)
@@ -1269,7 +1256,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "fbf52a5c-8b29-4720-9ef4-b0fe3305e3e9")
+		(uuid "71301e4f-fb9e-4df2-a4cc-2830c42d3a46")
 		(property "Reference" "C2"
 			(at 106.045 62.23 0.0000)
 			(effects
@@ -1298,14 +1285,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "32eb5ace-5edd-41e7-ba59-2814f16093a9")
+			(uuid "6b033a08-d278-45b8-b9c4-d29dd346d45b")
 		)
 		(pin "2"
-			(uuid "648fd656-3b49-4c0a-a787-7f6b99b870f4")
+			(uuid "7ec9fe59-027c-4b6d-8c04-d20bc6a55aac")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "C2")
 					(unit 1)
 				)
@@ -1313,7 +1300,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL072")
+		(lib_id "Amplifier_Operational:TL071")
 		(at 124.46 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1321,9 +1308,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "e5dec69e-dd11-48ec-9d9c-58c752958922")
+		(uuid "85a516a6-62d9-40b1-9b68-1c22c86482ae")
 		(property "Reference" "U1"
-			(at 124.46 54.61 0.0000)
+			(at 124.46 55.88 0.0000)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,8 +1318,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TL072"
-			(at 124.46 44.45 0.0000)
+		(property "Value" "TL071"
+			(at 124.46 53.34 0.0000)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1328,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 124.46 49.53 0.0000)
+			(at 125.73 50.8 0.0000)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,32 +1337,32 @@
 			)
 		)
 		(pin "3"
-			(uuid "35868bf8-f850-49e1-a747-bfee753fe8de")
+			(uuid "8eb8ebd6-65d4-4f60-8a20-053a275ba9ce")
 		)
 		(pin "2"
-			(uuid "9635196e-8607-4bdf-8f3b-8426a54a07ae")
-		)
-		(pin "1"
-			(uuid "f57d4c75-74e3-4238-a977-d8709bbaf9f8")
-		)
-		(pin "5"
-			(uuid "744877fb-bb33-4435-a8e1-41cd9a371c15")
-		)
-		(pin "6"
-			(uuid "b22b64f9-7553-4709-b854-d318aec768f5")
+			(uuid "b14578c5-8a80-4f30-aed4-07ed87724f2b")
 		)
 		(pin "7"
-			(uuid "d992bceb-420d-430b-ae02-9c66f028fafd")
-		)
-		(pin "8"
-			(uuid "eac28361-823a-471c-b34b-4d008098a5da")
+			(uuid "d257d5b1-b003-4ada-b5e1-d9f2aafbb30b")
 		)
 		(pin "4"
-			(uuid "ce2693dc-b2f1-41ac-a721-a02aa5dd9a29")
+			(uuid "ea706878-9052-4744-bb8a-15a805ed8bda")
+		)
+		(pin "8"
+			(uuid "00a5f153-74b5-469c-a775-107f5dfb71a6")
+		)
+		(pin "1"
+			(uuid "cfa126f8-9c9b-4824-b689-edc30eeb13d9")
+		)
+		(pin "5"
+			(uuid "68a8a80c-dcf6-413e-911d-1560f5bd08c7")
+		)
+		(pin "6"
+			(uuid "a6179cdb-e5ac-400f-bfc2-f9c31693f840")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "U1")
 					(unit 1)
 				)
@@ -1391,7 +1378,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "1eb5c8da-f644-4717-8dd7-16a694b9fa50")
+		(uuid "0d0f672f-4b06-4b7b-8906-28fa6f1f972e")
 		(property "Reference" "J2"
 			(at 124.46 30.48 0.0000)
 			(effects
@@ -1420,17 +1407,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3df65d0-7673-4bb9-8146-d1631d38602e")
+			(uuid "46606192-9458-4d7a-9890-4b763a4fb5f7")
 		)
 		(pin "2"
-			(uuid "ce3106ea-421a-4f1d-959c-062d9bd20978")
+			(uuid "7139d449-3b72-44e7-a937-bcd9d0125d28")
 		)
 		(pin "3"
-			(uuid "14711d10-018a-43c8-8ad2-d8f8a1ba5d52")
+			(uuid "17a8f912-84a7-42e4-a110-232e7bc0b50c")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "J2")
 					(unit 1)
 				)
@@ -1446,7 +1433,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "d375cefb-6128-464d-b798-8c8862f8cab6")
+		(uuid "f4e338b7-687f-48f4-a74b-12bda4bef6df")
 		(property "Reference" "C3"
 			(at 145.415 38.1 0.0000)
 			(effects
@@ -1475,14 +1462,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0568c889-5c3d-4398-a433-1db22367ce99")
+			(uuid "8efcfca3-5faa-48e9-9d8c-64c351b1d57d")
 		)
 		(pin "2"
-			(uuid "144e6d17-b085-4ac8-a290-6689b3e830e3")
+			(uuid "cd085075-1c6f-4a22-8f2a-e66aa4121dc0")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "C3")
 					(unit 1)
 				)
@@ -1498,7 +1485,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "6d9ab8aa-ee92-44f1-9fbd-a0f39e3c53e5")
+		(uuid "0f976782-7abf-418d-8d70-b0961d98e5d4")
 		(property "Reference" "C4"
 			(at 145.415 67.31 0.0000)
 			(effects
@@ -1527,14 +1514,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffd458ec-7754-4208-9ee3-68ad5f4d3aff")
+			(uuid "2d4d6f29-f017-42f2-99dd-98d46fcde431")
 		)
 		(pin "2"
-			(uuid "cabb79fb-db76-432b-b91d-a114b93b8b6c")
+			(uuid "2786d8f6-ca51-444d-bdc3-cbe9428b9522")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "C4")
 					(unit 1)
 				)
@@ -1550,7 +1537,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "72cad633-b7d2-4ade-a814-4652d6d261d9")
+		(uuid "90e32f53-fca6-4239-b437-9aa8b7cde136")
 		(property "Reference" "J3"
 			(at 170.18 52.07 0.0000)
 			(effects
@@ -1579,55 +1566,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1464cba-dc7b-4066-adbc-f205ecf6349f")
+			(uuid "8d67e72d-815b-4aaf-a0b8-cddb67d102d1")
 		)
 		(pin "2"
-			(uuid "7ea9c8fd-73ff-4e27-ae77-2310bdcaaaab")
+			(uuid "67bbdd77-31b3-4ab4-8e1a-02ffcad56acd")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 30.48 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced no)
-		(uuid "ead04fef-ea45-4e06-ba67-31b123db04fc")
-		(property "Reference" "#FLG1"
-			(at 30.48 172.085 0.0000)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 30.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f32e95e-1f37-4058-893a-70eb8f0bcc59")
-		)
-		(instances
-			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
-					(reference "#FLG1")
 					(unit 1)
 				)
 			)
@@ -1642,7 +1589,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "69f3c222-a3b3-4cd2-a4de-59a1eb7fe86a")
+		(uuid "0ab178f3-51bb-45f5-a933-04c4bb137226")
 		(property "Reference" "#FLG5"
 			(at 110.49 172.085 0.0000)
 			(effects
@@ -1662,11 +1609,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "049b4486-b58c-4b80-84b2-cd5b2f204afb")
+			(uuid "3950bfe6-1532-4e31-bf92-accd6ec2d7ff")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "#FLG5")
 					(unit 1)
 				)
@@ -1682,7 +1629,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "67019ba1-2eb2-40d7-98b4-f8018f0317dd")
+		(uuid "d266ac38-8439-4b46-bed7-4ec25defd1af")
 		(property "Reference" "#FLG6"
 			(at 129.54 172.085 0.0000)
 			(effects
@@ -1702,11 +1649,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "191de417-731d-49e3-9845-c2e5bbc2318a")
+			(uuid "7752882d-a06c-4e86-b2b2-7f287a436dc8")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "#FLG6")
 					(unit 1)
 				)
@@ -1722,7 +1669,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced no)
-		(uuid "0b12b05c-057c-451e-907f-a8fa07bea747")
+		(uuid "334b9a4a-24ef-4a94-8e81-7243f8906336")
 		(property "Reference" "#FLG7"
 			(at 149.86 172.085 0.0000)
 			(effects
@@ -1742,11 +1689,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f68043eb-e822-41ca-8c62-acc3f3533e7e")
+			(uuid "a3131848-9943-4af3-a85c-bf187d786559")
 		)
 		(instances
 			(project "2nd-Order Sallen-Key Active Low-Pass Filter (1 kHz)"
-				(path "/55bee81c-e973-4e0a-b7c8-fec25e53008a"
+				(path "/74f3eaf4-f8c1-48c6-80ee-fdc8b06dfb9a"
 					(reference "#FLG7")
 					(unit 1)
 				)
@@ -1761,7 +1708,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7bdf257e-1b6d-401f-a557-d6ca23875fc2")
+		(uuid "76ca6e20-0e35-4c86-933d-7154c2ead64a")
 	)
 	(label "VIN"
 		(at 64.77 45.72 0)
@@ -1771,7 +1718,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "81a415aa-09eb-43fe-b88e-be9ffce5dc2a")
+		(uuid "d1f52e76-7962-4674-9a9a-39f24735ee2a")
 	)
 	(label "N_R1_R2"
 		(at 64.77 53.34 0)
@@ -1781,7 +1728,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "118487dc-321b-4211-9b4f-f41b2b465a9c")
+		(uuid "c005638d-6e06-403a-8424-8e534f7965aa")
 	)
 	(label "N_R1_R2"
 		(at 85.09 45.72 0)
@@ -1791,7 +1738,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bbf1e612-e68c-4611-973c-1ba056960a2c")
+		(uuid "844ce115-5e6a-45e2-9cdb-7c352a8fb2f8")
 	)
 	(label "N_R1_R2"
 		(at 85.09 31.75 0)
@@ -1801,7 +1748,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b0ca82c4-2cc2-4abc-8b00-b4234cfeb20b")
+		(uuid "8916c343-7b80-4cd1-bda0-0bc4ceaed591")
 	)
 	(label "V_PLUS"
 		(at 85.09 53.34 0)
@@ -1811,7 +1758,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "89ae98cb-75df-4a05-8021-0bd03b35d2f4")
+		(uuid "13e9ed4b-5603-4267-861f-197ab3a985f2")
 	)
 	(label "V_PLUS"
 		(at 105.41 55.88 0)
@@ -1821,7 +1768,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b3b1bc43-b7e3-49c2-b546-e42f7f4f7024")
+		(uuid "84712930-7e1d-4973-8a01-1e6006281be4")
 	)
 	(label "V_PLUS"
 		(at 116.84 46.99 0)
@@ -1831,7 +1778,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "32f353ab-da41-49f0-8e73-c8b42d7c2535")
+		(uuid "d9bd782a-e41a-4e34-9048-f0d9991fe8b8")
 	)
 	(label "VOUT"
 		(at 132.08 49.53 0)
@@ -1841,7 +1788,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0abbcd57-7714-4c5b-bf62-7f770a1f3e55")
+		(uuid "1dbd5cb6-35a7-4d35-8faa-53d27ce249ad")
 	)
 	(label "VOUT"
 		(at 116.84 52.07 0)
@@ -1851,7 +1798,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d6286e15-5d04-4f04-a135-20e482730ae8")
+		(uuid "ca39c7eb-b478-4504-9b69-e120a5dfefcd")
 	)
 	(label "VOUT"
 		(at 85.09 39.37 0)
@@ -1861,7 +1808,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "353acdac-be0d-415d-9ef3-41ce83197d67")
+		(uuid "3c7e30d6-21fa-4f23-8823-ab6d6bd0bfa7")
 	)
 	(label "VOUT"
 		(at 165.1 49.53 0)
@@ -1871,7 +1818,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e4e96eb8-6773-4aa0-a1a3-a869c6b84237")
+		(uuid "a64e69ac-0a8e-4b9b-b234-2182c9a5d61f")
 	)
 	(label "GND"
 		(at 34.29 52.07 0)
@@ -1881,7 +1828,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bc7fa513-432d-4a81-a388-f12009cfd270")
+		(uuid "003aa2cc-8453-4bde-a484-ee8af91484d4")
 	)
 	(label "GND"
 		(at 105.41 63.5 0)
@@ -1891,7 +1838,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d3f87847-2014-48e6-b107-d5146269b68a")
+		(uuid "caeb3b4e-c235-421b-9771-5d299011cafd")
 	)
 	(label "GND"
 		(at 119.38 25.4 0)
@@ -1901,7 +1848,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "dfd078c4-0ad3-469e-8736-4ebd4bf8417e")
+		(uuid "75d14cf7-67c5-41af-aff2-b84c22381285")
 	)
 	(label "GND"
 		(at 144.78 39.37 0)
@@ -1911,7 +1858,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "409c95c6-95d8-4e38-ac81-a0a273dde8f2")
+		(uuid "1ef16f4f-5c12-43d7-bd2b-9fee4df54a5b")
 	)
 	(label "GND"
 		(at 144.78 60.96 0)
@@ -1921,7 +1868,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6c3fa873-709c-440c-8224-70d6e1b422ff")
+		(uuid "e92dc12b-58cc-4a3e-b366-80848712065f")
 	)
 	(label "GND"
 		(at 165.1 52.07 0)
@@ -1931,7 +1878,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "100d8a43-f3fb-4aae-aec8-89344a52fd42")
+		(uuid "7ab18f09-132e-4541-9c67-463543d2403f")
 	)
 	(label "+12V"
 		(at 119.38 22.86 0)
@@ -1941,7 +1888,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ddd54d07-2235-468c-bd46-f9643325f9f8")
+		(uuid "078bf85b-c992-48ed-a466-ec56f9e626ee")
 	)
 	(label "+12V"
 		(at 121.92 41.91 0)
@@ -1951,7 +1898,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "eb3c0dd0-4b8b-489b-91ca-9c57aa9f8303")
+		(uuid "c0801291-dac2-464f-a30f-26f81164521b")
 	)
 	(label "+12V"
 		(at 144.78 31.75 0)
@@ -1961,7 +1908,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fd1fa969-a199-4fc7-b71a-def3ade77aa1")
+		(uuid "5a07dd8a-e730-4401-8b05-a27258a39902")
 	)
 	(label "-12V"
 		(at 119.38 27.94 0)
@@ -1971,7 +1918,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f183f2d0-1878-454a-9ece-4887a04a2e6c")
+		(uuid "373081a4-d186-4cb6-88e8-5253e445e6bf")
 	)
 	(label "-12V"
 		(at 121.92 57.15 0)
@@ -1981,7 +1928,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4914ef4d-63a7-49fe-9bec-0f8d96c8b548")
+		(uuid "60e99f75-fd60-43f1-ac77-c88b9c408ac6")
 	)
 	(label "-12V"
 		(at 144.78 68.58 0)
@@ -1991,17 +1938,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e8b3d8a9-aebe-47c1-ae7c-486239ce497d")
-	)
-	(label "VIN"
-		(at 30.48 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19db1d35-ae79-48db-afc3-4e324a0396ac")
+		(uuid "022109a3-0ae3-4c91-bcc9-f1e93c538fca")
 	)
 	(label "GND"
 		(at 110.49 170.18 0)
@@ -2011,7 +1948,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "82490d8d-35d2-4638-8936-e2362ef6af19")
+		(uuid "87c9a1b8-fec4-4d49-b4be-94c28d8e8e54")
 	)
 	(label "+12V"
 		(at 129.54 170.18 0)
@@ -2021,7 +1958,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "02364763-ae83-4cac-bf8a-86b9fb26eb33")
+		(uuid "429968a5-4118-4025-b85b-ad332d4b4bb7")
 	)
 	(label "-12V"
 		(at 149.86 170.18 0)
@@ -2031,7 +1968,19 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ef9f3616-0707-4eea-8d7d-5246f69eaced")
+		(uuid "7172031d-50c7-4789-8368-14e8d1bd07f8")
+	)
+	(no_connect
+		(at 124.46 46.99)
+		(uuid "95d0b3ff-0fb3-42ea-83d7-2a19f0356307")
+	)
+	(no_connect
+		(at 124.46 57.15)
+		(uuid "ab31ded7-2581-4d7e-8110-ad1209dc3ece")
+	)
+	(no_connect
+		(at 127 57.15)
+		(uuid "46156e27-cbcf-4183-a841-8063d1fdc09e")
 	)
 	(sheet_instances
 		(path "/"
