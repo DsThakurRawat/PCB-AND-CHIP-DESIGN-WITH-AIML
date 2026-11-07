@@ -98,6 +98,17 @@ PCBDESIGN/
 │       ├── simulation_bode.png
 │       └── manufacturing/   # Gerbers ZIP, drill, pos CSV, PDF, ibom.html, 3d.png
 │
+├── ne555_led_blinker/        # Single-Layer Astable 1Hz LED Blinker (DIP-8, 48x36mm)
+│   ├── spec.json            # Circuit definition
+│   ├── ne555_led_blinker.kicad_sch
+│   ├── ne555_led_blinker.kicad_pcb  # 100% single-layer routed on F.Cu (0 vias, 0 DRC violations)
+│   ├── ne555_simulation_transient.png
+│   └── manufacturing/       # Gerbers ZIP, drill, pos CSV, PDF, ibom.html, 3d.png
+│
+├── docs/
+│   ├── ENGINEERING_RULES_AND_LESSONS.md # Complete rules, failure modes & decisions log
+│   └── mcp_vs_scripting_benchmark.md    # KiCad MCP vs scripting comparison
+│
 ├── demo_board/              # Test project used for live GUI tracking & MCP verification
 └── README.md
 ```

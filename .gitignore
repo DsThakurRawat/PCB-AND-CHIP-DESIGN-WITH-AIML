@@ -1,30 +1,110 @@
-# KiCad temporary and backup files
-*.bak
+# ==============================================================================
+# .gitignore for AI PCB Design & Hardware EDA Repository
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. KiCad Project Local Settings & User State
+# ------------------------------------------------------------------------------
+# KiCad Project Local file contains machine-specific window positions, zoom,
+# active layers, and user GUI states. Never commit to prevent merge conflicts.
 *.kicad_prl
-*-save.kicad_sch
-*-save.kicad_pcb
+
+# ------------------------------------------------------------------------------
+# 2. KiCad Backups, Autosaves & Lock Files
+# ------------------------------------------------------------------------------
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
 *_autosave-*
+_autosave-*
+#*#
+.#*
+*#auto_saved_files#*
 *.lck
+~*.lck
+.*.lck
+*-backups/
+*-backups/**
+
+# Binary & per-machine footprint library cache
 fp-info-cache
+
+# Transient netlists (KiCad 6+ uses direct schematic-to-PCB synchronization)
 *.net
 
-# KiCad ERC/DRC output logs
-*.erc
-*.drc
+# ------------------------------------------------------------------------------
+# 3. Rule Check Reports & Transient Test Logs
+# ------------------------------------------------------------------------------
+# Raw text reports and intermediate runner outputs generated during validation
+*.rpt
 *-drc.rpt
 *-erc.rpt
+*_drc.rpt
+*_erc.rpt
+*.erc
+*.drc
+*.log
+*_original_backup.*
 
-# Freerouting temporary files
+# ------------------------------------------------------------------------------
+# 4. Autorouter & Specctra Intermediates
+# ------------------------------------------------------------------------------
+# Intermediates used by FreeRouting / Topola
 *.dsn
 *.ses
 
-# Python virtual environment & cache
+# ------------------------------------------------------------------------------
+# 5. Manufacturing Intermediate Loose Layer Files
+# ------------------------------------------------------------------------------
+# Production packages bundle these into clean *_gerbers.zip files.
+# Ignore loose unzipped individual layer Gerber and Excellon drill files.
+**/gerbers/*
+!**/gerbers/*.zip
+**/gerber/*
+!**/gerber/*.zip
+!**/gerber/*.rar
+
+# ------------------------------------------------------------------------------
+# 6. Large Binaries, Toolchains & External Clones
+# ------------------------------------------------------------------------------
+# Local installations, compiled Rust targets, AppImages, and standalone tools (1.9 GB+)
+tools/
+emp
+InteractiveHtmlBom/
+
+# External third-party reference datasheets, massive PDFs, and nested git clones (164 MB+)
+reference_sources/
+
+# ------------------------------------------------------------------------------
+# 7. Python Virtual Environments & Build Caches
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
 __pycache__/
 *.py[cod]
 *$py.class
-.venv/
+*.egg-info/
+dist/
+build/
 .pytest_cache/
+.ruff_cache/
+.mypy_cache/
 
-# Node / IDE configs
-node_modules/
+# ------------------------------------------------------------------------------
+# 8. OS & Editor Metadata
+# ------------------------------------------------------------------------------
 .DS_Store
+Thumbs.db
+.directory
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json

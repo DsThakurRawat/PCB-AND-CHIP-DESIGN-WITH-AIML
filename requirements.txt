@@ -1,0 +1,25 @@
+# PCB-AI: Autonomous AI-Assisted Electronics & KiCad Engineering System
+# Requirements & Dependencies
+
+# Core KiCad Automation & MCP
+kicad-sch-api>=0.5.6
+mcp-server-kicad>=0.21.1
+fastmcp>=4.1.6
+sexpdata>=1.0.2
+
+# Code-as-Hardware / AI Synthesis
+atopile>=0.15.9
+pydantic>=2.14.2
+pydantic-settings>=2.16.2
+
+# Geometry, Math & Simulation
+shapely>=2.2.0
+numpy>=2.2.0
+scipy>=1.15.0
+matplotlib>=3.10.0
+
+# System & Templates
+jinja2>=3.1.6
+python-dotenv>=1.0.1
+rich>=13.9.4
+typer>=0.27.0

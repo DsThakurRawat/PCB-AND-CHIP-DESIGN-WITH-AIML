@@ -52,10 +52,12 @@ class SchematicBuilder:
             placed_pins[comp.ref] = {str(pin_num): pt for pin_num, pt in pins}
 
         # 2. Wire nets by placing net labels on corresponding component pins
+        connected_pins = set()
         for net in self.spec.nets:
             net_name = net.name
             for ref, pin_num in net.nodes:
                 pin_num_str = str(pin_num)
+                connected_pins.add((ref, pin_num_str))
                 if ref not in placed_pins:
                     print(f"[!] Warning: Reference {ref} in net {net_name} not found in components", file=sys.stderr)
                     continue
@@ -73,11 +75,20 @@ class SchematicBuilder:
                 # Attach net label directly to pin position
                 self.sch.add_label(net_name, position=pos)
 
+        # 2b. Add no-connect flags to all unrouted / unused pins
+        for comp_ref, pins_dict in placed_pins.items():
+            for pin_num_str, pin_pos in pins_dict.items():
+                if (comp_ref, pin_num_str) not in connected_pins:
+                    try:
+                        self.sch.no_connects.add(position=pin_pos)
+                    except Exception:
+                        pass
+
         # 3. Add PWR_FLAG to power nets if specified
         pwr_x = 30.0
         pwr_y = default_y + ((len(self.spec.components) // row_limit) + 1) * 40.0
         for idx, net in enumerate(self.spec.nets):
-            if net.is_power or net.name in ["GND", "VCC", "+3V3", "+5V", "VDD", "VIN"]:
+            if net.is_power:
                 flag_ref = f"#FLG{idx+1}"
                 try:
                     pflag = self.sch.components.add(

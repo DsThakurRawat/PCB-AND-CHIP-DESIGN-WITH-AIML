@@ -9,8 +9,10 @@ import os
 import subprocess
 from pathlib import Path
 
-IBOM_SCRIPT = Path("/home/divyansh-rawat/PCB-AI/InteractiveHtmlBom/InteractiveHtmlBom/generate_interactive_bom.py")
-PYTHON_BIN = Path("/home/divyansh-rawat/PCB-AI/.venv/bin/python")
+SCRIPT_DIR = Path(__file__).parent.resolve()
+WORKSPACE_ROOT = SCRIPT_DIR.parent
+IBOM_SCRIPT = WORKSPACE_ROOT / "InteractiveHtmlBom" / "InteractiveHtmlBom" / "generate_interactive_bom.py"
+PYTHON_BIN = sys.executable
 
 def generate_ibom(pcb_file: str, out_dir: str = None, dark_mode: bool = True, highlight_pin1: bool = True) -> str:
     pcb = Path(pcb_file).resolve()

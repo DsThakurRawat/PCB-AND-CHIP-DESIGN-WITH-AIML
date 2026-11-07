@@ -89,14 +89,20 @@ def main():
         print(f"\n==========================================")
         print(f"[*] Running ERC on: {args.sch}")
         code, erc_data = run_erc(args.sch, args.out)
-        violations = erc_data.get("violations", [])
-        sheets = erc_data.get("sheets", [])
+        violations = list(erc_data.get("violations", []))
+        for sheet in erc_data.get("sheets", []):
+            violations.extend(sheet.get("violations", []))
         print(f"[-] ERC Exit code: {code}")
         print(f"[-] Violations count: {len(violations)}")
-        if violations:
+        if violations or code != 0:
             all_passed = False
             for v in violations:
-                print(f"    ! [{v.get('severity', 'ERR')}] {v.get('description')} at ({v.get('pos', {}).get('x')}, {v.get('pos', {}).get('y')})")
+                items = v.get("items", [])
+                pos_str = ""
+                if items and isinstance(items[0], dict) and "pos" in items[0]:
+                    p = items[0]["pos"]
+                    pos_str = f" at ({p.get('x')}, {p.get('y')})"
+                print(f"    ! [{v.get('severity', 'ERR')}] {v.get('description')}{pos_str}")
         else:
             print("[+] Schematic ERC Passed! (0 violations)")
 
