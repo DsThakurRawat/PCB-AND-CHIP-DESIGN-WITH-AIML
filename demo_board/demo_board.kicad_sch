@@ -216,6 +216,14 @@
 		)
 		(uuid "30395535-6b80-408e-b5f3-e5aff60575a6")
 	)
+	(no_connect
+		(at 127 80.01)
+		(uuid "c4b12345-6789-4abc-def0-123456789abc")
+	)
+	(no_connect
+		(at 127 69.85)
+		(uuid "d5c23456-789a-4bcd-ef01-23456789abcd")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
