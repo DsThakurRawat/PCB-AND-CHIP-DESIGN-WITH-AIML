@@ -8,8 +8,8 @@
 
 ## 👥 Team Details
 * **Divyansh Rawat** (Lead Hardware & Validation Engineer) — **Roll No: 124EC0030**
-* Rehan Afroz — **Roll No: 124EC0032**
-* Ishan Pandey — **Roll No: 124EC0033**
+* Rehan Afroz — **Roll No: 124EC0033**
+* Ishan Pandey — **Roll No: 124EC0032**
 
 ---
 

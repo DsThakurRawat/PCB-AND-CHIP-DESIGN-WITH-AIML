@@ -4,8 +4,8 @@
 **Project Title**: STM32F4 4-Layer High-Performance Development Board  
 **Team Members**:
 - **Divyansh Rawat** (Lead Hardware & Layout Engineer) — Roll No: **124EC0030**
-- Rehan Afroz — Roll No: **124EC0032**
-- Ishan Pandey — Roll No: **124EC0033**  
+- Rehan Afroz — Roll No: **124EC0033**
+- Ishan Pandey — Roll No: **124EC0032**  
 **Design Attribution**: Adapted and re-routed from Phil's Lab's open-source STM32F4 reference design under the MIT License.
 
 ---

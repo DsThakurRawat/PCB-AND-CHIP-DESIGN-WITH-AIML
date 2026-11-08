@@ -11,7 +11,7 @@
     (title "STM32F4 4-Layer Development Board")
     (date "2026-11-08")
     (rev "REV2")
-    (company "Team: 124EC0030 (Divyansh Rawat), 124EC0032 (Rehan Afroz), 124EC0033 (Ishan Pandey)")
+    (company "Team: 124EC0030 (Divyansh Rawat), 124EC0033 (Rehan Afroz), 124EC0032 (Ishan Pandey)")
     (comment 1 "Adapted from Phil's Lab STM32F4 Reference (MIT License)")
   )
 
