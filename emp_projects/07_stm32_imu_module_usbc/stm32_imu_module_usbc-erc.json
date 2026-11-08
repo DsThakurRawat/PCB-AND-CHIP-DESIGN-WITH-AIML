@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T00:13:57+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/9d9f6c64-0242-480f-9064-d57cf234fbd6",
+            "violations": []
+        }
+    ],
+    "source": "stm32_imu_module_usbc.kicad_sch"
+}
