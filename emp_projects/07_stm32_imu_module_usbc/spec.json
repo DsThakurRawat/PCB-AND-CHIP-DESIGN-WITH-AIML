@@ -1,12 +1,1215 @@
 {
-  "project_name": "stm32_imu_module_usbc",
+  "project_name": "07_stm32_imu_module_usbc",
   "title": "STM32-Based 6/9-DoF IMU Module with USB-C",
   "revision": "v1.0",
-  "description": "Compact high-precision motion tracking inertial measurement unit featuring an STM32 MCU, 6/9-axis IMU, USB Type-C interface, ESD protection, and precision 3.3V low-dropout power conditioning.",
-  "layers": 4,
-  "dimensions_mm": [
-    80,
-    60
+  "company": "OpenSource PCB AI",
+  "comment": null,
+  "components": [
+    {
+      "ref": "U1",
+      "lib_id": "Regulator_Linear:AMS1117-3.3",
+      "value": "ams1117",
+      "footprint": "Vault:FP-ams1117-IPC_C",
+      "pos": [
+        60.0,
+        50.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "U2",
+      "lib_id": "MCU_ST_STM32F4:STM32F411CEUx",
+      "value": "STM32F411CEU6",
+      "footprint": "Vault:STM-UFQFPN48_L",
+      "pos": [
+        160.0,
+        110.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "U3",
+      "lib_id": "Sensor_Motion:MPU-6050",
+      "value": "MPU-6050",
+      "footprint": "Vault:IS-QFN-24_V",
+      "pos": [
+        240.0,
+        110.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "J1",
+      "lib_id": "Connector:USB_C_Receptacle_USB2.0_16P",
+      "value": "217179-0001",
+      "footprint": "PcbLib:FP-2171790001-MFG",
+      "pos": [
+        30.0,
+        110.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "J2",
+      "lib_id": "Connector:TC2030",
+      "value": "TC2030-NL",
+      "footprint": "Footprint-Lib-PhilsLab:TC2030-NL-FP",
+      "pos": [
+        110.0,
+        170.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "J3",
+      "lib_id": "Connector_Generic:Conn_01x06",
+      "value": "SM06B-GHS-TB",
+      "footprint": "Footprint-Lib-PhilsLab:SM06B-GHS-TB",
+      "pos": [
+        240.0,
+        170.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "X1",
+      "lib_id": "Device:Crystal",
+      "value": "24MHz",
+      "footprint": "Footprint-Lib-PhilsLab:XTAL_3225",
+      "pos": [
+        110.0,
+        110.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "D1",
+      "lib_id": "Device:LED",
+      "value": "GREEN",
+      "footprint": "Footprint-Lib-PhilsLab:LED_0402_GREEN",
+      "pos": [
+        80.0,
+        70.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "D2",
+      "lib_id": "Device:LED",
+      "value": "RED",
+      "footprint": "Footprint-Lib-PhilsLab:LED_0402_RED",
+      "pos": [
+        200.0,
+        170.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "D3",
+      "lib_id": "Device:D_TVS",
+      "value": "AQ3045-01ETG",
+      "footprint": "PcbLib:SOD882",
+      "pos": [
+        60.0,
+        110.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "D4",
+      "lib_id": "Device:D_TVS",
+      "value": "AQ3045-01ETG",
+      "footprint": "PcbLib:SOD882",
+      "pos": [
+        60.0,
+        125.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "D5",
+      "lib_id": "Device:D_TVS",
+      "value": "AQ3045-01ETG",
+      "footprint": "PcbLib:SOD882",
+      "pos": [
+        60.0,
+        140.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C1",
+      "lib_id": "Device:C",
+      "value": "100nF, 50V",
+      "footprint": "PcbLib:CAPC1005X55N",
+      "pos": [
+        40.0,
+        50.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C3",
+      "lib_id": "Device:C",
+      "value": "22u",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0805",
+      "pos": [
+        50.0,
+        50.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C4",
+      "lib_id": "Device:C",
+      "value": "22u",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0805",
+      "pos": [
+        80.0,
+        50.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C5",
+      "lib_id": "Device:C",
+      "value": "2u2",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0603",
+      "pos": [
+        130.0,
+        90.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C6",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        130.0,
+        130.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C7",
+      "lib_id": "Device:C",
+      "value": "10p",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        95.0,
+        100.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C8",
+      "lib_id": "Device:C",
+      "value": "10p",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        95.0,
+        120.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C9",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        220.0,
+        90.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C10",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        220.0,
+        130.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C11",
+      "lib_id": "Device:C",
+      "value": "2n2",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        220.0,
+        145.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C12",
+      "lib_id": "Device:C",
+      "value": "2u2",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0603",
+      "pos": [
+        250.0,
+        80.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C13",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        130.0,
+        70.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C14",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        145.0,
+        70.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C15",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        160.0,
+        70.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C16",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        175.0,
+        70.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C17",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        190.0,
+        70.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "C",
+      "lib_id": "Device:C",
+      "value": "100n",
+      "footprint": "Footprint-Lib-PhilsLab:CAP_0402",
+      "pos": [
+        205.0,
+        70.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "R1",
+      "lib_id": "Device:R",
+      "value": "1k",
+      "footprint": "Footprint-Lib-PhilsLab:RES_0402",
+      "pos": [
+        80.0,
+        85.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "R2",
+      "lib_id": "Device:R",
+      "value": "2k2",
+      "footprint": "Footprint-Lib-PhilsLab:RES_0402",
+      "pos": [
+        210.0,
+        100.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "R3",
+      "lib_id": "Device:R",
+      "value": "2k2",
+      "footprint": "Footprint-Lib-PhilsLab:RES_0402",
+      "pos": [
+        210.0,
+        115.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "R4",
+      "lib_id": "Device:R",
+      "value": "1k",
+      "footprint": "Footprint-Lib-PhilsLab:RES_0402",
+      "pos": [
+        200.0,
+        185.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "R5",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "footprint": "Footprint-Lib-PhilsLab:RES_0402",
+      "pos": [
+        130.0,
+        145.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "R6",
+      "lib_id": "Device:R",
+      "value": "0R",
+      "footprint": "Footprint-Lib-PhilsLab:RES_0402",
+      "pos": [
+        125.0,
+        110.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "R7",
+      "lib_id": "Device:R",
+      "value": "10k",
+      "footprint": "Footprint-Lib-PhilsLab:RES_0402",
+      "pos": [
+        175.0,
+        160.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "R8",
+      "lib_id": "Device:R",
+      "value": "5K1",
+      "footprint": "PcbLib:RESC1005X37N",
+      "pos": [
+        45.0,
+        125.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "R9",
+      "lib_id": "Device:R",
+      "value": "5K1",
+      "footprint": "PcbLib:RESC1005X37N",
+      "pos": [
+        45.0,
+        140.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "MH1",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "MountingHole",
+      "footprint": "",
+      "pos": [
+        280.0,
+        30.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "MH2",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "MountingHole",
+      "footprint": "",
+      "pos": [
+        280.0,
+        45.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "MH3",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "MountingHole",
+      "footprint": "",
+      "pos": [
+        280.0,
+        60.0
+      ],
+      "rotation": 0,
+      "description": null
+    },
+    {
+      "ref": "MH4",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "MountingHole",
+      "footprint": "",
+      "pos": [
+        280.0,
+        75.0
+      ],
+      "rotation": 0,
+      "description": null
+    }
   ],
-  "components": []
+  "nets": [
+    {
+      "name": "GND",
+      "nodes": [
+        [
+          "U1",
+          "1"
+        ],
+        [
+          "U2",
+          "8"
+        ],
+        [
+          "U2",
+          "23"
+        ],
+        [
+          "U2",
+          "35"
+        ],
+        [
+          "U2",
+          "47"
+        ],
+        [
+          "U2",
+          "49"
+        ],
+        [
+          "U3",
+          "1"
+        ],
+        [
+          "U3",
+          "9"
+        ],
+        [
+          "U3",
+          "11"
+        ],
+        [
+          "U3",
+          "18"
+        ],
+        [
+          "J1",
+          "A1"
+        ],
+        [
+          "J1",
+          "B12"
+        ],
+        [
+          "J1",
+          "B1"
+        ],
+        [
+          "J1",
+          "A12"
+        ],
+        [
+          "J1",
+          "S1"
+        ],
+        [
+          "J2",
+          "5"
+        ],
+        [
+          "J3",
+          "6"
+        ],
+        [
+          "D3",
+          "1"
+        ],
+        [
+          "D4",
+          "1"
+        ],
+        [
+          "D5",
+          "1"
+        ],
+        [
+          "C1",
+          "1"
+        ],
+        [
+          "C3",
+          "1"
+        ],
+        [
+          "C4",
+          "1"
+        ],
+        [
+          "C5",
+          "1"
+        ],
+        [
+          "C6",
+          "1"
+        ],
+        [
+          "C7",
+          "1"
+        ],
+        [
+          "C8",
+          "1"
+        ],
+        [
+          "C9",
+          "1"
+        ],
+        [
+          "C10",
+          "1"
+        ],
+        [
+          "C11",
+          "1"
+        ],
+        [
+          "C12",
+          "1"
+        ],
+        [
+          "C13",
+          "1"
+        ],
+        [
+          "C14",
+          "1"
+        ],
+        [
+          "C15",
+          "1"
+        ],
+        [
+          "C16",
+          "1"
+        ],
+        [
+          "C17",
+          "1"
+        ],
+        [
+          "C",
+          "1"
+        ],
+        [
+          "R1",
+          "1"
+        ],
+        [
+          "R4",
+          "1"
+        ],
+        [
+          "R7",
+          "1"
+        ],
+        [
+          "R8",
+          "1"
+        ],
+        [
+          "R9",
+          "1"
+        ]
+      ],
+      "is_power": true
+    },
+    {
+      "name": "+5V",
+      "nodes": [
+        [
+          "J1",
+          "A4"
+        ],
+        [
+          "J1",
+          "B9"
+        ],
+        [
+          "J1",
+          "B4"
+        ],
+        [
+          "J1",
+          "A9"
+        ],
+        [
+          "D3",
+          "2"
+        ],
+        [
+          "C1",
+          "2"
+        ],
+        [
+          "C3",
+          "2"
+        ],
+        [
+          "U1",
+          "3"
+        ]
+      ],
+      "is_power": true
+    },
+    {
+      "name": "+3V3",
+      "nodes": [
+        [
+          "U1",
+          "2"
+        ],
+        [
+          "C4",
+          "2"
+        ],
+        [
+          "D1",
+          "2"
+        ],
+        [
+          "U2",
+          "1"
+        ],
+        [
+          "U2",
+          "9"
+        ],
+        [
+          "U2",
+          "24"
+        ],
+        [
+          "U2",
+          "36"
+        ],
+        [
+          "U2",
+          "48"
+        ],
+        [
+          "U3",
+          "8"
+        ],
+        [
+          "U3",
+          "13"
+        ],
+        [
+          "J2",
+          "1"
+        ],
+        [
+          "J3",
+          "1"
+        ],
+        [
+          "R2",
+          "2"
+        ],
+        [
+          "R3",
+          "2"
+        ],
+        [
+          "R5",
+          "2"
+        ],
+        [
+          "C10",
+          "2"
+        ],
+        [
+          "C12",
+          "2"
+        ],
+        [
+          "C13",
+          "2"
+        ],
+        [
+          "C14",
+          "2"
+        ],
+        [
+          "C15",
+          "2"
+        ],
+        [
+          "C16",
+          "2"
+        ],
+        [
+          "C17",
+          "2"
+        ],
+        [
+          "C",
+          "2"
+        ]
+      ],
+      "is_power": true
+    },
+    {
+      "name": "USB_D_P",
+      "nodes": [
+        [
+          "J1",
+          "A6"
+        ],
+        [
+          "J1",
+          "B6"
+        ],
+        [
+          "D5",
+          "2"
+        ],
+        [
+          "U2",
+          "33"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "USB_D_N",
+      "nodes": [
+        [
+          "J1",
+          "A7"
+        ],
+        [
+          "J1",
+          "B7"
+        ],
+        [
+          "D4",
+          "2"
+        ],
+        [
+          "U2",
+          "32"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "NetJ1_A5",
+      "nodes": [
+        [
+          "J1",
+          "A5"
+        ],
+        [
+          "R9",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "NetJ1_B5",
+      "nodes": [
+        [
+          "J1",
+          "B5"
+        ],
+        [
+          "R8",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_NRST",
+      "nodes": [
+        [
+          "U2",
+          "7"
+        ],
+        [
+          "C6",
+          "2"
+        ],
+        [
+          "R5",
+          "1"
+        ],
+        [
+          "J2",
+          "3"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU BOOT0",
+      "nodes": [
+        [
+          "U2",
+          "44"
+        ],
+        [
+          "R7",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_VCAP1",
+      "nodes": [
+        [
+          "U2",
+          "22"
+        ],
+        [
+          "C5",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_OSC_IN",
+      "nodes": [
+        [
+          "U2",
+          "5"
+        ],
+        [
+          "X1",
+          "1"
+        ],
+        [
+          "C7",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_OSC_OUT",
+      "nodes": [
+        [
+          "U2",
+          "6"
+        ],
+        [
+          "R6",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "XTAL_IN",
+      "nodes": [
+        [
+          "R6",
+          "1"
+        ],
+        [
+          "X1",
+          "2"
+        ],
+        [
+          "C8",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_SWDIO",
+      "nodes": [
+        [
+          "U2",
+          "34"
+        ],
+        [
+          "J2",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_SWCLK",
+      "nodes": [
+        [
+          "U2",
+          "37"
+        ],
+        [
+          "J2",
+          "4"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_SWO",
+      "nodes": [
+        [
+          "U2",
+          "39"
+        ],
+        [
+          "J2",
+          "6"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "IMU_SCL",
+      "nodes": [
+        [
+          "U2",
+          "42"
+        ],
+        [
+          "U3",
+          "24"
+        ],
+        [
+          "R2",
+          "1"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "IMU_SDA",
+      "nodes": [
+        [
+          "U2",
+          "43"
+        ],
+        [
+          "U3",
+          "23"
+        ],
+        [
+          "R3",
+          "1"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "IMU_INT",
+      "nodes": [
+        [
+          "U2",
+          "45"
+        ],
+        [
+          "U3",
+          "12"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "IMU_REGOUT",
+      "nodes": [
+        [
+          "U3",
+          "10"
+        ],
+        [
+          "C9",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "IMU_CPOUT",
+      "nodes": [
+        [
+          "U3",
+          "20"
+        ],
+        [
+          "C11",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_LED_A",
+      "nodes": [
+        [
+          "U2",
+          "26"
+        ],
+        [
+          "D2",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_LED_K",
+      "nodes": [
+        [
+          "D2",
+          "1"
+        ],
+        [
+          "R4",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "LED_PWR_K",
+      "nodes": [
+        [
+          "D1",
+          "1"
+        ],
+        [
+          "R1",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_PA4",
+      "nodes": [
+        [
+          "U2",
+          "14"
+        ],
+        [
+          "J3",
+          "2"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_PA5",
+      "nodes": [
+        [
+          "U2",
+          "15"
+        ],
+        [
+          "J3",
+          "3"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_PA6",
+      "nodes": [
+        [
+          "U2",
+          "16"
+        ],
+        [
+          "J3",
+          "4"
+        ]
+      ],
+      "is_power": false
+    },
+    {
+      "name": "MCU_PA7",
+      "nodes": [
+        [
+          "U2",
+          "17"
+        ],
+        [
+          "J3",
+          "5"
+        ]
+      ],
+      "is_power": false
+    }
+  ]
 }
