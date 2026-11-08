@@ -12,6 +12,10 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).parent.resolve()
 WORKSPACE_ROOT = SCRIPT_DIR.parent
 IBOM_SCRIPT = WORKSPACE_ROOT / "InteractiveHtmlBom" / "InteractiveHtmlBom" / "generate_interactive_bom.py"
+if not IBOM_SCRIPT.exists():
+    IBOM_SCRIPT = Path(sys.executable).parent / "generate_interactive_bom.py"
+if not IBOM_SCRIPT.exists():
+    IBOM_SCRIPT = Path("/home/divyansh-rawat/AIPCBDESIGN/.venv/bin/generate_interactive_bom.py")
 PYTHON_BIN = sys.executable
 
 def generate_ibom(pcb_file: str, out_dir: str = None, dark_mode: bool = True, highlight_pin1: bool = True) -> str:

@@ -48,6 +48,10 @@ def build_project_01():
         ComponentSpec(ref="R1", lib_id="Device:R", value="10k_RST", footprint="Resistor_SMD:R_0805_2012Metric", pos=(110, 80)),
         ComponentSpec(ref="SW1", lib_id="Switch:SW_Push", value="RESET", footprint="Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK", pos=(110, 95)),
         ComponentSpec(ref="D1", lib_id="Device:LED", value="PWR_LED", footprint="LED_SMD:LED_0805_2012Metric", pos=(110, 60)),
+        ComponentSpec(ref="MH1", lib_id="Mechanical:MountingHole", value="MountingHole_M3", footprint="MountingHole:MountingHole_3.2mm_M3", pos=(280, 20)),
+        ComponentSpec(ref="MH2", lib_id="Mechanical:MountingHole", value="MountingHole_M3", footprint="MountingHole:MountingHole_3.2mm_M3", pos=(280, 35)),
+        ComponentSpec(ref="MH3", lib_id="Mechanical:MountingHole", value="MountingHole_M3", footprint="MountingHole:MountingHole_3.2mm_M3", pos=(280, 50)),
+        ComponentSpec(ref="MH4", lib_id="Mechanical:MountingHole", value="MountingHole_M3", footprint="MountingHole:MountingHole_3.2mm_M3", pos=(280, 65)),
     ]
 
     nets = [

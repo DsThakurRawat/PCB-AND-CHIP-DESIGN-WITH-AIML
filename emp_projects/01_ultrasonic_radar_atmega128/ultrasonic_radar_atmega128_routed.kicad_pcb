@@ -1300,6 +1300,9 @@
 				)
 			)
 		)
+		(path \"/9bc9b0f2-6fcc-4901-985b-fad305390459\")
+		(sheetname \"/\")
+		(sheetfile \"ultrasonic_radar_atmega128.kicad_sch\")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1397,6 +1400,9 @@
 				)
 			)
 		)
+		(path \"/6e048a14-c02b-4ebc-ad0e-cce44d87e07e\")
+		(sheetname \"/\")
+		(sheetfile \"ultrasonic_radar_atmega128.kicad_sch\")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1495,7 +1501,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*")
-		(path "/9bc9b0f2-6fcc-4901-985b-fad305390459")
+		(path "/6e048a14-c02b-4ebc-ad0e-cce44d87e07e")
 		(sheetname "/")
 		(sheetfile "ultrasonic_radar_atmega128.kicad_sch")
 		(attr smd)
@@ -1909,6 +1915,9 @@
 				)
 			)
 		)
+		(path \"/dc321c43-afe1-4736-9a9e-6ceffa4b750a\")
+		(sheetname \"/\")
+		(sheetfile \"ultrasonic_radar_atmega128.kicad_sch\")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -5113,6 +5122,9 @@
 				)
 			)
 		)
+		(path \"/50daba27-dd6b-4334-87c3-46b2618e625c\")
+		(sheetname \"/\")
+		(sheetfile \"ultrasonic_radar_atmega128.kicad_sch\")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-08T21:30:05+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/80093ad9-e777-401d-a94b-982dfaedd890",
+            "violations": []
+        }
+    ],
+    "source": "ultrasonic_radar_atmega128.kicad_sch"
+}

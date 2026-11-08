@@ -1,0 +1,76 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-08T21:25:49+0530",
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "9.0.8",
+    "schematic_parity": [
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint MH3",
+                    "pos": {
+                        "x": 196.0,
+                        "y": 171.0
+                    },
+                    "uuid": "368e0d8f-ba03-4156-aa2b-aa2d86dbbed5"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint MH4",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 171.0
+                    },
+                    "uuid": "6e048a14-c02b-4ebc-ad0e-cce44d87e07e"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint MH1",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 104.0
+                    },
+                    "uuid": "83651f07-137c-4b87-b5ce-f4e9b6ecaba5"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint MH2",
+                    "pos": {
+                        "x": 196.0,
+                        "y": 104.0
+                    },
+                    "uuid": "cb11b43a-0771-41e1-91e0-3326de3b78f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "ultrasonic_radar_atmega128.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}
