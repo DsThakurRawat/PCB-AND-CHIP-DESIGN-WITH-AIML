@@ -7,6 +7,7 @@
 - Divyansh Rawat (Roll No: 124EC0030) - Lead Hardware & Validation Engineer
 - Rehan Afroz (Roll No: 124EC0033)
 - Ishan Pandey (Roll No: 124EC0032)  
+- Dasari E S T Vishnu Vardhan (Roll No: 124EC0010)
 **Attribution & Provenance**: Adapted and re-routed from the open-source STM32F4 Reference Design by Philip Salmony (Phil's Lab), licensed under the MIT License.
 
 ---
