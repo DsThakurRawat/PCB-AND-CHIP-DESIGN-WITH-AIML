@@ -1,6 +1,6 @@
 ** Drc report for dual_555_tone_demonstrator.kicad_pcb **
-** Created on 2026-11-11T11:17:36+0530 **
-** Report includes: Errors, Warnings **
+** Created on 2026-11-11T12:58:52+0530 **
+** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 0 DRC violations **
 

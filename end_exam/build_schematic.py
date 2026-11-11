@@ -169,15 +169,13 @@ def build_schematic():
             ("U1", "7"),
             ("J2", "2"),
             ("C3", "1"),
+            ("R2", "1"),
             ("TP4", "1"),
         ]),
         NetSpec(name="SENSE_A", nodes=[
             ("U1", "2"),
             ("U1", "6"),
             ("C3", "2"),
-            ("R2", "1"),
-        ]),
-        NetSpec(name="RC_A", nodes=[
             ("R2", "2"),
             ("C4", "1"),
         ]),
@@ -196,15 +194,13 @@ def build_schematic():
             ("U2", "7"),
             ("J4", "2"),
             ("C8", "1"),
+            ("R3", "1"),
             ("TP6", "1"),
         ]),
         NetSpec(name="SENSE_B", nodes=[
             ("U2", "2"),
             ("U2", "6"),
             ("C8", "2"),
-            ("R3", "1"),
-        ]),
-        NetSpec(name="RC_B", nodes=[
             ("R3", "2"),
             ("C9", "1"),
         ]),
