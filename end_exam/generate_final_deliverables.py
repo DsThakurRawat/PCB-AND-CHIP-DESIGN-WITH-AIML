@@ -101,57 +101,81 @@ def build_pdf_document():
     story = []
     
     # -------------------------------------------------------------
-    # PAGE 1: TITLE & COVER PAGE
+    # PAGE 1: OFFICIAL IIITDM KURNOOL CERTIFICATE & COVER PAGE
     # -------------------------------------------------------------
-    story.append(Paragraph("INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, KURNOOL", sub_title))
-    story.append(Spacer(1, 1.5 * mm))
-    story.append(Paragraph("Department of Electronics and Communication Engineering", sub_title))
-    story.append(Spacer(1, 2.5 * mm))
-    story.append(Paragraph("Electronic Prototyping and Manufacturing (EPM) Laboratory", title_style))
-    story.append(Spacer(1, 1.5 * mm))
-    story.append(Paragraph("End Semester Practical Examination — Laboratory Report", sub_title))
-    story.append(Spacer(1, 2 * mm))
-    story.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor('#1A365D'), spaceBefore=2, spaceAfter=5))
+    logo_path = EDIR / "iiitdm_logo.png"
+    if logo_path.exists():
+        story.append(RLImage(str(logo_path), width=28 * mm, height=28 * mm))
+        story.append(Spacer(1, 2 * mm))
+        
+    inst_title = ParagraphStyle('InstTitle', parent=styles['Normal'], fontName='Helvetica-Bold', fontSize=13, leading=16, alignment=1, textColor=colors.black)
+    inst_sub = ParagraphStyle('InstSub', parent=styles['Normal'], fontName='Helvetica', fontSize=8.5, leading=12, alignment=1, textColor=colors.black)
+    
+    story.append(Paragraph("INDIAN INSTITUTE OF INFORMATION TECHNOLOGY<br/>DESIGN AND MANUFACTURING KURNOOL", inst_title))
+    story.append(Spacer(1, 1 * mm))
+    story.append(Paragraph("(An Institute of National Importance under Ministry of Education, Govt. of India)", inst_sub))
+    story.append(Paragraph("Jagannathagattu, Dinnedevarapadu, Kurnool – 518008, Andhra Pradesh", inst_sub))
+    story.append(Spacer(1, 3 * mm))
+    
+    reg_style = ParagraphStyle('RegNo', parent=styles['Normal'], fontName='Helvetica-Bold', fontSize=10, leading=13, alignment=2, textColor=colors.black)
+    story.append(Paragraph("<b>Reg. No. : 124EC0030</b>", reg_style))
+    story.append(Spacer(1, 3 * mm))
+    
+    cert_box = Table([[Paragraph("<b>CERTIFICATE</b>", ParagraphStyle('Cert', fontName='Helvetica-Bold', fontSize=13, alignment=1))]], colWidths=[55 * mm])
+    cert_box.setStyle(TableStyle([
+        ('BOX', (0,0), (-1,-1), 1.2, colors.black),
+        ('ALIGN', (0,0), (-1,-1), 'CENTER'),
+        ('TOPPADDING', (0,0), (-1,-1), 4),
+        ('BOTTOMPADDING', (0,0), (-1,-1), 4),
+    ]))
+    story.append(cert_box)
+    story.append(Spacer(1, 4 * mm))
+    
+    cert_text = (
+        "Certified that this is the bonafide record of practical work done<br/><br/>"
+        "by <b>Mr. Divyansh Rawat (Reg. No: 124EC0030)</b><br/><br/>"
+        "of the <b>Department of Electronics and Communication Engineering</b><br/><br/>"
+        "in the <b>Electronic Prototyping and Manufacturing (EPM) Laboratory</b><br/><br/>"
+        "for the End Semester Practical Examination on<br/>"
+        "<b>Dual Inductance-Sensitive Tone Demonstrator — Layout Variant A (90 x 70 mm)</b><br/><br/>"
+        "during the academic year 2026 – 2027.<br/><br/>"
+        "<b>Course Faculty:</b> Dr. Eswaramoorthy K V"
+    )
+    story.append(Paragraph(cert_text, ParagraphStyle('CertBody', parent=styles['Normal'], fontName='Helvetica', fontSize=9.5, leading=14, alignment=1, textColor=colors.black)))
+    story.append(Spacer(1, 5 * mm))
     
     meta_data = [
-        [Paragraph("<b>Student Name:</b>", body_style), Paragraph("Divyansh Rawat", body_style),
-         Paragraph("<b>Roll Number:</b>", body_style), Paragraph("124EC0030", body_style)],
-        [Paragraph("<b>Course Faculty:</b>", body_style), Paragraph("Dr. Eswaramoorthy K V", body_style),
-         Paragraph("<b>Date of Exam:</b>", body_style), Paragraph("10-11-2026", body_style)],
-        [Paragraph("<b>Project Title:</b>", body_style), Paragraph("Dual Inductance-Sensitive Tone Demonstrator - A", body_style),
+        [Paragraph("<b>Student Name:</b>", body_style), Paragraph("Divyansh Rawat (124EC0030)", body_style),
+         Paragraph("<b>Course Faculty:</b>", body_style), Paragraph("Dr. Eswaramoorthy K V", body_style)],
+        [Paragraph("<b>Date of Exam:</b>", body_style), Paragraph("10-11-2026", body_style),
          Paragraph("<b>Exam Pattern:</b>", body_style), Paragraph("Layout Variant A (90 x 70 mm)", body_style)],
         [Paragraph("<b>Design Environment:</b>", body_style), Paragraph("KiCad 9.0.8 (x86_64 Linux)", body_style),
-         Paragraph("<b>DRC / ERC Status:</b>", body_style), Paragraph("<font color='#276749'><b>0 Errors / 0 Violations (100% Pass)</b></font>", body_style)],
+         Paragraph("<b>DRC / ERC Status:</b>", body_style), Paragraph("<b>0 Errors / 0 Violations (100% Pass)</b>", body_style)],
     ]
     meta_table = Table(meta_data, colWidths=[38 * mm, 52 * mm, 38 * mm, 52 * mm])
     meta_table.setStyle(TableStyle([
-        ('BACKGROUND', (0, 0), (-1, -1), colors.HexColor('#F7FAFC')),
-        ('BOX', (0, 0), (-1, -1), 1, colors.HexColor('#CBD5E0')),
-        ('INNERGRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#E2E8F0')),
+        ('BOX', (0, 0), (-1, -1), 1, colors.black),
+        ('INNERGRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#718096')),
         ('TOPPADDING', (0, 0), (-1, -1), 3),
         ('BOTTOMPADDING', (0, 0), (-1, -1), 3),
     ]))
     story.append(meta_table)
-    story.append(Spacer(1, 3 * mm))
+    story.append(Spacer(1, 10 * mm))
     
-    story.append(Paragraph("<b>EXAM QUESTION SPECIFICATIONS (VARIANT A):</b>", h2_style))
-    spec_text = (
-        "Implement two copies of the source 555 inductance-sensitive oscillator. Use an external inductor "
-        "connector and speaker connector for each channel. Supply: 9 V DC. Use a 90 x 70 mm rectangular board. "
-        "Place the supply connector on the left edge, input/user controls along the lower edge and outputs along "
-        "the upper edge. Keep inductive/timing loops short; label L A/B and SPK A/B connector polarity where applicable. "
-        "Mandatory circuit clarifications: No search-coil winding, detection-distance target or field calibration is required. "
-        "This is a layout-only oscillator demonstrator, not a validated general metal detector. Use exact capacitor connections "
-        "from the schematic. Assign verified through-hole footprints and complete a two-copper-layer PCB using both F.Cu and B.Cu."
-    )
-    story.append(Paragraph(spec_text, body_style))
-    story.append(Spacer(1, 3 * mm))
-    
-    # 3D Board Preview on Cover
-    render_green = EDIR / "3d_render_green_user.jpg"
-    if render_green.exists():
-        story.append(Paragraph("<b>3D BOARD PREVIEW (REALISTIC GREEN SOLDERMASK):</b>", h2_style))
-        story.append(RLImage(str(render_green), width=175 * mm, height=98.4 * mm))
+    # Signatures
+    sig_data = [
+        [Paragraph("<b>Signature of Head of the Department</b>", body_style),
+         Paragraph("<b>Signature of Faculty</b><br/><br/><b>Dr. Eswaramoorthy K V</b><br/><i>Associate Professor, Dept. of ECE</i>", ParagraphStyle('SigRight', parent=body_style, alignment=2))],
+        [Paragraph("Date : ____________________", body_style),
+         Paragraph("Date : ____________________", ParagraphStyle('DateRight', parent=body_style, alignment=2))]
+    ]
+    sig_table = Table(sig_data, colWidths=[90 * mm, 90 * mm])
+    sig_table.setStyle(TableStyle([
+        ('VALIGN', (0,0), (-1,-1), 'TOP'),
+        ('TOPPADDING', (0,0), (-1,-1), 2),
+        ('BOTTOMPADDING', (0,0), (-1,-1), 2),
+    ]))
+    story.append(sig_table)
     story.append(PageBreak())
     
     # -------------------------------------------------------------
