@@ -1,10 +1,28 @@
 ** Drc report for dual_555_tone_demonstrator.kicad_pcb **
-** Created on 2026-11-11T12:58:52+0530 **
+** Created on 2026-11-11T12:47:34+0530 **
 ** Report includes: Errors, Warnings, Exclusions **
 
-** Found 0 DRC violations **
+** Found 4 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(100.5000 mm, 100.5000 mm): Zone [/GND] on F.Cu, priority 0
+    @(141.0000 mm, 117.0000 mm): PTH pad 2 [/GND] of C7
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(100.5000 mm, 100.5000 mm): Zone [/GND] on B.Cu, priority 0
+    @(141.0000 mm, 117.0000 mm): PTH pad 2 [/GND] of C7
+[track_width]: Track width (board setup constraints min width 0.3500 mm; actual 0.3000 mm)
+    Rule: netclass 'Default'; error
+    @(137.3502 mm, 163.2933 mm): Track [/TIMING_A] on B.Cu, length 1.7321 mm
+[track_width]: Track width (board setup constraints min width 0.3500 mm; actual 0.3000 mm)
+    Rule: netclass 'Default'; error
+    @(137.3502 mm, 164.9400 mm): Track [/TIMING_A] on B.Cu, length 1.6467 mm
 
-** Found 0 unconnected pads **
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.0000 mm, 117.0000 mm): PTH pad 2 [/GND] of C7
+    @(100.5000 mm, 100.5000 mm): Zone [/GND] on B.Cu, priority 0
 
 ** Found 0 Footprint errors **
 
