@@ -1,0 +1,11 @@
+** Drc report for dual_555_tone_demonstrator.kicad_pcb **
+** Created on 2026-11-11T11:17:36+0530 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
